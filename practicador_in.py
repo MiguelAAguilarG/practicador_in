@@ -26,8 +26,15 @@ def constructor(lista_del_constructor,lista_de_repeticion_del_constructor,limpia
 		if (len(lista_de_repeticion_del_constructor) == len(lista_del_constructor)) and (limpia_del_contructor == True):
 			del lista_de_repeticion_del_constructor[:]
 
-def verificador_traductor(lista_del_verificador_traductor, lista_de_repeticion_del_verificador_traductor = lista_de_repeticion, limpia_ingresada_del_verificador_traductor = True):
-	indice, variable = constructor(lista_del_verificador_traductor[2],lista_de_repeticion_del_verificador_traductor,limpia_ingresada_del_verificador_traductor )
+def verificador_traductor(lista_del_verificador_traductor, forma, lista_de_repeticion_del_verificador_traductor = lista_de_repeticion, limpia_ingresada_del_verificador_traductor = True):
+	if forma == '1':
+		lista1 = lista_del_verificador_traductor[2]
+		lista2 = lista_del_verificador_traductor[3]
+	else:
+		lista1 = lista_del_verificador_traductor[3]
+		lista2 = lista_del_verificador_traductor[2]
+
+	indice, variable = constructor(lista1,lista_de_repeticion_del_verificador_traductor,limpia_ingresada_del_verificador_traductor )
 
 	print('--{}---'.format(variable))
 
@@ -37,7 +44,7 @@ def verificador_traductor(lista_del_verificador_traductor, lista_de_repeticion_d
 	for i,x in enumerate(insercion):
 		insercion[i] = insercion[i].strip(' ')
 
-	traduccion_aux = lista_del_verificador_traductor[3][indice].split(',')
+	traduccion_aux = lista2[indice].split(',')
 	traduccion = 0
 
 	for i,x in enumerate(traduccion_aux):
@@ -48,9 +55,17 @@ def verificador_traductor(lista_del_verificador_traductor, lista_de_repeticion_d
 			if x == y:
 				traduccion = traduccion + 1;
 
-	print(lista_del_verificador_traductor[3][indice].strip(' '))
+	print(lista2[indice].strip(' '))
 
-	if traduccion >= 1:
+	if dificultad == 'd':
+		if not traduccion_aux[-1].find('-') == -1:
+			definiciones = len(traduccion_aux)-1
+		else:
+			definiciones = len(traduccion_aux)
+	else:
+		definiciones = 1
+
+	if traduccion >= definiciones:
 		print('BIEN')
 		global c
 		c = c + 1
@@ -61,19 +76,72 @@ def verificador_traductor(lista_del_verificador_traductor, lista_de_repeticion_d
 
 def impresor1(lista = lista):
 	'''Imprime todas las listas que posee el programa'''
-	descripcion_listas = ['lista','idenficador','inglés','traducción']
+	descripcion_listas = ['lista','idenficador','inglés','español']
+
 	for x in range(len(lista)):#listas
 		print(f'---{x+1}---')
 		for y in range(len(lista[x])-1):#sublistas
+			a = len(descripcion_listas[2])
+			for z in range(len(lista[x][y])):#ver longitud mayor
+				if len(lista[x][y][z]) > a:
+					a = len(lista[x][y][z])
 			if y == 2:
-				print(f'----<{descripcion_listas[y]}>-----<{descripcion_listas[y+1]}>')
+				b = descripcion_listas[y]+'>'
+				print(f'-----<{b:-<{a+2}}<{descripcion_listas[y+1]}>')
 			else:
-				print(f'----<{descripcion_listas[y]}>')
+				print(f'-----<{descripcion_listas[y]}>')
 			for z in range(len(lista[x][y])):#elementos de listas
 				if y == 2:
-					print(f'-{z+1}-. {lista[x][y][z]}\t{lista[x][y+1][z]}')
+					if z < 9:
+						print(f'-{z+1}--. {lista[x][y][z]:_<{a+3}}{lista[x][y+1][z]}')
+					else:
+						print(f'-{z+1}-. {lista[x][y][z]:_<{a+3}}{lista[x][y+1][z]}')
 				else:
-					print(f'-{z+1}-. {lista[x][y][z]}')
+					print(f'--{z+1}-. {lista[x][y][z]}')
+		print('')
+
+def impresor2(modo,indice,forma,lista = lista):
+	if not modo == 'd':
+		if forma == '1':
+			descripcion_listas = ['lista','idenficador','inglés','español']
+			lista1 = lista[indice][2]
+			lista2 = lista[indice][3]
+		else:
+			descripcion_listas = ['lista','idenficador','español','inglés']
+			lista1 = lista[indice][3]
+			lista2 = lista[indice][2]
+
+		print(f'---{indice+1}---')
+		for y in range(len(lista[indice])-1):#sublistas
+			if y == 2:
+				a = len(descripcion_listas[2])
+				for z in range(len(lista1)):#ver longitud mayor
+					if len(lista1[z]) > a:
+						a = len(lista1[z])
+
+				b = descripcion_listas[y]+'>'
+				print(f'-----<{b:-<{a+2}}<{descripcion_listas[y+1]}>')
+			else:
+				print(f'-----<{descripcion_listas[y]}>')
+			for z in range(len(lista[indice][y])):#elementos de listas
+				if y == 2:
+					if z < 9:
+						print(f'-{z+1}--. {lista1[z]:_<{a+3}}{lista2[z]}')
+					else:
+						print(f'-{z+1}-. {lista1[z]:_<{a+3}}{lista2[z]}')
+				else:
+					print(f'-{z+1}--. {lista[indice][y][z]}')
+		input('Continuar [enter]: ')
+
+def impresor1_2(lista = lista):
+	'''Imprime todos los nombres de las listas con identificadores'''
+	descripcion_listas = ['lista','idenficador','inglés','español']
+
+	for x in range(len(lista)):#listas
+		print(f'---{x+1}---')
+		for y in range(2):#sublistas
+			print(f'----<{descripcion_listas[y]}>')
+			print(f'---- {lista[x][y][0]}')
 		print('')
 
 def seleccionador_opciones_listas():
@@ -88,25 +156,6 @@ def seleccionador_opciones_listas():
 			os.system('cls')
 			impresor1()
 
-def impresor2(modo,indice):
-	if not modo == 'd':
-		descripcion_listas = ['lista','idenficador','ingles','traducción']
-		print(f'---{indice+1}---')
-		for y in range(len(lista[indice])-1):#sublistas
-			if y == 2:
-				print(f'----<{descripcion_listas[2]}>-----<{descripcion_listas[3]}>')
-			else:
-				print(f'----<{descripcion_listas[y]}>')
-			for z in range(len(lista[indice][y])):#elementos de listas
-				if y == 2:
-					if len(lista[indice][y][z]) >= 7:
-						print(f'-{z+1}-. {lista[indice][y][z]}\t{lista[indice][y+1][z]}')
-					else:
-						print(f'-{z+1}-. {lista[indice][y][z]}\t{lista[indice][y+1][z]}')
-				else:
-					print(f'-{z+1}-. {lista[indice][y][z]}')
-		input('Continuar [enter]: ')
-
 if __name__ == '__main__':
 	validacion = ''
 	i=0
@@ -114,18 +163,21 @@ if __name__ == '__main__':
 	e=0
 
 	dificultad = input('DIFICIL [d]/ FACIL [Cualquier tecla]: ')
+	forma = input('inglés --> español (1) español --> inglés (2): ')
 	os.system('cls')
 
 	impresor1()
+	impresor1_2()
 	indice_identificador, identificador = seleccionador_opciones_listas()
 
 	while validacion == '':
 
 		os.system('cls')
-		impresor2(dificultad,indice_identificador)
+		impresor2(dificultad,indice_identificador,forma)
 		os.system('cls')
-		verificador_traductor(lista[indice_identificador])
+		verificador_traductor(lista[indice_identificador], forma = forma)
 
+		print(f'intentos: {i+1}')
 		validacion = input('Continuar [enter]/ Salir [Cualquier tecla]: ')
 		os.system('cls')
 		i = i + 1
