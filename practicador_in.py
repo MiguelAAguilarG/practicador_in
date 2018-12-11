@@ -38,7 +38,7 @@ def verificador_traductor(lista_del_verificador_traductor, forma, lista_de_repet
 
 	print('--{}---'.format(variable))
 
-	insercion = input('Traducción: \n')
+	insercion = input('Traducción: \n').lower()
 	insercion = insercion.split(',')
 
 	for i,x in enumerate(insercion):
@@ -101,7 +101,7 @@ def impresor1(lista = lista):
 		print('')
 
 def impresor2(modo,indice,forma,lista = lista):
-	if not modo == 'd':
+	if not (modo == 'd' or modo == 'm'):
 		if forma == '1':
 			descripcion_listas = ['lista','idenficador','inglés','español']
 			lista1 = lista[indice][2]
@@ -146,47 +146,65 @@ def impresor1_2(lista = lista):
 
 def seleccionador_opciones_listas():
 	while True:
-		identificador = input('Ingresar identificador: ')
-		for i,x in enumerate(lista):
-			if identificador == x[1][0]:
+		identificador = input('Ingresar identificador o número de lista: ').lower()
+
+		try:
+			i = int(identificador)-1
+			if i <= len(lista)-1 and i >= 0:
+				identificador = lista[i][1]
 				return i, identificador
-		else:
-			print('ERROR. No es un identificador')
-			input('Continuar [enter]: ')
-			os.system('cls')
-			impresor1()
+			else:
+				print('ERROR. No es un número de lista valido')
+		except:
+			for i,x in enumerate(lista):
+				if identificador == x[1][0]:
+					return i, identificador
+			else:
+				print('ERROR. No es un identificador')
+
+		input('Continuar [enter]: ')
+		os.system('cls')
+		impresor1()
+		impresor1_2()
 
 if __name__ == '__main__':
-	validacion = ''
-	i=0
-	c=0
-	e=0
 
-	dificultad = input('DIFICIL [d]/ FACIL [Cualquier tecla]: ')
-	forma = input('inglés --> español (1) español --> inglés (2): ')
-	os.system('cls')
-
-	impresor1()
-	impresor1_2()
-	indice_identificador, identificador = seleccionador_opciones_listas()
-
-	while validacion == '':
+	validacion_fin = ''
+	while validacion_fin == '':
+		del lista_de_repeticion[:]
+		validacion = ''
+		i=0
+		c=0
+		e=0
 
 		os.system('cls')
-		impresor2(dificultad,indice_identificador,forma)
+		dificultad = input('DIFICIL [d]/ MEDIO [m]/ FACIL [Cualquier tecla]: ').lower()
+		forma = input('inglés --> español (1) español --> inglés (2): ')
 		os.system('cls')
-		verificador_traductor(lista[indice_identificador], forma = forma)
 
-		print(f'intentos: {i+1}')
-		validacion = input('Continuar [enter]/ Salir [Cualquier tecla]: ')
-		os.system('cls')
-		i = i + 1
+		impresor1()
+		impresor1_2()
+		indice_identificador, identificador = seleccionador_opciones_listas()
 
-	print('intentos')
-	print(i)
-	print('correctos')
-	print(c)
-	print('incorrectos')
-	print(e)
+		while validacion == '':
+
+			os.system('cls')
+			impresor2(dificultad,indice_identificador,forma)
+			os.system('cls')
+			verificador_traductor(lista[indice_identificador], forma = forma)
+
+			print(f'intentos: {i+1}')
+			validacion = input('Continuar [enter]/ Salir [Cualquier tecla]: ')
+			os.system('cls')
+			i = i + 1
+
+		print('intentos')
+		print(i)
+		print('correctos')
+		print(c)
+		print('incorrectos')
+		print(e)
+
+		validacion_fin = input('Continuar [enter]/ Salir [Cualquier tecla]: ')
 
 	input('FIN')
