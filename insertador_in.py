@@ -1,5 +1,16 @@
-lista = 'everyone,everybody,no one,nobody,somebody,somebody,anyone,anybody,anyone,anybody,anyone,anybody,everything,nothing,something,anything,anything,anything,everyone,everybody'
+lista = 'first,at first,initially,first of all,in the first place,secondly,thirdly,fourthly'
 print(lista.split(','))
+lista = 'primero,al principio,inicialmente,antes que nada,en primer lugar,en segundo lugar,en tecer lugar,en cuarto lugar'
+print(lista.split(','))
+
+lista = 'lastly,at last,finally,eventually,in the end'
+print(lista.split(','))
+lista = 'por último, finalmente,por fin, finalmente,finalmente,finalmente,al final'
+print(lista.split(','))
+
+
+
+
 '''
 lista = []
 lista.append([])
