@@ -1,18 +1,17 @@
-'''
-lista = [[lista_0][lista_1]...[ultima_lista]]
-
-lista_0 = [nombre_0][identificador_0][lista_para_practicar_en_ingles_0][lista_para_practicar_en_español_(traducción)_0]
-
-lista_para_practicar_en_ingles_0 = 'elemento_0', 'elemento_1',..., 'ultimo_elemento'
-'''
 import random
 import os
 import lista
 
-lista = lista.lista()
-lista_de_repeticion = []
+lista = lista.lista()#Se carga la lista general, se usa en la función 'constructor'
+lista_de_repeticion = []#Lista auxiliar para la función 'constructor'
 
 def constructor(lista_del_constructor,lista_de_repeticion_del_constructor,limpia_del_contructor):
+	'''Los palabras de las listas se dan a traducir de forma aleatoria, sin repetir ninguna palabra, hasta que se haya completado la lista,
+	cuentan las traducciones erroneas
+
+	Esta función hace posible esto
+	#Si 'limpia_del_constructor' es 'False' la lista elegida seguira mostrandose aleatoriamente, pero se repetiran las palabras de la lista sin que se alla mostrado la lista completa
+	'''
 	numeros_buscar_lista = [x for x in range(len(lista_del_constructor))]
 	
 	while True:
@@ -27,6 +26,8 @@ def constructor(lista_del_constructor,lista_de_repeticion_del_constructor,limpia
 			del lista_de_repeticion_del_constructor[:]
 
 def verificador_traductor(lista_del_verificador_traductor, forma, lista_de_repeticion_del_verificador_traductor = lista_de_repeticion, limpia_ingresada_del_verificador_traductor = True):
+	'''Se verifica la validez de la traduccíón según condiciones elegidas por el usuario'''
+
 	if forma == '1':
 		lista1 = lista_del_verificador_traductor[2]
 		lista2 = lista_del_verificador_traductor[3]
@@ -101,6 +102,8 @@ def impresor1(lista = lista):
 		print('')
 
 def impresor2(modo,indice,forma,lista = lista):
+	'''Imprime la lista seleccionada'''
+
 	if not (modo == 'd' or modo == 'm'):
 		if forma == '1':
 			descripcion_listas = ['lista','idenficador','inglés','español']
@@ -145,7 +148,10 @@ def impresor1_2(lista = lista):
 		print('')
 
 def seleccionador_opciones_listas():
+	'''Función para seleccionar una lista de palabras especifica'''
+
 	while True:
+		print('Seleccione una lista')
 		identificador = input('Ingresar identificador o número de lista: ').lower()
 
 		try:
@@ -171,30 +177,38 @@ if __name__ == '__main__':
 
 	validacion_fin = ''
 	while validacion_fin == '':
-		del lista_de_repeticion[:]
+		del lista_de_repeticion[:] #Se borra la 'lista_de_repetición' cada vez que se elige nueva lista
 		validacion = ''
 		i=0
 		c=0
 		e=0
 
 		os.system('cls')
-		dificultad = input('DIFICIL [d]/ MEDIO [m]/ FACIL [Cualquier tecla]: ').lower()
+		print('---Programa para practicar palabras en inglés---')
+		print('Se mostrarán varias listas de palabras en inglés con tematicas diferentes para elegir\n')
+		print('->Ingrese nivel de dificultad<-')
+		print('> FÁCIL: Cada que se tenga que traducir una palabra, se mostrara con anterioridad la lista elegida')
+		print('>> MEDIO: Cada que se tenga que traducir una palabra, YA NO se mostrara con anterioridad la lista elegida')
+		print('>>> DIFÍCIL: Igual que MEDIO y se tendrán que dar todos los significados de la palabra')
+
+		dificultad = input('\nDIFICIL [d]/ MEDIO [m]/ FACIL [Cualquier tecla]: ').lower()
+		print('\nTraducir del:')
 		forma = input('inglés --> español (1) español --> inglés (2): ')
 		os.system('cls')
 
-		impresor1()
+		impresor1()#Se imprime la lista general
 		impresor1_2()
-		indice_identificador, identificador = seleccionador_opciones_listas()
+		indice_identificador, identificador = seleccionador_opciones_listas()#Se selecciona una lista
 
 		while validacion == '':
 
 			os.system('cls')
-			impresor2(dificultad,indice_identificador,forma)
+			impresor2(dificultad,indice_identificador,forma)#Se imprime la lista elegida
 			os.system('cls')
-			verificador_traductor(lista[indice_identificador], forma = forma)
+			verificador_traductor(lista[indice_identificador], forma = forma)#Se verifica lo ingresado
 
-			print(f'intentos: {i+1}')
-			validacion = input('Continuar [enter]/ Salir [Cualquier tecla]: ')
+			print(f'intentos: {i+1}')#Te muestra los intentos que llevas en la misma lista
+			validacion = input('Continuar con la misma lista [enter]/ Seleccionar otra lista[Cualquier tecla]: ')
 			os.system('cls')
 			i = i + 1
 
