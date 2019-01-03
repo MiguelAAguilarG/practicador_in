@@ -1,14 +1,15 @@
 '''listas que usa practicador.py'''
+
 def lista():
-	lista = []
-	n = 0
+	lista = [] #Lista general
+	n = 0 #Número para las listas en lista general
 	lista.append([])
-	lista[n].append(['verbos modales'])
-	lista[n].append(['vmod'])
-	lista[n].append(['can','could','may','might','must','should','ought to'])
-	lista[n].append(['puedo, -presente-'])
-	lista[n][3].append('podría, pude, podía, pudiera, -condicional-pretérito-copretérito-pretérito(subjuntivo)')
-	lista[n][3].append('podría, quizás, puede que')
+	lista[n].append(['verbos modales']) #Nombre de la lista
+	lista[n].append(['vmod']) #Identificador alfanúmerico
+	lista[n].append(['can','could','may','might','must','should','ought to']) #Palabras en inglés
+	lista[n].append(['puedo, -presente-']) #Traducción o traducciones de palabras en inglés, las traducciones se separán por una coma
+	lista[n][3].append('podría, pude, podía, pudiera, -condicional-pretérito-copretérito-pretérito(subjuntivo)') 
+	lista[n][3].append('podría, quizás, puede que')#Las ayudas para la traducción se ponen al final de todas las traducciones, se separan con una coma como las traducciones, se idetifican con un guión en cualquier lugar de la ayuda
 	lista[n][3].append('podría, quizás, puede que')
 	lista[n][3].append('debo, debo de')
 	lista[n][3].append('debería, tendría que')
@@ -339,7 +340,139 @@ def lista():
 	lista[n].append(['lastly', 'at last', 'finally', 'eventually', 'in the end'])
 	lista[n].append(['por último, finalmente', 'por fin, finalmente', 'finalmente', 'finalmente', 'al final'])
 
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de grado 1'])
+	lista[n].append(['agra1'])
+	lista[n].append(['much', 'so much', 'too much', 'very little', 'so little', 'too little'])
+	lista[n].append(['mucho', 'tanto', 'demasiado', 'muy poco', 'tan poco', 'demasiado poco'])
 
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de grado 2'])
+	lista[n].append(['agra2'])
+	lista[n].append(['more', 'much more', 'far more', 'less', 'much less', 'far less'])
+	lista[n].append(['más', 'mucho más', 'mucho más', 'menos', 'mucho menos', 'mucho menos'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de grado 3'])
+	lista[n].append(['agra3'])
+	lista[n].append(['almost', 'nearly', 'barely', 'scarcely', 'hardly', 'not at all', 'even', 'even more', 'even less', 'not even'])
+	lista[n].append(['casi', 'casi', 'apenas', 'apenas', 'apenas, casi no', 'para nada, en absoluto', 'incluso, aún', 'aún más', 'aún menos', 'ni siquiera'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de grado 4'])
+	lista[n].append(['agra4'])
+	lista[n].append(['partially', 'partly', 'entirely', 'completely', 'absolutely', 'relatively', 'at least', 'at most'])
+	lista[n].append(['parcialmente, a medias', 'en parte', 'enteramente', 'completamente', 'absolutamente', 'relativamente', 'al menos', 'como máximo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de grado 5'])
+	lista[n].append(['agra5'])
+	lista[n].append(['largely', 'mostly', 'mainly', 'totally', 'extremely', 'altogether'])
+	lista[n].append(['en gran parte', 'en su mayor parte', 'principalmente', 'totalmente', 'sumamente', 'en total'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de grado 6'])
+	lista[n].append(['agra6'])
+	lista[n].append(['so', 'very', 'too', 'enough', 'just', 'only'])
+	lista[n].append(['tan', 'muy', 'demasiado', 'suficiente', 'justo, apenas, sólo', 'sólo, solamente'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de grado 7'])
+	lista[n].append(['agra7'])
+	lista[n].append(['pretty', 'quite', 'fairly', 'rather'])
+	lista[n].append(['bastante', 'bastante, completamente', 'bastante', 'más bien'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de certeza 1'])
+	lista[n].append(['acer1'])
+	lista[n].append(['certainly', 'of course', 'definitely', 'indeed', 'obviously', 'really'])
+	lista[n].append(['ciertamente, desde luego', 'por supuesto', 'sin duda', 'efectivamente, de veras', 'evidentemente', 'realmente'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adverbios de certeza 2'])
+	lista[n].append(['acer2'])
+	lista[n].append(['surely', 'truly', 'undoubtedly', 'likely', 'perhaps', 'maybe', 'possibly', 'probably'])
+	lista[n].append(['ciertamente, sin duda', 'realmente', 'indudablemente', 'probablemente', 'quizás, tal vez', 'quizás', 'posiblemente, tal vez', 'probablemente'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de lugar 1'])
+	lista[n].append(['plug1'])
+	lista[n].append(['on', 'upon', 'in', 'at', 'inside', 'outside', 'above', 'below'])
+	lista[n].append(['sobre, en, encima de', 'sobre, en , encima de, -formal-', 'en, adentro de', 'en', 'dentro de, en', 'afuera, fuera, fuera de', 'encima de, sobre, arriba', 'debajo de'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de lugar 2'])
+	lista[n].append(['plug2'])
+	lista[n].append(['over', 'under', 'beneath', 'underneath', 'by', 'near', 'close to', 'across'])
+	lista[n].append(['encima de, sobre', 'debajo de, bajo', 'bajo, debajo de', 'bajo, debajo de', 'al lado de, junto a', 'cerca de', 'cerca de', 'a lo ancho de, a través de, al otro lado de'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de lugar 3'])
+	lista[n].append(['plug3'])
+	lista[n].append(['along', 'around', 'round', 'against', 'on top of', 'at the bottom of', 'in front of', 'opposite', 'behind'])
+	lista[n].append(['a lo largo de', 'alrededor de, cerca de, por', 'alrededor de, en torno a, por', 'contra, en contra de', 'encima de, sobre, arriba de', 'en la base de, debajo de, en el fondo de', 'enfrente de', 'enfrente de, frente a', 'detrás, detrás de'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de lugar 4'])
+	lista[n].append(['plug4'])
+	lista[n].append(['beside', 'next to', 'within', 'beyond', 'between', 'among', 'amid', 'before', 'after', 'throughout'])
+	lista[n].append(['al lado de, junto a', 'al lado de, junto a', 'dentro de, a menos de', 'más allá de', 'entre', 'entre, en medio de', 'entre, en medio de', 'delante de, ante', 'después de, tras', 'por todo, a través de todo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de dirección 1'])
+	lista[n].append(['pdir1'])
+	lista[n].append(['up', 'down', 'into', 'out of', 'on', 'onto', 'off', 'over', 'under', 'to', 'from'])
+	lista[n].append(['por, hacia arriba', 'por, hacia abajo', 'dentro de, al, hacia adentro', 'de, afuera de, fuera de', 'sobre, al', 'sobre, al', 'de, fuera de', 'sobre, por encima de', 'debajo de, bajo', 'a, hacia', 'de, desde'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de dirección 2'])
+	lista[n].append(['pdir2'])
+	lista[n].append(['toward', 'towards', 'away from', 'along', 'across', 'through', 'around', 'by', 'past', 'after'])
+	lista[n].append(['hacia', 'hacia', 'fuera de, alejándose de', 'a lo largo de, por', 'a través de, cruzando', 'a través de', 'alrededor de, por', 'por, cerca de, junto a', 'más allá de, por delante de', 'después de, detrás de, tras'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de dirección 2'])
+	lista[n].append(['pdir2'])
+	lista[n].append(['toward', 'towards', 'away from', 'along', 'across', 'through', 'around', 'by', 'past', 'after'])
+	lista[n].append(['hacia', 'hacia', 'fuera de, alejándose de', 'a lo largo de, por', 'a través de, cruzando', 'a través de', 'alrededor de, por', 'por, cerca de, junto a', 'más allá de, por delante de', 'después de, detrás de, tras'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de tiempo 1'])
+	lista[n].append(['ptie1'])
+	lista[n].append(['about', 'around', 'before', 'after', 'during', 'over', 'for', 'throughout'])
+	lista[n].append(['aproximadamente, alrededor de', 'aproximadamente, alrededor de', 'antes de', 'después de', 'durante', 'durante', 'durante, por', 'durante todo'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de tiempo 2'])
+	lista[n].append(['ptie2'])
+	lista[n].append(['since', 'until', 'to', 'past', 'between...and...', 'within', 'from...to/till/until...', 'as from', 'as of'])
+	lista[n].append(['desde', 'hasta', 'para, hacia', 'pasado', 'entre...y...', 'entre, en no más de', 'desde...hasta...', 'a partir de', 'a partir de'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['preposiciones de tiempo 3'])
+	lista[n].append(['ptie3'])
+	lista[n].append(['by', 'beyond', 'on', 'at', 'in'])
+	lista[n].append(['para, antes de', 'más allá de', 'en, -para los días-', 'a, -para las horas-', 'en, -para meses/estaciones/años/partes del día-'])
+	
 	return lista
 
 '''def seleccionador_grupo(lista):
