@@ -447,13 +447,6 @@ def lista():
 	
 	n = n+1
 	lista.append([])
-	lista[n].append(['preposiciones de dirección 2'])
-	lista[n].append(['pdir2'])
-	lista[n].append(['toward', 'towards', 'away from', 'along', 'across', 'through', 'around', 'by', 'past', 'after'])
-	lista[n].append(['hacia', 'hacia', 'fuera de, alejándose de', 'a lo largo de, por', 'a través de, cruzando', 'a través de', 'alrededor de, por', 'por, cerca de, junto a', 'más allá de, por delante de', 'después de, detrás de, tras'])
-	
-	n = n+1
-	lista.append([])
 	lista[n].append(['preposiciones de tiempo 1'])
 	lista[n].append(['ptie1'])
 	lista[n].append(['about', 'around', 'before', 'after', 'during', 'over', 'for', 'throughout'])
@@ -473,39 +466,362 @@ def lista():
 	lista[n].append(['by', 'beyond', 'on', 'at', 'in'])
 	lista[n].append(['para, antes de', 'más allá de', 'en, -para los días-', 'a, -para las horas-', 'en, -para meses/estaciones/años/partes del día-'])
 	
+	n = n+1
+	lista.append([])
+	lista[n].append(['at tiempo'])
+	lista[n].append(['att'])
+	lista[n].append(['at'])
+	lista[n].append(['+ hora, + días festivo, + ciertas expresiones'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['on tiempo'])
+	lista[n].append(['ont'])
+	lista[n].append(['on'])
+	lista[n].append(['+ días, + días + partes del día, + fechas'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['in tiempo'])
+	lista[n].append(['int'])
+	lista[n].append(['in'])
+	lista[n].append(['+ partes del día, + meses, + años, + estaciones del año, + largos períodos, + referencias al futuro'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['at lugar'])
+	lista[n].append(['atl'])
+	lista[n].append(['at'])
+	lista[n].append(['+ lugares comunes, + lugares específicos, + domicilios, + ciertas cosas, + posiciones'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['on lugar'])
+	lista[n].append(['onl'])
+	lista[n].append(['on'])
+	lista[n].append(['+ superficies, + medios de transporte, + partes del cuerpo, + direcciones'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['in lugar'])
+	lista[n].append(['inl'])
+	lista[n].append(['in'])
+	lista[n].append(['+ países, + ciudades, + habitaciones, + cuerpos de agua, + clima, + ciertos lugares'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos determinatvos 1'])
+	lista[n].append(['adet1'])
+	lista[n].append(['this', 'that', 'these', 'those'])
+	lista[n].append(['este, esta, esto', 'ese, esa, eso, aquel, aquello/a', 'estos, estas', 'esos, esas, aquellos/as'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos determinatvos 2'])
+	lista[n].append(['adet2'])
+	lista[n].append(['all', 'every', 'each', 'both', 'either', 'neither'])
+	lista[n].append(['todo/a, todos/as', 'cada, -todos-', 'cada, -particular-', 'ambos, los dos', 'cualquiera, ambos, ninguno, -de dos- -al negar-', 'ninguno de los dos, ni el uno ni el otro'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos determinatvos 3'])
+	lista[n].append(['adet3'])
+	lista[n].append(['another', 'other', 'the other'])
+	lista[n].append(['otro/a', 'otro/a, otros/as', 'el otro, la otra, los otros, las otras'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos color 1'])
+	lista[n].append(['acol1'])
+	lista[n].append(['black', 'gray', 'violet', 'white', 'green', 'orange', 'red', 'brown'])
+	lista[n].append(['negro', 'gris', 'violeta', 'blanco', 'verde', 'naranja', 'rojo', 'café'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos color 2'])
+	lista[n].append(['acol2'])
+	lista[n].append(['sky blue', 'blue', 'yellow', 'pink', 'purple', 'beige', 'turquoise'])
+	lista[n].append(['celeste', 'azul', 'amarillo', 'rosa', 'morado', 'beige', 'turquesa'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos tamaño 1'])
+	lista[n].append(['atam1'])
+	lista[n].append(['big', 'large', 'huge', 'small', 'tiny', 'heavy', 'light', 'thick', 'thin', 'wide'])
+	lista[n].append(['grande', 'grande', 'enorme', 'pequeño', 'diminuto', 'pesado', 'liviano', 'grueso', 'delgado', 'ancho'])	
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos tamaño 2'])
+	lista[n].append(['atam2'])
+	lista[n].append(['high', 'low', 'tall', 'short', 'long', 'medium', 'narrow', 'deep', 'shallow', 'broad'])
+	lista[n].append(['elevado', 'bajo', 'alto', 'corto, bajo', 'largo', 'medio', 'angosto', 'profundo', 'plano', 'ancho'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos forma 1'])
+	lista[n].append(['afor1'])
+	lista[n].append(['square', 'round', 'rectangular', 'triangular', 'oval', 'conical', 'spherical', 'cubical'])
+	lista[n].append(['cuadrado', 'redondo', 'rectangular', 'triangular', 'oval', 'cónico', 'esférico', 'cúbico'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos forma 2'])
+	lista[n].append(['afor2'])
+	lista[n].append(['cylindrical', 'straight', 'curved', 'crooked', 'broad', 'narrow', 'flat', 'steep', 'hollow', 'solid'])
+	lista[n].append(['cilíndrico', 'recto', 'curvo', 'torcido', 'ancho', 'angosto', 'plano', 'empinado', 'hueco', 'sólido'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos color 2'])
+	lista[n].append(['acol2'])
+	lista[n].append(['sky blue', 'blue', 'yellow', 'pink', 'purple', 'beige', 'turquoise'])
+	lista[n].append(['celeste', 'azul', 'amarillo', 'rosa', 'morado', 'beige', 'turquesa'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos edad/tiempo 1'])
+	lista[n].append(['ae/t1'])
+	lista[n].append(['old', 'young', 'new', 'modern', 'ancient', 'old fashioned', 'updated', 'outdated'])
+	lista[n].append(['viejo', 'joven', 'nuevo', 'moderno', 'antiguo', 'anticuado', 'actualizado', 'desactualizado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos edad/tiempo 2'])
+	lista[n].append(['ae/t2'])
+	lista[n].append(['fast', 'quick', 'slow', 'senior', 'junior', 'current', 'past', 'future'])
+	lista[n].append(['rápido', 'rápido', 'lento', 'mayor', 'más joven', 'actual', 'pasado', 'futuro'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos clima 1'])
+	lista[n].append(['acli1'])
+	lista[n].append(['rainy', 'stormy', 'sunny', 'windy', 'snowy', 'damp', 'dry', 'icy'])
+	lista[n].append(['lluvioso', 'tormentoso', 'soleado', 'ventoso', 'con nieve', 'húmedo', 'seco', 'con hielo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos clima 2'])
+	lista[n].append(['acli2'])
+	lista[n].append(['foggy', 'overcast', 'cloudy', 'clear', 'mild', 'chilly'])
+	lista[n].append(['con niebla', 'nublado', 'nuboso', 'despejado', 'templado', 'frío'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos temperatura 1'])
+	lista[n].append(['atem1'])
+	lista[n].append(['freezing', 'chilly', 'cold', 'cool'])
+	lista[n].append(['helado', 'frío', 'frío', 'fresco'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos temperatura 2'])
+	lista[n].append(['atem2'])
+	lista[n].append(['lukewarm', 'boiling', 'muggy', 'hot', 'warm', 'pleasant'])
+	lista[n].append(['tibio', 'hirviendo', 'caluroso', 'caluroso', 'cálido', 'agradable'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos textura/tacto 1'])
+	lista[n].append(['at/t1'])
+	lista[n].append(['hard', 'soft', 'rough', 'smooth', 'solid', 'liquid', 'wet', 'dry'])
+	lista[n].append(['duro', 'blando', 'rugoso', 'suave, liso', 'sólido', 'líquido', 'mojado', 'seco'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos textura/tacto 2'])
+	lista[n].append(['at/t2'])
+	lista[n].append(['slippery', 'sticky', 'even', 'uneven', 'sharp', 'blunt', 'clean', 'dirty', 'tight', 'loose'])
+	lista[n].append(['resbaladizo', 'pegajoso', 'llano, liso', 'desigual', 'afilado', 'desafilado', 'limpio', 'sucio', 'apretado', 'holgado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos materiales 1'])
+	lista[n].append(['amat1'])
+	lista[n].append(['iron', 'steel', 'rubber', 'paper', 'woolen', 'plastic', 'stone', 'wooden'])
+	lista[n].append(['de hierro', 'de acero', 'de goma', 'de papel', 'de lana', 'de plástico', 'de piedra', 'de madera'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos materiales 2'])
+	lista[n].append(['amat2'])
+	lista[n].append(['glass', 'leather', 'silver', 'gold', 'tin', 'cotton'])
+	lista[n].append(['de vidrio', 'de cuero', 'de plata', 'de oro', 'de lata', 'de algodón'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos sonido 1'])
+	lista[n].append(['ason1'])
+	lista[n].append(['loud', 'soft', 'quiet', 'faint', 'audible', 'mute', 'hoarse', 'inaudible'])
+	lista[n].append(['alto, fuerte', 'suave', 'suave', 'débil, bajo', 'audible', 'mudo', 'ronco', 'inaudible'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos sonido 2'])
+	lista[n].append(['ason2'])
+	lista[n].append(['silent', 'deafening', 'noisy', 'deaf', 'shrill', 'melodic'])
+	lista[n].append(['silencioso', 'ensordecedor', 'ruidoso', 'sordo', 'agudo', 'melódico'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos sabor 1'])
+	lista[n].append(['asab1'])
+	lista[n].append(['sweet', 'salty', 'sour', 'bitter', 'greasy', 'fresh', 'stale', 'tasty'])
+	lista[n].append(['dulce', 'salado', 'agrio', 'amargo', 'grasiento', 'fresco', 'rancio', 'rico'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos sabor 2'])
+	lista[n].append(['asab2'])
+	lista[n].append(['delicious', 'tasteless', 'fatty', 'rotten', 'spicy', 'hot'])
+	lista[n].append(['delicioso', 'insípido', 'graso', 'podrido', 'picante', 'picante'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos cocina 1'])
+	lista[n].append(['acoc1'])
+	lista[n].append(['cooked', 'baked', 'fried', 'boiled', 'peeled', 'sliced'])
+	lista[n].append(['cocinado', 'horneado', 'frito', 'hervido', 'pelado', 'rebanado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos cocina 2'])
+	lista[n].append(['acoc2'])
+	lista[n].append(['stewed', 'steamed', 'roast', 'broiled', 'cut', 'grated'])
+	lista[n].append(['guisado', 'al vapor', 'asado al horno', 'asado a la parrilla', 'cortado', 'rallado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos condición 1'])
+	lista[n].append(['acon1'])
+	lista[n].append(['crazy', 'sane', 'sick', 'healthy', 'drunk', 'sober', 'tired', 'broken'])
+	lista[n].append(['loco', 'cuerdo', 'enfermo', 'sano', 'borracho', 'sobrio', 'cansado', 'roto'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos condición 2'])
+	lista[n].append(['acon2'])
+	lista[n].append(['full', 'empty', 'dead', 'alive', 'hungry', 'asleep', 'awake', 'busy'])
+	lista[n].append(['lleno', 'vacío', 'muerto', 'vivo', 'hambriento', 'dormido', 'despierto', 'ocupado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos condición 3'])
+	lista[n].append(['acon3'])
+	lista[n].append(['idle', 'open', 'closed', 'single', 'married', 'engaged', 'separated', 'divorced'])
+	lista[n].append(['ocioso', 'abierto', 'cerrado', 'soltero', 'casado', 'comprometido', 'separado', 'divorciado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos opinión 1'])
+	lista[n].append(['aopi1'])
+	lista[n].append(['good', 'bad', 'easy', 'difficult', 'true', 'false', 'careful', 'careless'])
+	lista[n].append(['bueno', 'malo', 'fácil', 'difícil', 'verdadero', 'falso', 'cuidadoso', 'descuidado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos opinión 2'])
+	lista[n].append(['aopi2'])
+	lista[n].append(['important', 'right', 'wrong', 'useful', 'useless', 'cheap', 'expensive', 'interesting', 'famous', 'unknown'])
+	lista[n].append(['importante', 'correcto', 'equivocado', 'útil', 'inútil', 'barato', 'caro', 'interesante', 'famoso', 'desconocido'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos religión 1'])
+	lista[n].append(['aopi2'])
+	lista[n].append(['catholic', 'protestant', 'anglican', 'baptist', 'christian', 'hindu', 'buddhist', 'Muslin', 'jewish', 'lutheran'])
+	lista[n].append(['católico', 'protestante', 'anglicano', 'bautista', 'cristiano', 'hindú', 'budista', 'musulmán', 'judio', 'luterano'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos personalidad positivo 1'])
+	lista[n].append(['appo1'])
+	lista[n].append(['honest', 'courageous','optimistic', 'intelligent', 'sincere', 'ambitious', 'modest', 'sensible'])
+	lista[n].append(['honesto', 'valiente', 'optimista', 'inteligente', 'sincero', 'ambicioso', 'modesto', 'sensato'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos personalidad positivo 2'])
+	lista[n].append(['appo2'])
+	lista[n].append(['friendly', 'practical', 'considerate', 'tolerant', 'responsible', 'generous', 'patient', 'disciplined', 'humorous', 'sympathetic'])
+	lista[n].append(['amistoso', 'práctico', 'considerado', 'tolerante', 'responsable', 'generoso', 'paciente', 'disciplinado', 'divertido', 'comprensivo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos personalidad negativo 1'])
+	lista[n].append(['apne2'])
+	lista[n].append(['dishonest', 'pessimistic', 'miserly', 'coward', 'selfish', 'impatient', 'lazy', 'greedy'])
+	lista[n].append(['deshonesto', 'pesimista', 'avaro', 'cobarde', 'egoísta', 'impaciente', 'haragán', 'codicioso'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos personalidad negativo 2'])
+	lista[n].append(['apne2'])
+	lista[n].append(['resentful', 'envious', 'jealous', 'possesive', 'conceited', 'arrogant', 'fussy', 'gullible', 'stubborn', 'careless'])
+	lista[n].append(['resentido', 'envidioso', 'celoso', 'posesivo', 'engreído', 'arrogante', 'quisquilloso', 'ingenuo', 'terco', 'negligente'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos apariencia 1'])
+	lista[n].append(['aapa1'])
+	lista[n].append(['beautiful', 'ugly', 'clean', 'drity', 'full', 'empty', 'simple', 'complex', 'difficult', 'easy'])
+	lista[n].append(['lindo', 'feo', 'limpio', 'sucio', 'lleno', 'vacío', 'simple', 'complejo', 'difícil', 'fácil'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos apariencia 2'])
+	lista[n].append(['aapa2'])
+	lista[n].append(['safe', 'dangerous', 'strong', 'weak', 'same', 'different', 'neat', 'messy', 'rich', 'poor'])
+	lista[n].append(['seguro', 'peligroso', 'fuerte', 'débil', 'mismo', 'diferente', 'limpio, ordenado', 'desordenado', 'rico', 'pobre'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos sentimientos positivo 1'])
+	lista[n].append(['asep1'])
+	lista[n].append(['amused', 'calm', 'cheerful', 'confident', 'content', 'eager', 'satisfied', 'ecstatic'])
+	lista[n].append(['divertido', 'tranquilo', 'alegre', 'confiado', 'contento, satisfecho', 'ansioso', 'satisfecho', 'eufórico'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos sentimientos positivo 2'])
+	lista[n].append(['asep2'])
+	lista[n].append(['enthusiastic', 'inspired', 'elated', 'energetic', 'pleased', 'excited', 'grateful', 'happy', 'thrilled', 'hopeful'])
+	lista[n].append(['entusiasmado', 'inspirado', 'exaltado', 'activo, dinámico', 'satisfecho', 'emocionado', 'agradecido', 'feliz', 'emocionado', 'optimista'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos sentimientos negativo 1'])
+	lista[n].append(['asen1'])
+	lista[n].append(['afraid', 'angry', 'annoyed', 'ashamed', 'bored', 'confused', 'depressed', 'lonely'])
+	lista[n].append(['con miedo', 'enfadado', 'disgustado', 'avergonzado', 'aburrido', 'confundido', 'deprimido', 'solo y triste'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos sentimientos negativo 2'])
+	lista[n].append(['asen2'])
+	lista[n].append(['upset', 'sad', 'tired', 'disappointed', 'distressed', 'embarrased', 'frightened', 'frustrated', 'jealous', 'worried'])
+	lista[n].append(['molesto', 'triste', 'cansado', 'decepcionado', 'angustiado', 'avergonzado', 'asustado', 'frustrado', 'celoso, envidioso', 'preocupado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos participios 1'])
+	lista[n].append(['apar1'])
+	lista[n].append(['alarmed', 'annoyed', 'bored', 'confused', 'depressed', 'excited', 'frustrated', 'interested', 'surprised', 'tired', 'worried'])
+	lista[n].append(['alarmado', 'irritado', 'aburrido', 'confundido', 'deprimido', 'emocionado', 'frustrado', 'interesado', 'sorprendido', 'cansado', 'preocupado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos participios 2'])
+	lista[n].append(['apar2'])
+	lista[n].append(['alarming', 'annoying', 'boring', 'confusing', 'depressing', 'exciting', 'frustrating', 'interesting', 'surprising', 'tiring', 'worrying'])
+	lista[n].append(['alarmante', 'irritante', 'aburridor', 'confuso', 'deprimente', 'emocionante', 'frustrante', 'interesante', 'sorprendente', 'fatigoso', 'preocupante'])
+
 	return lista
 
-'''def seleccionador_grupo(lista):
-	grupos_set = set()
+'''lista = lista()
+num = 0
 
-	for x in lista:
-		for y in x[4]:
-			grupos_set.add(y)
-			
-	grupos_num_dict = zip(grupos_set,[x for x in range(len(grupos_set))])
-	grupos_num_dict = dict(grupos_num_dict)
+for x in lista:
+	num = len(x[2]) + num
 
-	print('-grupos de la lista-')
-	for x,y in grupos_num_dict.items():
-		if y < 9:
-			print(f'-{y+1}--. {x}')
-		else:
-			print(f'-{y+1}-. {x}')
-
-	while True:
-		grupo = input('Ingrese un grupo de la lista [nombre o número]: ').lower()
-
-		try:
-			grupo = int(grupo)-1
-			print(grupo)
-			if grupo in grupos_num_dict.values():
-				return grupo
-			else:
-				print('ERROR. No es un número de lista valido')
-		except:
-			if grupo in grupos_num_dict.keys():
-				return grupo
-			else:
-				print('ERROR. No es un nombre de grupo')
-
-seleccionador_grupo(lista())'''
+print(num)'''
