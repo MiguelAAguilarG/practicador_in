@@ -4,7 +4,7 @@ import lista
 
 lista = lista.lista() #Se carga la lista general, se usa en la función 'constructor'
 lista_de_repeticion = [] #Lista auxiliar para la función 'constructor'
-rango = 25 #Número de las ultimas sub-listas que se imprimirán al iniciar el programa
+rango = 5 #Número de las ultimas sub-listas que se imprimirán al iniciar el programa
 
 def constructor(lista_del_constructor,lista_de_repeticion_del_constructor,limpia_del_constructor):
 	'''Los palabras de las listas se dan a traducir de forma aleatoria, sin repetir ninguna palabra, hasta que se haya completado la lista,
@@ -135,24 +135,54 @@ def impresor1(rango = rango, lista = lista):
 	for x in range(len(lista)):#listas
 		if rango >= (len(lista)-x):
 			print(f'---{x+1}---')
-			for y in range(len(lista[x])-1):#sublistas
-				a = len(descripcion_listas[2])
-				for z in range(len(lista[x][y])):#ver longitud mayor
-					if len(lista[x][y][z]) > a:
-						a = len(lista[x][y][z])
-				if y == 2:
-					b = descripcion_listas[y]+'>'
-					print(f'-----<{b:-<{a+2}}<{descripcion_listas[y+1]}>')
+			print(f'-----<{descripcion_listas[0]}>')
+			print(f'--1-. {lista[x][0][0]}')
+			print(f'-----<{descripcion_listas[1]}>')
+			print(f'--1-. {lista[x][1][0]}')
+
+			a = []
+			for y in range(len(lista[x])):#sublistas
+				if y%2 == 0:
+					n = 2
 				else:
-					print(f'-----<{descripcion_listas[y]}>')
-				for z in range(len(lista[x][y])):#elementos de listas
-					if y == 2:
-						if z < 9:
-							print(f'-{z+1}--. {lista[x][y][z]:_<{a+3}}{lista[x][y+1][z]}')
-						else:
-							print(f'-{z+1}-. {lista[x][y][z]:_<{a+3}}{lista[x][y+1][z]}')
+					n = 3
+
+				if y >= 2:
+					a.append(len(descripcion_listas[n]))
+				else:
+					a.append(1)
+
+				for z in range(len(lista[x][y])):#ver longitud mayor
+					if len(lista[x][y][z]) > a[y]:
+						a[y] = len(lista[x][y][z])
+
+			b = descripcion_listas[2]+'>'
+			c = descripcion_listas[3]+'>'
+			print(f'{"":-<{5}}<{b:-<{a[2]+2}}<{c: <{a[3]+2}}', end = '')
+			for y in range(4,len(lista[x]),2):#sublistas
+				b = descripcion_listas[2]+'>'
+				c = descripcion_listas[3]+'>'
+				print(f'<{b:-<{a[y]+2}}<{c: <{a[y+1]+2}}', end = '')		
+			print('')
+			
+			z = 0
+			while z < len(lista[x][2]):
+
+				if z < 9:
+					rep = 2
+				else:
+					rep = 1
+
+				yy = 2
+				while yy < len(lista[x]):
+					if yy == 2:
+						print(f'-{z+1}{"-"*rep}. {lista[x][yy][z]:_<{a[yy]+3}}{lista[x][yy+1][z]: <{a[yy+1]+3}}', end = '')
 					else:
-						print(f'--{z+1}-. {lista[x][y][z]}')
+						print(f'{lista[x][yy][z]:_<{a[yy]+3}}{lista[x][yy+1][z]: <{a[yy+1]+3}}', end = '')
+					yy = yy + 2
+				print('')
+
+				z = z + 1
 			print('')
 
 def impresor1_2(rango = rango, lista = lista):
