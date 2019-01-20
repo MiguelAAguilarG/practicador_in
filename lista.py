@@ -728,9 +728,9 @@ def lista():
 	n = n+1
 	lista.append([])
 	lista[n].append(['adjetivos religión 1'])
-	lista[n].append(['aopi2'])
-	lista[n].append(['catholic', 'protestant', 'anglican', 'baptist', 'christian', 'hindu', 'buddhist', 'Muslin', 'jewish', 'lutheran'])
-	lista[n].append(['católico', 'protestante', 'anglicano', 'bautista', 'cristiano', 'hindú', 'budista', 'musulmán', 'judio', 'luterano'])
+	lista[n].append(['arel'])
+	lista[n].append(['catholic', 'protestant', 'anglican', 'baptist', 'christian', 'hindu', 'buddhist', 'muslin', 'jewish', 'lutheran'])
+	lista[n].append(['católico', 'protestante', 'anglicano', 'bautista', 'cristiano', 'hindú', 'budista', 'musulmán', 'judío', 'luterano'])
 
 	n = n+1
 	lista.append([])
@@ -764,7 +764,7 @@ def lista():
 	lista.append([])
 	lista[n].append(['adjetivos apariencia 1'])
 	lista[n].append(['aapa1'])
-	lista[n].append(['beautiful', 'ugly', 'clean', 'drity', 'full', 'empty', 'simple', 'complex', 'difficult', 'easy'])
+	lista[n].append(['beautiful', 'ugly', 'clean', 'dirty', 'full', 'empty', 'simple', 'complex', 'difficult', 'easy'])
 	lista[n].append(['lindo', 'feo', 'limpio', 'sucio', 'lleno', 'vacío', 'simple', 'complejo', 'difícil', 'fácil'])
 
 	n = n+1
@@ -815,6 +815,307 @@ def lista():
 	lista[n].append(['apar2'])
 	lista[n].append(['alarming', 'annoying', 'boring', 'confusing', 'depressing', 'exciting', 'frustrating', 'interesting', 'surprising', 'tiring', 'worrying'])
 	lista[n].append(['alarmante', 'irritante', 'aburridor', 'confuso', 'deprimente', 'emocionante', 'frustrante', 'interesante', 'sorprendente', 'fatigoso', 'preocupante'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos comparativos y superlativos (adjetivos)'])
+	lista[n].append(['acsa'])
+	lista[n].append(['good', 'well', 'bad', 'badly', 'much', 'many', 'little', 'far', 'far'])
+	lista[n].append(['bueno', 'bien', 'malo', 'mal', 'mucho', 'muchos', 'poco', 'lejos', 'lejos'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos comparativos y superlativos (comparativo)'])
+	lista[n].append(['acsc'])
+	lista[n].append(['better', 'better', 'worse', 'worse', 'more', 'more', 'less', 'farther', 'further'])
+	lista[n].append(['mejor', 'mejor', 'peor', 'peor', 'más', 'más', 'menos', 'más lejos', 'más lejos'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos comparativos y superlativos (superlativo)'])
+	lista[n].append(['acss'])
+	lista[n].append(['the best', 'the worst', 'the most', 'the least', 'the farthest', 'the furthest'])
+	lista[n].append(['el mejor, de la mejor forma', 'el peor, de la peor forma', 'la mayoría, la mayor parte',  'el menos', 'el más lejano', 'el más lejano'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['intensificadores de adjetivos'])
+	lista[n].append(['iadj'])
+	lista[n].append(['very', 'so', 'too', 'quite', 'pretty', 'fairly', 'somewhat', 'rather', 'a little', 'enough', 'such'])
+	lista[n].append(['muy', 'tan', 'demasiado', 'bastante, completamente', 'bastante', 'bastante', 'algo, un tanto', 'bastante, algo, un poco', 'un poco', 'suficiente', 'tal, tales, tan'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['realizando comparaciones igualdad'])
+	lista[n].append(['rcig'])
+	lista[n].append(['as ... as', 'not so ... as', 'not as ... as', 'as much ... as', 'as many ... as', 'the same ... as'])
+	lista[n].append(['tan ... como', 'no tan ... como', 'no tan ... como', 'tanto ... como', 'tantos ... como', 'la misma ... que'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['realizando comparaciones cantidades'])
+	lista[n].append(['rcca'])
+	lista[n].append(['twice as much as', 'three times as many ... as', 'half as much ... as'])
+	lista[n].append(['dos veces más que', 'tres veces más ... que', 'la mitad ... que'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 1'])
+	lista[n].append(['vreg1'])
+	lista[n].append(['abandon', 'absolve', 'abuse', 'accelerate', 'accept', 'accustom', 'acquire', 'add'])
+	lista[n].append(['abandonar', 'absolver', 'injuriar', 'acelerar', 'aceptar', 'acostumbrar', 'adquirir', 'sumar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 2'])
+	lista[n].append(['vreg2'])
+	lista[n].append(['admire', 'adore', 'advance', 'advise', 'agree', 'amount', 'announce', 'answer'])
+	lista[n].append(['admirar', 'adorar', 'avanzar', 'aconsejar', 'acceder', 'ascender/cantidad', 'anunciar', 'contestar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 3'])
+	lista[n].append(['vreg3'])
+	lista[n].append(['appear', 'approach', 'arrange', 'ask', 'astonish', 'attempt', 'attract', 'bathe'])
+	lista[n].append(['aparecer', 'acercarse', 'arreglar', 'preguntar', 'asombrar', 'intentar', 'atraer', 'bañarse'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 4'])
+	lista[n].append(['vreg4'])
+	lista[n].append(['believe', 'blame', 'call', 'cash', 'change', 'claim', 'clear', 'close'])
+	lista[n].append(['creer', 'culpar', 'llamar', 'cobrar', 'cambiar', 'reclamar', 'aclarar, limpiar', 'cerrar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 5'])
+	lista[n].append(['vreg5'])
+	lista[n].append(['comb', 'command', 'compare', 'compose', 'consider', 'contain', 'copy', 'cough'])
+	lista[n].append(['peinar', 'mandar', 'comparar', 'componer', 'considerar', 'contener', 'copiar', 'toser'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 6'])
+	lista[n].append(['vreg6'])
+	lista[n].append(['cover', 'crown', 'damage', 'dawn', 'decide', 'defend', 'desire', 'destroy'])
+	lista[n].append(['cubrir', 'coronar', 'dañar', 'amanecer', 'decidir', 'defender', 'desear', 'destruir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 7'])
+	lista[n].append(['vreg7'])
+	lista[n].append(['develop', 'devour', 'dislike', 'divide', 'drop', 'earn', 'employ', 'encourage'])
+	lista[n].append(['desarrollar', 'devorar', 'desaprobar', 'dividir', 'dejar caer', 'ganar', 'emplear', 'animar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 8'])
+	lista[n].append(['vreg8'])
+	lista[n].append(['enjoy', 'establish', 'evoke', 'expect', 'explode', 'express', 'fail', 'fetch'])
+	lista[n].append(['disfrutar', 'establecer', 'evocar', 'esperar', 'estallar', 'expresar', 'fallar', 'ir por'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 9'])
+	lista[n].append(['vreg9'])
+	lista[n].append(['finish', 'fit', 'float', 'follow', 'gain', 'gather', 'grant', 'guard'])
+	lista[n].append(['acabar', 'ajustar', 'flotar', 'seguir', 'ganar', 'recoger', 'conceder', 'guardar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 10'])
+	lista[n].append(['vreg10'])
+	lista[n].append(['handle', 'happen', 'heat', 'hire', 'hunt', 'imagine', 'import', 'improve'])
+	lista[n].append(['manejar', 'suceder', 'calentar', 'alquilar', 'cazar', 'imaginar', 'importar', 'mejorar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 11'])
+	lista[n].append(['vreg11'])
+	lista[n].append(['increase', 'intend', 'invite', 'join', 'jump', 'kick', 'kiss', 'land'])
+	lista[n].append(['aumentar, incrementar', 'intentar', 'invitar', 'unir', 'saltar', 'patear', 'besar', 'aterrizar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 12'])
+	lista[n].append(['vreg12'])
+	lista[n].append(['laugh', 'like', 'live', 'love', 'maintain', 'measure', 'mention', 'name'])
+	lista[n].append(['reír', 'gustar', 'vivir', 'amar', 'mantener', 'medir', 'mencionar', 'nombrar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 13'])
+	lista[n].append(['vreg13'])
+	lista[n].append(['notice', 'obey', 'oblige', 'offer', 'order', 'pack', 'pass', 'place'])
+	lista[n].append(['notar, darse cuenta', 'obedecer', 'obligar', 'ofrecer', 'ordenar', 'empaquetar', 'pasar', 'colocar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos regulares 14'])
+	lista[n].append(['vreg14'])
+	lista[n].append(['please', 'practise', 'prepare', 'produce', 'propose', 'punish', 'rain', 'receive', 'refuse', 'remain'])
+	lista[n].append(['agradar', 'practicar', 'preparar', 'producir', 'proponer', 'castigar', 'llover', 'recibir','rehusar', 'permanecer'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 1'])
+	lista[n].append(['vireg1'])
+	lista[n].append(['beat, beat, beaten', 'become, became, become', 'begin, began, begun', 'bend, bent, bent', 'bet, bet, bet'])
+	lista[n].append(['golpear', 'convertir', 'comenzar', 'doblar', 'apostar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 2'])
+	lista[n].append(['vireg2'])
+	lista[n].append(['bite, bit, bitten', 'blow, blew, blown', 'break, broke, broken', 'bring, brought, brought', 'broadcast, broadcast, broadcast'])
+	lista[n].append(['morder', 'soplar', 'romper', 'traer', 'retransmitir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 3'])
+	lista[n].append(['vireg3'])
+	lista[n].append(['build, built, built', 'burst, burst, burst', 'buy, bought, bought', 'catch, caught, caught', 'choose, chose, chosen'])
+	lista[n].append(['construir', 'reventar', 'comprar', 'agarrar, coger', 'escoger, elegir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 4'])
+	lista[n].append(['vireg4'])
+	lista[n].append(['come, came, come', 'cost, cost, cost', 'creep, crept, crept', 'cut, cut, cut', 'deal, dealt, dealt'])
+	lista[n].append(['venir', 'costar', 'reptar,arrastrarse', 'cortar', 'repartir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 5'])
+	lista[n].append(['vireg5'])
+	lista[n].append(['dig, dug, dug', 'do, did, done', 'draw, drew, drawn', 'drink, drank, drunk', 'drive, drove, driven'])
+	lista[n].append(['cavar', 'hacer', 'dibujar', 'beber', 'conducir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 6'])
+	lista[n].append(['vireg6'])
+	lista[n].append(['eat, ate, eaten', 'fall, fell, fallen', 'feed, fed, fed', 'feel, felt, felt', 'fight, fought, fought'])
+	lista[n].append(['comer', 'caer', 'alimentar', 'sentir', 'luchar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 7'])
+	lista[n].append(['vireg7'])
+	lista[n].append(['find, found, found', 'flee, fled, fled', 'fly, flew, flown', 'forbid, forbade, forbidden', 'forget, forgot, forgotten'])
+	lista[n].append(['encontrar', 'escapar', 'volar', 'prohibir', 'olvidar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 8'])
+	lista[n].append(['vireg8'])
+	lista[n].append(['forgive, forgave, forgiven', 'freeze, froze, frozen', 'get, got, gotten', 'give, gave, given', 'go, went, gone'])
+	lista[n].append(['perdonar', 'helar, congelar', 'conseguir, obtener', 'dar', 'ir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 9'])
+	lista[n].append(['vireg9'])
+	lista[n].append(['grow, grew, grown', 'hang, hung, hung', 'have, had, had', 'hear, heard, heard', 'hide, hid, hidden'])
+	lista[n].append(['crecer', 'colgar', 'tener', 'oír', 'esconder'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 10'])
+	lista[n].append(['vireg10'])
+	lista[n].append(['hit, hit, hit', 'hold, held, held', 'hurt, hurt, hurt', 'keep, kept, kept', 'kneel, knelt, knelt'])
+	lista[n].append(['golpear, pegar', 'sostener', 'herir, lastimar', 'guardar, conservar', 'arrodillarse'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 11'])
+	lista[n].append(['vireg11'])
+	lista[n].append(['know, knew, known', 'lay, laid, laid', 'lead, led, led', 'leave, left, left', 'lend, lent, lent'])
+	lista[n].append(['saber, conocer', 'poner, colocar, acostar (a alguien)', 'guiar', 'dejar', 'prestar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 12'])
+	lista[n].append(['vireg12'])
+	lista[n].append(['let, let, let', 'lie, lay, lain', 'light, lit, lit', 'lose, lost, lost', 'make, made, made'])
+	lista[n].append(['permitir', 'tumbarse', 'iluminar, encender', 'perder', 'hacer'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 13'])
+	lista[n].append(['vireg13'])
+	lista[n].append(['mean, meant, meant', 'meet, met, met', 'pay, paid, paid', 'put, put, put', 'read, read, read'])
+	lista[n].append(['significar', 'encontrar, conocer', 'pagar', 'poner', 'leer'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 14'])
+	lista[n].append(['vireg14'])
+	lista[n].append(['ride, rode, ridden', 'ring, rang, rung', 'rise, rose, risen', 'run, ran, run', 'say, said, said'])
+	lista[n].append(['montar', 'sonar', 'surgir, levantarse', 'correr', 'decir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 15'])
+	lista[n].append(['vireg15'])
+	lista[n].append(['see, saw, seen', 'seek, sought, sought', 'sell, sold, sold', 'send, sent, sent', 'set, set, set'])
+	lista[n].append(['ver', 'rastrear, buscar a fondo', 'vender', 'enviar', 'poner, colocar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 16'])
+	lista[n].append(['vireg16'])
+	lista[n].append(['sew, sewed, sewn', 'shake, shook, shaken', 'shine, shone, shone', 'shoot, shot, shot', 'show, showed, shown'])
+	lista[n].append(['coser', 'agitar', 'brillar', 'disparar, lanzar', 'mostrar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 17'])
+	lista[n].append(['vireg17'])
+	lista[n].append(['shrink, shrank, shrunk', 'shut, shut, shut', 'sing, sang, sung', 'sink, sank, sunk', 'sit, sat, sat'])
+	lista[n].append(['encoger', 'cerrar', 'cantar', 'hundir', 'sentar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 18'])
+	lista[n].append(['vireg18'])
+	lista[n].append(['sleep, slept, slept', 'slide, slid, slid', 'speak, spoke, spoken', 'spend, spent, spent', 'spit, spat, spat'])
+	lista[n].append(['dormir', 'deslizarse, resbalar', 'hablar', 'gastar, pasar (tiempo)', 'escupir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 19'])
+	lista[n].append(['vireg19'])
+	lista[n].append(['split, split, split', 'spread, spread, spread', 'spring, sprang, sprung', 'stand, stood, stood', 'steal, stole, stolen'])
+	lista[n].append(['partir, dividir (algo)', 'extender', 'saltar (de golpe)', 'permanecer parado', 'robar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 20'])
+	lista[n].append(['vireg20'])
+	lista[n].append(['stick, stuck, stuck', 'sting, stung, stung', 'strike, struck, struck', 'swear, swore, sworn', 'sweep, swept, swept'])
+	lista[n].append(['pegar (algo)', 'picar, escocer', 'golpear, pegar', 'jurar', 'barrer,deshollinar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 21'])
+	lista[n].append(['vireg21'])
+	lista[n].append(['swim, swam, swum', 'swing, swung, swung', 'take, took, taken', 'teach, taught, taught', 'tear, tore, torn'])
+	lista[n].append(['nadar', 'balancearse', 'llevar, coger', 'enseñar', 'romper, rasgar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 22'])
+	lista[n].append(['vireg22'])
+	lista[n].append(['tell, told, told', 'think, thought, thought', 'throw, threw, thrown', 'understand, understood, understood', 'wake, woke, woken'])
+	lista[n].append(['decir', 'pensar, creer', 'lanzar', 'entender', 'despertar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos iregulares 23'])
+	lista[n].append(['vireg23'])
+	lista[n].append(['wear, wore, worn', 'weep, wept, wept', 'win, won, won', 'write, wrote, written'])
+	lista[n].append(['llevar puesto', 'llorar', 'ganar', 'escribir'])
 
 	return lista
 
