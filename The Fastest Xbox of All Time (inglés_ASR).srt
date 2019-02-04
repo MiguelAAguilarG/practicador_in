@@ -1,0 +1,1592 @@
+1
+00:00:00,030 --> 00:00:09,830
+this might appear to<font color="#CCCCCC"> be</font><font color="#E5E5E5"> a normal</font>
+
+2
+00:00:02,370 --> 00:00:14,250
+original Xbox but what's<font color="#CCCCCC"> inside it is</font>
+
+3
+00:00:09,830 --> 00:00:17,179
+<font color="#CCCCCC">haha from normal now</font><font color="#E5E5E5"> lots of people</font><font color="#CCCCCC"> have</font>
+
+4
+00:00:14,250 --> 00:00:19,920
+done<font color="#E5E5E5"> pcs in an Xbox chassis before and</font>
+
+5
+00:00:17,179 --> 00:00:21,960
+for<font color="#E5E5E5"> being honest</font><font color="#CCCCCC"> the finish on some of</font>
+
+6
+00:00:19,920 --> 00:00:25,859
+those is better than what we've done
+
+7
+00:00:21,960 --> 00:00:28,199
+<font color="#CCCCCC">here</font><font color="#E5E5E5"> but every other project we've found</font>
+
+8
+00:00:25,859 --> 00:00:31,910
+either<font color="#E5E5E5"> compromised on the form factor</font>
+
+9
+00:00:28,199 --> 00:00:34,469
+<font color="#E5E5E5">like adding more space to the bottom or</font>
+
+10
+00:00:31,910 --> 00:00:36,480
+compromised on the performance<font color="#E5E5E5"> with most</font>
+
+11
+00:00:34,469 --> 00:00:40,739
+of them<font color="#E5E5E5"> rocking a mid tier gaming</font>
+
+12
+00:00:36,479 --> 00:00:42,779
+graphics card<font color="#E5E5E5"> at best well compromise is</font>
+
+13
+00:00:40,738 --> 00:00:45,238
+not<font color="#E5E5E5"> the Linus tech tips way we will</font>
+
+14
+00:00:42,780 --> 00:00:48,030
+settle for<font color="#E5E5E5"> nothing</font><font color="#CCCCCC"> less than the first</font>
+
+15
+00:00:45,238 --> 00:00:50,459
+<font color="#E5E5E5">Xbox with support for real-time</font><font color="#CCCCCC"> rate</font>
+
+16
+00:00:48,030 --> 00:00:53,850
+<font color="#CCCCCC">racing</font><font color="#E5E5E5"> nothing less than the fastest</font>
+
+17
+00:00:50,460 --> 00:00:56,340
+<font color="#E5E5E5">Xbox ever getting all that performance</font>
+
+18
+00:00:53,850 --> 00:00:58,770
+<font color="#CCCCCC">in here wasn't</font><font color="#E5E5E5"> easy though</font><font color="#CCCCCC"> so let's take</font>
+
+19
+00:00:56,340 --> 00:01:02,789
+a look at what it took<font color="#CCCCCC"> to</font><font color="#E5E5E5"> make our</font>
+
+20
+00:00:58,770 --> 00:01:05,489
+latest<font color="#CCCCCC"> sleeper PC</font><font color="#E5E5E5"> Patrice brought to you</font>
+
+21
+00:01:02,789 --> 00:01:08,040
+by our<font color="#E5E5E5"> sponsor madrenas madrenas coffee</font>
+
+22
+00:01:05,489 --> 00:01:09,840
+<font color="#CCCCCC">blend specialty cold brew coffee Xin 215</font>
+
+23
+00:01:08,040 --> 00:01:11,640
+ounce<font color="#CCCCCC"> grab-and-go cans for everyone's</font>
+
+24
+00:01:09,840 --> 00:01:14,159
+convenience<font color="#E5E5E5"> check them out and use offer</font>
+
+25
+00:01:11,640 --> 00:01:16,859
+code<font color="#CCCCCC"> Linus to save</font><font color="#E5E5E5"> 40%</font>
+
+26
+00:01:14,159 --> 00:01:21,849
+we'll have that<font color="#E5E5E5"> linked below</font>
+
+27
+00:01:16,859 --> 00:01:21,849
+[Music]
+
+28
+00:01:24,078 --> 00:01:28,798
+so the very first<font color="#E5E5E5"> thing</font><font color="#CCCCCC"> we need to do is</font>
+
+29
+00:01:26,670 --> 00:01:31,228
+just make<font color="#CCCCCC"> sure that everything that</font><font color="#E5E5E5"> we</font>
+
+30
+00:01:28,799 --> 00:01:36,090
+have here<font color="#CCCCCC"> fits so we have this g-force</font>
+
+31
+00:01:31,228 --> 00:01:38,390
+<font color="#CCCCCC">our TX</font><font color="#E5E5E5"> 2070 from</font><font color="#CCCCCC"> ZOTAC and</font><font color="#E5E5E5"> it it should</font>
+
+32
+00:01:36,090 --> 00:01:41,159
+fit in like I did<font color="#E5E5E5"> some CAD and</font>
+
+33
+00:01:38,390 --> 00:01:43,530
+everything fits<font color="#E5E5E5"> in theory but we have I</font>
+
+34
+00:01:41,159 --> 00:01:45,810
+think<font color="#E5E5E5"> three millimeters of space on the</font>
+
+35
+00:01:43,530 --> 00:01:48,118
+side so wow that's a<font color="#E5E5E5"> really long screw</font>
+
+36
+00:01:45,810 --> 00:01:50,429
+<font color="#E5E5E5">for those of you freaking out we got</font>
+
+37
+00:01:48,118 --> 00:01:53,159
+this<font color="#CCCCCC"> xbox in non</font><font color="#E5E5E5"> working condition for</font>
+
+38
+00:01:50,429 --> 00:01:56,280
+<font color="#E5E5E5">ten dollars</font><font color="#CCCCCC"> so don't stress</font><font color="#E5E5E5"> out about us</font>
+
+39
+00:01:53,159 --> 00:01:58,159
+destroying vintage gaming hardware<font color="#E5E5E5"> this</font>
+
+40
+00:01:56,280 --> 00:01:59,429
+<font color="#E5E5E5">assembly was about what you'd expect</font>
+
+41
+00:01:58,159 --> 00:02:02,670
+<font color="#E5E5E5">inside</font>
+
+42
+00:01:59,429 --> 00:02:06,450
+the Xbox<font color="#CCCCCC"> one</font><font color="#E5E5E5"> not to be confused with the</font>
+
+43
+00:02:02,670 --> 00:02:08,098
+Xbox one is basically a normal<font color="#E5E5E5"> computer</font>
+
+44
+00:02:06,450 --> 00:02:10,379
+<font color="#E5E5E5">with the majority of the internal space</font>
+
+45
+00:02:08,098 --> 00:02:13,169
+being used for<font color="#E5E5E5"> a disc reader and a</font>
+
+46
+00:02:10,379 --> 00:02:15,719
+mechanical<font color="#E5E5E5"> hard drive</font><font color="#CCCCCC"> well we won't</font><font color="#E5E5E5"> be</font>
+
+47
+00:02:13,169 --> 00:02:17,879
+<font color="#CCCCCC">meeting</font><font color="#E5E5E5"> either of those anymore let's do</font>
+
+48
+00:02:15,719 --> 00:02:20,009
+a test<font color="#E5E5E5"> fit for this sleeper</font><font color="#CCCCCC"> we'll be</font>
+
+49
+00:02:17,879 --> 00:02:24,030
+<font color="#E5E5E5">using one of</font><font color="#CCCCCC"> Zoet acts</font><font color="#E5E5E5"> epic mini</font>
+
+50
+00:02:20,009 --> 00:02:28,560
+graphics cards<font color="#E5E5E5"> in this case an</font><font color="#CCCCCC"> RT X 27 T</font>
+
+51
+00:02:24,030 --> 00:02:30,209
+<font color="#E5E5E5">and a core i5 8400 six core CPU now</font>
+
+52
+00:02:28,560 --> 00:02:32,750
+compared<font color="#E5E5E5"> to some of our other sleepers</font>
+
+53
+00:02:30,209 --> 00:02:35,670
+Patrice's performance<font color="#E5E5E5"> isn't as</font>
+
+54
+00:02:32,750 --> 00:02:38,340
+<font color="#CCCCCC">over-the-top but we're working</font><font color="#E5E5E5"> with a</font>
+
+55
+00:02:35,669 --> 00:02:40,469
+passively cooled HD<font color="#CCCCCC"> Plex power supply</font>
+
+56
+00:02:38,340 --> 00:02:42,420
+and we wanted<font color="#E5E5E5"> to save as much</font><font color="#CCCCCC"> of our</font>
+
+57
+00:02:40,469 --> 00:02:45,629
+<font color="#E5E5E5">power budget as possible for the</font>
+
+58
+00:02:42,419 --> 00:02:47,488
+graphics card<font color="#E5E5E5"> besides we figured chances</font>
+
+59
+00:02:45,629 --> 00:02:50,280
+are anything<font color="#E5E5E5"> more powerful would have</font>
+
+60
+00:02:47,489 --> 00:02:52,799
+thermal throttled<font color="#E5E5E5"> anyway it seems like</font>
+
+61
+00:02:50,280 --> 00:02:55,318
+everything will fit we just<font color="#E5E5E5"> need to make</font>
+
+62
+00:02:52,799 --> 00:02:57,299
+sure<font color="#E5E5E5"> it</font><font color="#CCCCCC"> all works</font><font color="#E5E5E5"> together</font><font color="#CCCCCC"> and more</font>
+
+63
+00:02:55,318 --> 00:02:59,518
+importantly<font color="#E5E5E5"> that our power supply is</font>
+
+64
+00:02:57,299 --> 00:03:01,829
+<font color="#CCCCCC">actually able to handle</font><font color="#E5E5E5"> it all so don't</font>
+
+65
+00:02:59,519 --> 00:03:04,409
+<font color="#E5E5E5">mind the mess at this stage this is just</font>
+
+66
+00:03:01,829 --> 00:03:08,430
+for testing purposes<font color="#E5E5E5"> power there I'm</font>
+
+67
+00:03:04,409 --> 00:03:10,530
+short at the pins and<font color="#E5E5E5"> no hello</font>
+
+68
+00:03:08,430 --> 00:03:13,049
+yeah it's<font color="#CCCCCC"> passed test number one but we</font>
+
+69
+00:03:10,530 --> 00:03:16,229
+<font color="#CCCCCC">do need to get a monitor and keyboard</font>
+
+70
+00:03:13,049 --> 00:03:19,049
+and make sure that it's actually I was
+
+71
+00:03:16,229 --> 00:03:21,298
+like run<font color="#E5E5E5"> Windows and crap so we got into</font>
+
+72
+00:03:19,049 --> 00:03:23,669
+<font color="#CCCCCC">Windows no problem everything's working</font>
+
+73
+00:03:21,299 --> 00:03:28,139
+<font color="#E5E5E5">that's kind of expected but the real</font>
+
+74
+00:03:23,669 --> 00:03:30,030
+<font color="#E5E5E5">test here is when I hit start it might</font>
+
+75
+00:03:28,139 --> 00:03:34,250
+shut down and if it does we're<font color="#E5E5E5"> gonna</font>
+
+76
+00:03:30,030 --> 00:03:34,250
+have to rethink the whole thing<font color="#CCCCCC"> so</font>
+
+77
+00:03:34,680 --> 00:03:40,469
+so far so good<font color="#CCCCCC"> how are you gonna get</font><font color="#E5E5E5"> all</font>
+
+78
+00:03:37,650 --> 00:03:44,280
+of that<font color="#E5E5E5"> stuff</font><font color="#CCCCCC"> in there that's the thing</font>
+
+79
+00:03:40,469 --> 00:03:46,769
+I<font color="#E5E5E5"> want to</font><font color="#CCCCCC"> discuss with you</font><font color="#E5E5E5"> so poorly is</font>
+
+80
+00:03:44,280 --> 00:03:50,610
+basically the<font color="#CCCCCC"> answer</font><font color="#E5E5E5"> that's not</font><font color="#CCCCCC"> an</font>
+
+81
+00:03:46,769 --> 00:03:53,939
+answer<font color="#CCCCCC"> well it kind of so we</font><font color="#E5E5E5"> can do two</font>
+
+82
+00:03:50,610 --> 00:03:56,730
+<font color="#CCCCCC">things we can</font><font color="#E5E5E5"> either have</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> be really</font>
+
+83
+00:03:53,939 --> 00:03:59,759
+powerful<font color="#CCCCCC"> yeah or look good on the inside</font>
+
+84
+00:03:56,729 --> 00:04:03,030
+<font color="#E5E5E5">and I don't think there's a way to have</font>
+
+85
+00:03:59,759 --> 00:04:06,810
+<font color="#E5E5E5">both</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> those things okay</font>
+
+86
+00:04:03,030 --> 00:04:09,659
+sleepers<font color="#CCCCCC"> let's bring it back</font><font color="#E5E5E5"> to cars</font><font color="#CCCCCC"> Mme</font>
+
+87
+00:04:06,810 --> 00:04:12,019
+so sleepers have to look<font color="#E5E5E5"> bone stock from</font>
+
+88
+00:04:09,659 --> 00:04:16,560
+the<font color="#E5E5E5"> outside that we agree</font><font color="#CCCCCC"> on and</font>
+
+89
+00:04:12,019 --> 00:04:17,548
+sleepers have to be just<font color="#CCCCCC"> head turning</font><font color="#E5E5E5"> we</font>
+
+90
+00:04:16,560 --> 00:04:19,769
+fast off the line
+
+91
+00:04:17,548 --> 00:04:22,138
+yeah<font color="#CCCCCC"> is there any rule that says they</font>
+
+92
+00:04:19,769 --> 00:04:23,370
+have<font color="#CCCCCC"> to be</font><font color="#E5E5E5"> gorgeous inside no then I</font>
+
+93
+00:04:22,139 --> 00:04:24,900
+guess we know what<font color="#E5E5E5"> to do</font>
+
+94
+00:04:23,370 --> 00:04:27,870
+you're gonna need ventilation<font color="#CCCCCC"> holes on</font>
+
+95
+00:04:24,899 --> 00:04:30,779
+the<font color="#CCCCCC"> bottom of</font><font color="#E5E5E5"> the case</font><font color="#CCCCCC"> yeah</font><font color="#E5E5E5"> okay like</font>
+
+96
+00:04:27,870 --> 00:04:34,860
+you're gonna<font color="#E5E5E5"> need to cut</font><font color="#CCCCCC"> away</font><font color="#E5E5E5"> the bottom</font>
+
+97
+00:04:30,779 --> 00:04:36,538
+of the case<font color="#CCCCCC"> pretty much</font><font color="#E5E5E5"> yeah you might</font>
+
+98
+00:04:34,860 --> 00:04:38,729
+<font color="#E5E5E5">have to</font><font color="#CCCCCC"> achieve up a bit of</font><font color="#E5E5E5"> this plastic</font>
+
+99
+00:04:36,538 --> 00:04:40,439
+shroud as well in fact<font color="#CCCCCC"> you just</font><font color="#E5E5E5"> remove</font>
+
+100
+00:04:38,728 --> 00:04:42,168
+it<font color="#CCCCCC"> and move</font><font color="#E5E5E5"> it yeah yeah I mean what's</font>
+
+101
+00:04:40,439 --> 00:04:45,240
+<font color="#E5E5E5">it</font><font color="#CCCCCC"> what's</font><font color="#E5E5E5"> even do other than look cool</font>
+
+102
+00:04:42,168 --> 00:04:46,740
+yeah<font color="#E5E5E5"> yeah I think</font><font color="#CCCCCC"> we need to go in</font><font color="#E5E5E5"> that</font>
+
+103
+00:04:45,240 --> 00:04:47,819
+way<font color="#CCCCCC"> then we have the perforation in the</font>
+
+104
+00:04:46,740 --> 00:04:55,079
+<font color="#E5E5E5">bottom this thing shouldn't even</font>
+
+105
+00:04:47,819 --> 00:04:59,449
+overheat<font color="#E5E5E5"> perfect her act</font><font color="#CCCCCC"> cuz we're gonna</font>
+
+106
+00:04:55,079 --> 00:05:02,519
+perf<font color="#E5E5E5"> or eight and that's my cue to exit</font>
+
+107
+00:04:59,449 --> 00:05:03,930
+<font color="#CCCCCC">goodbye our methods</font><font color="#E5E5E5"> for C and seeing</font>
+
+108
+00:05:02,519 --> 00:05:06,180
+sheet aluminum have improved
+
+109
+00:05:03,930 --> 00:05:08,400
+significantly since our previous attempt
+
+110
+00:05:06,180 --> 00:05:10,560
+in Margaret we now have a single flute
+
+111
+00:05:08,399 --> 00:05:12,089
+<font color="#E5E5E5">end</font><font color="#CCCCCC"> mill and</font><font color="#E5E5E5"> double-sided tape that</font>
+
+112
+00:05:10,560 --> 00:05:15,149
+doesn't gum up<font color="#CCCCCC"> the bit giving</font><font color="#E5E5E5"> us</font>
+
+113
+00:05:12,089 --> 00:05:17,098
+excellent results this means that we
+
+114
+00:05:15,149 --> 00:05:19,589
+should<font color="#E5E5E5"> end up with perfect mounting</font>
+
+115
+00:05:17,098 --> 00:05:21,509
+points for<font color="#CCCCCC"> our hardware and much</font><font color="#E5E5E5"> better</font>
+
+116
+00:05:19,589 --> 00:05:23,369
+rigidity compared to the paper thin
+
+117
+00:05:21,509 --> 00:05:28,769
+metal that's currently in<font color="#E5E5E5"> here off</font>
+
+118
+00:05:23,370 --> 00:05:32,098
+camera<font color="#CCCCCC"> I did a prototype</font><font color="#E5E5E5"> Bend with with</font>
+
+119
+00:05:28,769 --> 00:05:37,740
+our little<font color="#E5E5E5"> Vice break here and it's we</font>
+
+120
+00:05:32,098 --> 00:05:41,189
+could just but it's not good<font color="#CCCCCC"> enough</font><font color="#E5E5E5"> no</font>
+
+121
+00:05:37,740 --> 00:05:44,829
+<font color="#E5E5E5">so we have a solution okay</font>
+
+122
+00:05:41,189 --> 00:05:47,680
+<font color="#CCCCCC">I took the credit</font><font color="#E5E5E5"> card</font>
+
+123
+00:05:44,829 --> 00:05:49,870
+and we we<font color="#CCCCCC"> got a we got a really big</font>
+
+124
+00:05:47,680 --> 00:05:52,900
+<font color="#CCCCCC">thing that's going over</font><font color="#E5E5E5"> here do you want</font>
+
+125
+00:05:49,870 --> 00:05:55,600
+<font color="#CCCCCC">to do you want to come</font><font color="#E5E5E5"> oh that kind of</font>
+
+126
+00:05:52,899 --> 00:05:59,349
+solution<font color="#CCCCCC"> is this safe</font><font color="#E5E5E5"> how are you</font>
+
+127
+00:05:55,600 --> 00:06:02,610
+<font color="#E5E5E5">supposed to move these</font><font color="#CCCCCC"> things</font><font color="#E5E5E5"> oh that's</font>
+
+128
+00:05:59,350 --> 00:06:02,610
+why you guys are<font color="#CCCCCC"> all here</font>
+
+129
+00:06:02,730 --> 00:06:12,670
+<font color="#E5E5E5">okay</font><font color="#CCCCCC"> ah okay how much was this like 800</font>
+
+130
+00:06:10,060 --> 00:06:14,500
+bucks<font color="#CCCCCC"> wow</font><font color="#E5E5E5"> that's actually</font><font color="#CCCCCC"> not as bad I</font>
+
+131
+00:06:12,670 --> 00:06:16,600
+was expecting<font color="#CCCCCC"> exchange</font><font color="#E5E5E5"> just based on the</font>
+
+132
+00:06:14,500 --> 00:06:18,339
+<font color="#E5E5E5">weight</font><font color="#CCCCCC"> yeah</font><font color="#E5E5E5"> no it was actually</font><font color="#CCCCCC"> very on</font>
+
+133
+00:06:16,600 --> 00:06:22,150
+sale<font color="#E5E5E5"> we got a good deal</font><font color="#CCCCCC"> I wanted</font><font color="#E5E5E5"> to buy</font>
+
+134
+00:06:18,339 --> 00:06:24,509
+the<font color="#CCCCCC"> three thousand</font><font color="#E5E5E5"> dollar one all right</font>
+
+135
+00:06:22,149 --> 00:06:28,120
+well then in that<font color="#E5E5E5"> case good work Alex</font>
+
+136
+00:06:24,509 --> 00:06:30,310
+<font color="#E5E5E5">all right fun fun fun</font><font color="#CCCCCC"> actually this is</font>
+
+137
+00:06:28,120 --> 00:06:32,019
+not that bad six<font color="#E5E5E5"> people wait so this</font>
+
+138
+00:06:30,310 --> 00:06:35,680
+countertop is gonna<font color="#E5E5E5"> be basically</font>
+
+139
+00:06:32,019 --> 00:06:38,919
+<font color="#E5E5E5">unusable for like weeks months who</font>
+
+140
+00:06:35,680 --> 00:06:45,220
+signed off<font color="#E5E5E5"> on this um you said you don't</font>
+
+141
+00:06:38,920 --> 00:06:51,520
+<font color="#E5E5E5">care that's</font><font color="#CCCCCC"> the actual quote of what you</font>
+
+142
+00:06:45,220 --> 00:06:53,200
+said about it<font color="#CCCCCC"> alright okay hold on so</font>
+
+143
+00:06:51,519 --> 00:06:55,439
+you<font color="#E5E5E5"> guys go ahead and</font><font color="#CCCCCC"> come out</font><font color="#E5E5E5"> why do</font>
+
+144
+00:06:53,199 --> 00:06:57,990
+you get<font color="#E5E5E5"> the coolest toys around here</font>
+
+145
+00:06:55,439 --> 00:07:00,519
+<font color="#CCCCCC">Brandon</font><font color="#E5E5E5"> also gets really cool toys</font>
+
+146
+00:06:57,990 --> 00:07:03,129
+that's true but I<font color="#CCCCCC"> think this one's</font>
+
+147
+00:07:00,519 --> 00:07:06,909
+cooler<font color="#CCCCCC"> and how do you pick the</font><font color="#E5E5E5"> angle you</font>
+
+148
+00:07:03,129 --> 00:07:10,420
+want your eyeball<font color="#E5E5E5"> immolate it kind of</font>
+
+149
+00:07:06,910 --> 00:07:15,939
+eyeball it<font color="#E5E5E5"> okay and then you unlock it</font>
+
+150
+00:07:10,420 --> 00:07:18,220
+down and then uh boom there<font color="#E5E5E5"> you go you</font>
+
+151
+00:07:15,939 --> 00:07:20,889
+done<font color="#CCCCCC"> bent some metal there boy so for</font>
+
+152
+00:07:18,220 --> 00:07:23,620
+bending<font color="#E5E5E5"> sheet metal kind of the best way</font>
+
+153
+00:07:20,889 --> 00:07:27,069
+<font color="#CCCCCC">to do it is to use this what they call</font>
+
+154
+00:07:23,620 --> 00:07:28,660
+blue<font color="#CCCCCC"> layout dye</font><font color="#E5E5E5"> and that lets you come</font>
+
+155
+00:07:27,069 --> 00:07:32,170
+in you just<font color="#E5E5E5"> cover it it dries really</font>
+
+156
+00:07:28,660 --> 00:07:34,000
+<font color="#CCCCCC">fast and</font><font color="#E5E5E5"> you can scribe directly on it</font>
+
+157
+00:07:32,170 --> 00:07:36,280
+and get<font color="#E5E5E5"> this super high contrast and</font>
+
+158
+00:07:34,000 --> 00:07:37,720
+<font color="#E5E5E5">also very precise line we have a plan</font>
+
+159
+00:07:36,279 --> 00:07:39,429
+here<font color="#CCCCCC"> that</font><font color="#E5E5E5"> just tells us all of</font><font color="#CCCCCC"> our</font>
+
+160
+00:07:37,720 --> 00:07:42,340
+dimensions where the bends need to be
+
+161
+00:07:39,430 --> 00:07:45,069
+and also I've numbered<font color="#E5E5E5"> each Bend because</font>
+
+162
+00:07:42,339 --> 00:07:46,719
+<font color="#E5E5E5">like if</font><font color="#CCCCCC"> you bend let's say number six</font>
+
+163
+00:07:45,069 --> 00:07:48,329
+before<font color="#E5E5E5"> number one you won't be able to</font>
+
+164
+00:07:46,720 --> 00:07:51,760
+<font color="#E5E5E5">complete it because the</font><font color="#CCCCCC"> bend will hit</font>
+
+165
+00:07:48,329 --> 00:07:54,039
+the rest of that as it<font color="#CCCCCC"> goes around since</font>
+
+166
+00:07:51,759 --> 00:07:55,959
+the part<font color="#E5E5E5"> wasn't designed with this break</font>
+
+167
+00:07:54,040 --> 00:07:57,560
+in mind a<font color="#CCCCCC"> couple</font><font color="#E5E5E5"> of the bends were</font>
+
+168
+00:07:55,959 --> 00:08:00,139
+pretty sketchy
+
+169
+00:07:57,560 --> 00:08:02,420
+<font color="#E5E5E5">vitu got all of the critical dimensions</font>
+
+170
+00:08:00,139 --> 00:08:05,419
+correct<font color="#E5E5E5"> and was miles ahead of the</font>
+
+171
+00:08:02,420 --> 00:08:08,689
+<font color="#E5E5E5">previous prototype</font><font color="#CCCCCC"> so we consider it a</font>
+
+172
+00:08:05,420 --> 00:08:16,879
+success<font color="#E5E5E5"> the next step was a test fit and</font>
+
+173
+00:08:08,689 --> 00:08:18,980
+<font color="#E5E5E5">oh no don't worry mr. Linus</font><font color="#CCCCCC"> so it was at</font>
+
+174
+00:08:16,879 --> 00:08:21,199
+this point<font color="#CCCCCC"> that we confirmed the stock</font>
+
+175
+00:08:18,980 --> 00:08:24,140
+fans and shroud from<font color="#E5E5E5"> our graphics card</font>
+
+176
+00:08:21,199 --> 00:08:26,120
+<font color="#E5E5E5">would need to be removed while he was at</font>
+
+177
+00:08:24,139 --> 00:08:27,800
+<font color="#CCCCCC">it</font><font color="#E5E5E5"> Alex replaced the original thermal</font>
+
+178
+00:08:26,120 --> 00:08:29,420
+paste with some crown<font color="#E5E5E5"> OTT since we're</font>
+
+179
+00:08:27,800 --> 00:08:31,639
+gonna need all the<font color="#CCCCCC"> help we can</font><font color="#E5E5E5"> get when</font>
+
+180
+00:08:29,420 --> 00:08:33,918
+it comes to<font color="#E5E5E5"> cooling with our replacement</font>
+
+181
+00:08:31,639 --> 00:08:36,500
+liner prepared the old liner<font color="#E5E5E5"> was</font>
+
+182
+00:08:33,918 --> 00:08:39,559
+forcibly<font color="#CCCCCC"> removed</font><font color="#E5E5E5"> and all of the old</font>
+
+183
+00:08:36,500 --> 00:08:43,668
+mounting needs to come out<font color="#E5E5E5"> now</font><font color="#CCCCCC"> with lots</font>
+
+184
+00:08:39,559 --> 00:08:45,829
+<font color="#E5E5E5">of dremel and oh wow</font><font color="#CCCCCC"> that fits like a</font>
+
+185
+00:08:43,668 --> 00:08:49,759
+glove<font color="#CCCCCC"> now you have to make</font><font color="#E5E5E5"> some holes</font>
+
+186
+00:08:45,830 --> 00:08:51,740
+for<font color="#CCCCCC"> the motherboard and GPU there</font><font color="#E5E5E5"> yeah</font>
+
+187
+00:08:49,759 --> 00:08:54,409
+this is this<font color="#E5E5E5"> is really the point of no</font>
+
+188
+00:08:51,740 --> 00:08:56,210
+<font color="#E5E5E5">return right here like the stuff on the</font>
+
+189
+00:08:54,409 --> 00:08:58,610
+inside<font color="#E5E5E5"> you can't tell but if I screw</font>
+
+190
+00:08:56,210 --> 00:09:01,070
+this<font color="#CCCCCC"> one up geez we're just we're just</font>
+
+191
+00:08:58,610 --> 00:09:03,649
+done<font color="#E5E5E5"> first the bulk was removed with a</font>
+
+192
+00:09:01,070 --> 00:09:05,660
+cutting<font color="#CCCCCC"> disk</font><font color="#E5E5E5"> then Alex brought it</font><font color="#CCCCCC"> closed</font>
+
+193
+00:09:03,649 --> 00:09:09,019
+<font color="#CCCCCC">with a grinding bit finishing off with a</font>
+
+194
+00:09:05,659 --> 00:09:12,500
+file for a nice smooth cut<font color="#E5E5E5"> so uh what's</font>
+
+195
+00:09:09,019 --> 00:09:17,120
+about to happen is<font color="#CCCCCC"> not</font><font color="#E5E5E5"> for the squeamish</font>
+
+196
+00:09:12,500 --> 00:09:19,429
+so the DVI connector here it goes in
+
+197
+00:09:17,120 --> 00:09:21,049
+like this<font color="#CCCCCC"> and</font><font color="#E5E5E5"> unfortunately it kind of</font>
+
+198
+00:09:19,429 --> 00:09:24,139
+<font color="#E5E5E5">interferes with where the power</font>
+
+199
+00:09:21,049 --> 00:09:25,669
+connector is going<font color="#CCCCCC"> to be ten out of ten</font>
+
+200
+00:09:24,139 --> 00:09:28,179
+would not recommend doing<font color="#E5E5E5"> this to your</font>
+
+201
+00:09:25,669 --> 00:09:28,179
+<font color="#E5E5E5">GPU</font>
+
+202
+00:09:28,938 --> 00:09:34,318
+<font color="#CCCCCC">but now DVI connector</font><font color="#E5E5E5"> list card got</font>
+
+203
+00:09:32,278 --> 00:09:36,480
+blown out with compressed air<font color="#E5E5E5"> to ensure</font>
+
+204
+00:09:34,318 --> 00:09:40,308
+<font color="#CCCCCC">that no metal shards would shorted out</font>
+
+205
+00:09:36,480 --> 00:09:42,720
+then it was taped up<font color="#E5E5E5"> and reassembled but</font>
+
+206
+00:09:40,308 --> 00:09:44,879
+that actually wasn't<font color="#E5E5E5"> the end of the</font>
+
+207
+00:09:42,720 --> 00:09:47,040
+carnage for this poor thing<font color="#CCCCCC"> the</font><font color="#E5E5E5"> i/o</font>
+
+208
+00:09:44,879 --> 00:09:49,409
+shield needed to be first flattened out
+
+209
+00:09:47,039 --> 00:09:51,688
+and then cut<font color="#CCCCCC"> down to size to fit into</font>
+
+210
+00:09:49,409 --> 00:09:53,789
+the extremely<font color="#E5E5E5"> small space we have for it</font>
+
+211
+00:09:51,688 --> 00:09:55,438
+next all<font color="#E5E5E5"> of the holes that</font><font color="#CCCCCC"> we needed</font><font color="#E5E5E5"> in</font>
+
+212
+00:09:53,789 --> 00:09:57,748
+the bottom of the case were drilled out
+
+213
+00:09:55,438 --> 00:10:00,438
+<font color="#E5E5E5">and a fan intake was cut into the bottom</font>
+
+214
+00:09:57,749 --> 00:10:02,999
+<font color="#CCCCCC">a hole was added for</font><font color="#E5E5E5"> the power connector</font>
+
+215
+00:10:00,438 --> 00:10:05,129
+<font color="#E5E5E5">not because this is the best time</font><font color="#CCCCCC"> for</font>
+
+216
+00:10:02,999 --> 00:10:07,139
+<font color="#CCCCCC">that step but rather because we forgot</font>
+
+217
+00:10:05,129 --> 00:10:08,850
+<font color="#E5E5E5">to do it before and then the sheet metal</font>
+
+218
+00:10:07,139 --> 00:10:10,619
+interior was ready to be<font color="#E5E5E5"> riveted</font>
+
+219
+00:10:08,850 --> 00:10:12,869
+<font color="#CCCCCC">together</font><font color="#E5E5E5"> we're actually getting pretty</font>
+
+220
+00:10:10,619 --> 00:10:14,910
+close to<font color="#E5E5E5"> final product here</font><font color="#CCCCCC"> so the blue</font>
+
+221
+00:10:12,869 --> 00:10:17,129
+<font color="#CCCCCC">layout dye that</font><font color="#E5E5E5"> was covering it was</font>
+
+222
+00:10:14,909 --> 00:10:19,860
+removed<font color="#E5E5E5"> with acetone and then our liner</font>
+
+223
+00:10:17,129 --> 00:10:22,319
+was given a coat<font color="#CCCCCC"> of black paint</font><font color="#E5E5E5"> while</font>
+
+224
+00:10:19,860 --> 00:10:24,028
+that dried<font color="#E5E5E5"> the hole for the GPU i/o was</font>
+
+225
+00:10:22,318 --> 00:10:28,349
+created with<font color="#E5E5E5"> the Dremel and we were</font>
+
+226
+00:10:24,028 --> 00:10:30,539
+ready for<font color="#E5E5E5"> a real test fit since the</font>
+
+227
+00:10:28,350 --> 00:10:33,329
+original GPUs fans ended up being too
+
+228
+00:10:30,539 --> 00:10:35,129
+big<font color="#E5E5E5"> smaller ones were added using zip</font>
+
+229
+00:10:33,328 --> 00:10:37,078
+ties<font color="#E5E5E5"> fitting everything in a case like</font>
+
+230
+00:10:35,129 --> 00:10:40,438
+this is difficult<font color="#CCCCCC"> even with</font>
+
+231
+00:10:37,078 --> 00:10:44,099
+purpose-built parts<font color="#CCCCCC"> as for our machine</font>
+
+232
+00:10:40,438 --> 00:10:47,849
+<font color="#E5E5E5">well everything does have its place but</font>
+
+233
+00:10:44,100 --> 00:10:50,909
+<font color="#E5E5E5">getting it in is another story</font><font color="#CCCCCC"> like</font><font color="#E5E5E5"> the</font>
+
+234
+00:10:47,850 --> 00:10:53,129
+GPU is so close<font color="#CCCCCC"> to</font><font color="#E5E5E5"> the motherboard</font><font color="#CCCCCC"> that</font>
+
+235
+00:10:50,909 --> 00:10:56,928
+even the i/o cover needed to be removed
+
+236
+00:10:53,129 --> 00:11:01,079
+for it to<font color="#CCCCCC"> all fit but lo and behold</font>
+
+237
+00:10:56,928 --> 00:11:03,419
+<font color="#E5E5E5">everything did fit now it's just time to</font>
+
+238
+00:11:01,078 --> 00:11:06,120
+make sure<font color="#CCCCCC"> that it all still works oh</font>
+
+239
+00:11:03,419 --> 00:11:13,078
+nice like it's showing up<font color="#CCCCCC"> over there oh</font>
+
+240
+00:11:06,120 --> 00:11:14,938
+wow<font color="#E5E5E5"> it just</font><font color="#CCCCCC"> worked I honestly wasn't</font>
+
+241
+00:11:13,078 --> 00:11:16,318
+<font color="#CCCCCC">expecting</font><font color="#E5E5E5"> it to just work I</font><font color="#CCCCCC"> figured I'd</font>
+
+242
+00:11:14,938 --> 00:11:21,958
+have<font color="#E5E5E5"> to do at least one little kajigger</font>
+
+243
+00:11:16,318 --> 00:11:24,149
+ring damn<font color="#E5E5E5"> that's that's not the power</font>
+
+244
+00:11:21,958 --> 00:11:29,458
+button look I didn't<font color="#CCCCCC"> have an Xbox</font>
+
+245
+00:11:24,149 --> 00:11:31,740
+already that can be controlled right
+
+246
+00:11:29,458 --> 00:11:33,599
+<font color="#E5E5E5">yeah like that can be dialed back yeah</font>
+
+247
+00:11:31,740 --> 00:11:37,019
+if you want it to be<font color="#E5E5E5"> full-blown sleep or</font>
+
+248
+00:11:33,600 --> 00:11:39,420
+you<font color="#E5E5E5"> can just be</font><font color="#CCCCCC"> like</font><font color="#E5E5E5"> Kabam</font><font color="#CCCCCC"> okay is</font><font color="#E5E5E5"> it</font>
+
+249
+00:11:37,019 --> 00:11:40,899
+supposed to<font color="#E5E5E5"> be green yeah</font><font color="#CCCCCC"> okay</font><font color="#E5E5E5"> I'm</font>
+
+250
+00:11:39,419 --> 00:11:45,319
+<font color="#E5E5E5">enjoying this</font>
+
+251
+00:11:40,899 --> 00:11:46,789
+it's not<font color="#E5E5E5"> especially quiet</font><font color="#CCCCCC"> I wouldn't</font>
+
+252
+00:11:45,320 --> 00:11:49,850
+<font color="#E5E5E5">describe it as crazy loud either though</font>
+
+253
+00:11:46,789 --> 00:11:52,519
+<font color="#E5E5E5">and the exhaust system</font><font color="#CCCCCC"> that you've built</font>
+
+254
+00:11:49,850 --> 00:11:54,200
+such as it were<font color="#CCCCCC"> does seem to be</font><font color="#E5E5E5"> working</font>
+
+255
+00:11:52,519 --> 00:11:56,210
+<font color="#E5E5E5">like there's definitely warm air coming</font>
+
+256
+00:11:54,200 --> 00:11:57,680
+out<font color="#E5E5E5"> so let's see what kind of</font>
+
+257
+00:11:56,210 --> 00:12:02,710
+performance we can expect out of this
+
+258
+00:11:57,679 --> 00:12:06,250
+thing<font color="#CCCCCC"> a hundred and thirty-two</font><font color="#E5E5E5"> 160 fps</font>
+
+259
+00:12:02,710 --> 00:12:12,200
+<font color="#E5E5E5">not bad</font>
+
+260
+00:12:06,250 --> 00:12:15,590
+get that<font color="#E5E5E5"> glory kid</font><font color="#CCCCCC"> oh so we're seeing 84</font>
+
+261
+00:12:12,200 --> 00:12:16,940
+degrees<font color="#CCCCCC"> 96 percent GPU usage though so</font>
+
+262
+00:12:15,590 --> 00:12:19,910
+we're definitely hitting it hard
+
+263
+00:12:16,940 --> 00:12:25,940
+and then our core clock is here here is
+
+264
+00:12:19,909 --> 00:12:28,519
+in like the<font color="#CCCCCC"> 1413 high</font><font color="#E5E5E5"> 14 lows</font><font color="#CCCCCC"> okay</font><font color="#E5E5E5"> so</font>
+
+265
+00:12:25,940 --> 00:12:29,360
+it's like<font color="#E5E5E5"> a</font><font color="#CCCCCC"> radar</font><font color="#E5E5E5"> base should we hook it</font>
+
+266
+00:12:28,519 --> 00:12:32,899
+<font color="#E5E5E5">up in its new home</font>
+
+267
+00:12:29,360 --> 00:12:38,300
+sure<font color="#CCCCCC"> so right</font><font color="#E5E5E5"> down here guys we've got</font>
+
+268
+00:12:32,899 --> 00:12:41,360
+the Xbox<font color="#E5E5E5"> one</font><font color="#CCCCCC"> x vs you could call this</font>
+
+269
+00:12:38,299 --> 00:12:42,259
+like an x-box<font color="#E5E5E5"> you know it's got</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> X</font>
+
+270
+00:12:41,360 --> 00:12:46,279
+<font color="#E5E5E5">Factor</font>
+
+271
+00:12:42,259 --> 00:12:49,340
+it's Patrice Patrice sure<font color="#E5E5E5"> apparently the</font>
+
+272
+00:12:46,279 --> 00:12:51,829
+<font color="#CCCCCC">One</font><font color="#E5E5E5"> X runs at</font><font color="#CCCCCC"> 60fps what</font><font color="#E5E5E5"> compromises are</font>
+
+273
+00:12:49,340 --> 00:12:56,269
+they making here<font color="#CCCCCC"> I mean the Xbox one</font><font color="#E5E5E5"> X</font>
+
+274
+00:12:51,830 --> 00:12:59,540
+is what like an<font color="#CCCCCC"> RX 480 or something like</font>
+
+275
+00:12:56,269 --> 00:13:01,789
+<font color="#E5E5E5">that well okay so fine the Xbox</font><font color="#CCCCCC"> 1x</font><font color="#E5E5E5"> runs</font>
+
+276
+00:12:59,539 --> 00:13:06,169
+at a higher frame<font color="#E5E5E5"> rate and is</font><font color="#CCCCCC"> probably</font>
+
+277
+00:13:01,789 --> 00:13:13,159
+<font color="#E5E5E5">less buggy than the PC version okay</font>
+
+278
+00:13:06,169 --> 00:13:15,919
+<font color="#CCCCCC">that's not shut up</font><font color="#E5E5E5"> you're in a field</font>
+
+279
+00:13:13,159 --> 00:13:18,579
+<font color="#E5E5E5">there's like four trees</font>
+
+280
+00:13:15,919 --> 00:13:23,139
+[Music]
+
+281
+00:13:18,580 --> 00:13:27,100
+Oh God<font color="#E5E5E5"> so this is a little overpowered</font>
+
+282
+00:13:23,139 --> 00:13:28,689
+<font color="#E5E5E5">for most like local multiplayer PC</font>
+
+283
+00:13:27,100 --> 00:13:30,220
+gaming experiences isn't it
+
+284
+00:13:28,690 --> 00:13:32,260
+are you saying we should<font color="#CCCCCC"> have put less</font>
+
+285
+00:13:30,220 --> 00:13:37,930
+power in it I'm saying<font color="#E5E5E5"> the power we put</font>
+
+286
+00:13:32,259 --> 00:13:41,860
+in it might have been unnecessary oops
+
+287
+00:13:37,929 --> 00:13:44,289
+<font color="#CCCCCC">oh I know I would meant to I meant to</font>
+
+288
+00:13:41,860 --> 00:13:46,300
+put it down<font color="#E5E5E5"> in my hand</font><font color="#CCCCCC"> or</font><font color="#E5E5E5"> in this this</font>
+
+289
+00:13:44,289 --> 00:13:52,539
+is<font color="#CCCCCC"> this</font><font color="#E5E5E5"> is</font><font color="#CCCCCC"> just hard to this</font><font color="#E5E5E5"> is hard to</font>
+
+290
+00:13:46,299 --> 00:13:55,179
+<font color="#E5E5E5">watch Oh have you slide</font><font color="#CCCCCC"> X I believe yep</font>
+
+291
+00:13:52,539 --> 00:13:57,309
+that works<font color="#CCCCCC"> okay</font><font color="#E5E5E5"> cool</font><font color="#CCCCCC"> I can't believe</font>
+
+292
+00:13:55,179 --> 00:14:00,789
+they saved that they're<font color="#E5E5E5"> better than us</font>
+
+293
+00:13:57,309 --> 00:14:03,609
+so far<font color="#E5E5E5"> but they're not</font><font color="#CCCCCC"> very good I can't</font>
+
+294
+00:14:00,789 --> 00:14:13,120
+find the ball<font color="#CCCCCC"> I like</font><font color="#E5E5E5"> doesn't</font><font color="#CCCCCC"> really</font><font color="#E5E5E5"> have</font>
+
+295
+00:14:03,610 --> 00:14:16,990
+no idea<font color="#CCCCCC"> for the ball they quit we're</font>
+
+296
+00:14:13,120 --> 00:14:19,019
+that bad<font color="#CCCCCC"> and we still won</font><font color="#E5E5E5"> this is gonna</font>
+
+297
+00:14:16,990 --> 00:14:22,720
+be awesome once we have this like all
+
+298
+00:14:19,019 --> 00:14:24,519
+set up and<font color="#E5E5E5"> everything</font><font color="#CCCCCC"> I mean this aspect</font>
+
+299
+00:14:22,720 --> 00:14:26,320
+of<font color="#E5E5E5"> it is basically good to go like we</font>
+
+300
+00:14:24,519 --> 00:14:28,028
+can't plug<font color="#E5E5E5"> wired controllers in from the</font>
+
+301
+00:14:26,320 --> 00:14:29,350
+front we've got<font color="#E5E5E5"> Wireless Xbox controller</font>
+
+302
+00:14:28,028 --> 00:14:31,179
+<font color="#E5E5E5">so any you can use any kind</font><font color="#CCCCCC"> of</font>
+
+303
+00:14:29,350 --> 00:14:32,620
+controller you<font color="#E5E5E5"> want because if someone</font>
+
+304
+00:14:31,179 --> 00:14:35,259
+wants a<font color="#E5E5E5"> ps4</font><font color="#CCCCCC"> controller or whatever they</font>
+
+305
+00:14:32,620 --> 00:14:37,179
+can just plug in a wire like this<font color="#CCCCCC"> is</font>
+
+306
+00:14:35,259 --> 00:14:40,778
+<font color="#E5E5E5">freaking awesome and it's so stealth</font>
+
+307
+00:14:37,179 --> 00:14:43,239
+<font color="#CCCCCC">it's our most useful sleeper ever so</font>
+
+308
+00:14:40,778 --> 00:14:45,189
+we've got one terabyte of storage<font color="#E5E5E5"> now</font>
+
+309
+00:14:43,240 --> 00:14:47,620
+because we're using a<font color="#CCCCCC"> one terabyte m2</font>
+
+310
+00:14:45,190 --> 00:14:49,720
+boot drive<font color="#E5E5E5"> but I</font><font color="#CCCCCC"> suspect we're gonna</font>
+
+311
+00:14:47,620 --> 00:14:52,000
+want to add a larger game library<font color="#CCCCCC"> I mean</font>
+
+312
+00:14:49,720 --> 00:14:53,680
+the<font color="#E5E5E5"> worst case scenario is we grab an</font>
+
+313
+00:14:52,000 --> 00:14:55,839
+external<font color="#CCCCCC"> port terabyte hard drive and</font>
+
+314
+00:14:53,679 --> 00:15:01,359
+<font color="#E5E5E5">plug it into USB</font><font color="#CCCCCC"> 3</font><font color="#E5E5E5"> is that resolution</font>
+
+315
+00:14:55,839 --> 00:15:03,640
+<font color="#CCCCCC">just</font><font color="#E5E5E5"> you can't set any other resolution</font>
+
+316
+00:15:01,360 --> 00:15:05,620
+<font color="#CCCCCC">you know what I bet if we just exit the</font>
+
+317
+00:15:03,639 --> 00:15:08,139
+<font color="#E5E5E5">game again and try again like rocket</font>
+
+318
+00:15:05,620 --> 00:15:12,000
+League it'll<font color="#E5E5E5"> just it'll just get its act</font>
+
+319
+00:15:08,139 --> 00:15:17,620
+together<font color="#E5E5E5"> this is like really not a great</font>
+
+320
+00:15:12,000 --> 00:15:20,059
+sales pitch for<font color="#E5E5E5"> PC gaming it's really</font>
+
+321
+00:15:17,620 --> 00:15:23,029
+great<font color="#E5E5E5"> after you</font>
+
+322
+00:15:20,059 --> 00:15:28,579
+a config file<font color="#E5E5E5"> and then you I'm just</font>
+
+323
+00:15:23,029 --> 00:15:31,429
+<font color="#E5E5E5">seeing if it has that no I don't see an</font>
+
+324
+00:15:28,580 --> 00:15:40,150
+obvious<font color="#CCCCCC"> wait I doubt it</font>
+
+325
+00:15:31,429 --> 00:15:43,729
+oh<font color="#E5E5E5"> all right oh heck yeah here we go</font>
+
+326
+00:15:40,149 --> 00:15:45,620
+<font color="#E5E5E5">okay</font><font color="#CCCCCC"> ah I can't do this</font><font color="#E5E5E5"> on the console</font>
+
+327
+00:15:43,730 --> 00:15:50,480
+yeah you wouldn't<font color="#E5E5E5"> want to cuz it's a</font>
+
+328
+00:15:45,620 --> 00:15:54,019
+really<font color="#E5E5E5"> really bad experience but 3840 by</font>
+
+329
+00:15:50,480 --> 00:15:58,759
+2160<font color="#CCCCCC"> fullscreen I bet</font><font color="#E5E5E5"> I have to change</font>
+
+330
+00:15:54,019 --> 00:16:00,079
+<font color="#E5E5E5">that to true</font><font color="#CCCCCC"> okay let's just see</font><font color="#E5E5E5"> if</font>
+
+331
+00:15:58,759 --> 00:16:03,080
+there's anything else we<font color="#CCCCCC"> should probably</font>
+
+332
+00:16:00,080 --> 00:16:08,720
+change in here that all<font color="#E5E5E5"> looks fine piece</font>
+
+333
+00:16:03,080 --> 00:16:11,000
+<font color="#CCCCCC">of gaming find the parameters change the</font>
+
+334
+00:16:08,720 --> 00:16:13,610
+parameters and then<font color="#E5E5E5"> oh it's time to</font><font color="#CCCCCC"> go</font>
+
+335
+00:16:11,000 --> 00:16:16,629
+<font color="#CCCCCC">to bed</font><font color="#E5E5E5"> you missed out on your</font><font color="#CCCCCC"> gaming</font>
+
+336
+00:16:13,610 --> 00:16:20,300
+time tonight<font color="#CCCCCC"> that looks better</font><font color="#E5E5E5"> you hook</font>
+
+337
+00:16:16,629 --> 00:16:22,879
+<font color="#CCCCCC">dammit</font><font color="#E5E5E5"> why is this necessary</font>
+
+338
+00:16:20,299 --> 00:16:23,479
+oh that looks<font color="#CCCCCC"> so much better</font><font color="#E5E5E5"> that was</font>
+
+339
+00:16:22,879 --> 00:16:28,610
+worth it
+
+340
+00:16:23,480 --> 00:16:30,350
+yes<font color="#E5E5E5"> okay ah campaign yeah sure I don't</font>
+
+341
+00:16:28,610 --> 00:16:35,210
+understand what weapon I<font color="#E5E5E5"> had oh I have a</font>
+
+342
+00:16:30,350 --> 00:16:38,269
+flamethrower<font color="#CCCCCC"> oh cool nice do you that</font>
+
+343
+00:16:35,210 --> 00:16:40,040
+<font color="#CCCCCC">Cleo Pete</font><font color="#E5E5E5"> yes yeah Oh</font><font color="#CCCCCC"> doesn't make a</font>
+
+344
+00:16:38,269 --> 00:16:41,409
+<font color="#CCCCCC">difference like do all the guys have</font>
+
+345
+00:16:40,039 --> 00:16:44,029
+different wet yeah they do
+
+346
+00:16:41,409 --> 00:16:46,899
+did you kill me<font color="#CCCCCC"> guy</font><font color="#E5E5E5"> god you killed just</font>
+
+347
+00:16:44,029 --> 00:16:50,589
+<font color="#E5E5E5">the</font><font color="#CCCCCC"> whole like MacGyver throws dynamite</font>
+
+348
+00:16:46,899 --> 00:16:58,459
+<font color="#E5E5E5">okay well I didn't know</font>
+
+349
+00:16:50,590 --> 00:16:58,460
+[Music]
+
+350
+00:17:02,909 --> 00:17:10,949
+there you have<font color="#E5E5E5"> it we built the world's</font>
+
+351
+00:17:05,880 --> 00:17:13,380
+most powerful gaming<font color="#CCCCCC"> Xbox</font><font color="#E5E5E5"> take that</font>
+
+352
+00:17:10,949 --> 00:17:14,880
+Microsoft<font color="#E5E5E5"> there were some</font><font color="#CCCCCC"> anomalies with</font>
+
+353
+00:17:13,380 --> 00:17:16,319
+<font color="#CCCCCC">Forza but we're gonna blame we're gonna</font>
+
+354
+00:17:14,880 --> 00:17:18,720
+blame Microsoft for that they stack<font color="#CCCCCC"> the</font>
+
+355
+00:17:16,318 --> 00:17:20,490
+deck<font color="#CCCCCC"> in</font><font color="#E5E5E5"> their favor so all that's left</font>
+
+356
+00:17:18,720 --> 00:17:22,828
+<font color="#E5E5E5">then is to tell you about today's video</font>
+
+357
+00:17:20,490 --> 00:17:24,299
+<font color="#E5E5E5">sponsored</font><font color="#CCCCCC"> freshbooks is the small</font>
+
+358
+00:17:22,828 --> 00:17:26,220
+<font color="#E5E5E5">business accounting software that's</font>
+
+359
+00:17:24,299 --> 00:17:28,198
+<font color="#CCCCCC">custom-built for how you want to work</font>
+
+360
+00:17:26,220 --> 00:17:31,230
+it's a simple way to<font color="#E5E5E5"> be more productive</font>
+
+361
+00:17:28,199 --> 00:17:32,850
+<font color="#CCCCCC">more organized</font><font color="#E5E5E5"> and to get paid faster if</font>
+
+362
+00:17:31,230 --> 00:17:34,980
+you're a<font color="#E5E5E5"> freelancer or if you're</font>
+
+363
+00:17:32,849 --> 00:17:36,629
+self-employed<font color="#CCCCCC"> you can create and send</font>
+
+364
+00:17:34,980 --> 00:17:38,579
+professional-looking invoices in less
+
+365
+00:17:36,630 --> 00:17:40,230
+<font color="#E5E5E5">than 30 seconds</font><font color="#CCCCCC"> you can set up online</font>
+
+366
+00:17:38,579 --> 00:17:42,359
+payments with just a<font color="#E5E5E5"> couple of clicks to</font>
+
+367
+00:17:40,230 --> 00:17:43,980
+get paid up to<font color="#E5E5E5"> four days faster</font><font color="#CCCCCC"> you can</font>
+
+368
+00:17:42,359 --> 00:17:45,569
+<font color="#E5E5E5">see when your client has seen your</font>
+
+369
+00:17:43,980 --> 00:17:47,940
+invoice to put an end<font color="#CCCCCC"> to the guessing</font>
+
+370
+00:17:45,569 --> 00:17:49,409
+games<font color="#E5E5E5"> and this is really cool you</font><font color="#CCCCCC"> can</font>
+
+371
+00:17:47,940 --> 00:17:50,940
+take<font color="#CCCCCC"> the whole experience</font><font color="#E5E5E5"> with you on</font>
+
+372
+00:17:49,410 --> 00:17:53,730
+the go<font color="#E5E5E5"> with their fully featured apps</font>
+
+373
+00:17:50,940 --> 00:17:55,799
+for<font color="#E5E5E5"> both Android</font><font color="#CCCCCC"> and iOS so don't take</font>
+
+374
+00:17:53,730 --> 00:17:58,019
+<font color="#CCCCCC">my word for it</font><font color="#E5E5E5"> try out fresh books today</font>
+
+375
+00:17:55,799 --> 00:18:00,029
+<font color="#E5E5E5">they offer an unrestricted 30-day free</font>
+
+376
+00:17:58,019 --> 00:18:01,829
+trial<font color="#CCCCCC"> if</font><font color="#E5E5E5"> you just go to</font><font color="#CCCCCC"> fresh books calm</font>
+
+377
+00:18:00,029 --> 00:18:03,389
+slash<font color="#E5E5E5"> tech tips</font><font color="#CCCCCC"> we're gonna have that</font>
+
+378
+00:18:01,829 --> 00:18:05,339
+<font color="#E5E5E5">linked below just make sure you enter</font>
+
+379
+00:18:03,390 --> 00:18:07,080
+Linus<font color="#E5E5E5"> tech tips</font><font color="#CCCCCC"> into how did you hear</font>
+
+380
+00:18:05,339 --> 00:18:08,939
+about<font color="#CCCCCC"> us section</font><font color="#E5E5E5"> so thanks for watching</font>
+
+381
+00:18:07,079 --> 00:18:10,740
+<font color="#CCCCCC">guys if you</font><font color="#E5E5E5"> disliked this video</font><font color="#CCCCCC"> you can</font>
+
+382
+00:18:08,940 --> 00:18:13,620
+<font color="#E5E5E5">hit that button but if you liked it for</font>
+
+383
+00:18:10,740 --> 00:18:15,210
+<font color="#E5E5E5">its sheer awesomeness</font><font color="#CCCCCC"> then go ahead hit</font>
+
+384
+00:18:13,619 --> 00:18:16,349
+that like button get subscribed or maybe
+
+385
+00:18:15,210 --> 00:18:17,610
+consider checking<font color="#E5E5E5"> out where to buy the</font>
+
+386
+00:18:16,349 --> 00:18:21,209
+stuff<font color="#CCCCCC"> we</font><font color="#E5E5E5"> featured at the link in the</font>
+
+387
+00:18:17,609 --> 00:18:23,129
+video<font color="#CCCCCC"> description I mean yeah not this</font>
+
+388
+00:18:21,210 --> 00:18:25,230
+specifically but like I don't know<font color="#CCCCCC"> ZOTAC</font>
+
+389
+00:18:23,130 --> 00:18:26,310
+have super compact graphics cards<font color="#E5E5E5"> and</font>
+
+390
+00:18:25,230 --> 00:18:28,259
+we've used them<font color="#E5E5E5"> for all</font><font color="#CCCCCC"> kinds of cool</font>
+
+391
+00:18:26,309 --> 00:18:29,819
+stuff<font color="#E5E5E5"> at this point</font><font color="#CCCCCC"> ah</font><font color="#E5E5E5"> so you can go</font>
+
+392
+00:18:28,259 --> 00:18:31,319
+<font color="#CCCCCC">check</font><font color="#E5E5E5"> those out also</font><font color="#CCCCCC"> linked</font><font color="#E5E5E5"> in the video</font>
+
+393
+00:18:29,819 --> 00:18:33,119
+description<font color="#CCCCCC"> our merch store which has</font>
+
+394
+00:18:31,319 --> 00:18:34,409
+<font color="#E5E5E5">cool shirts like this one and our</font>
+
+395
+00:18:33,119 --> 00:18:40,279
+community forum which you should totally
+
+396
+00:18:34,410 --> 00:18:40,279
+<font color="#CCCCCC">join oh really</font>
+
+397
+00:18:40,759 --> 00:18:46,759
+<font color="#E5E5E5">brofist this game is pretty fun we</font>
+
+398
+00:18:44,160 --> 00:18:46,759
+<font color="#CCCCCC">should play some more later</font>
+
