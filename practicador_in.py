@@ -43,6 +43,7 @@ def verificador_traductor(lista_del_verificador_traductor, forma, etapa_2, lista
 	print('--{}---'.format(variable))
 
 	insercion = input('Traducción: \n').lower()
+	insertado = insercion
 	insercion = insercion.split(',')
 
 	for i,x in enumerate(insercion):
@@ -85,6 +86,7 @@ def verificador_traductor(lista_del_verificador_traductor, forma, etapa_2, lista
 			lista2 = lista_del_verificador_traductor[2]
 
 		os.system('cls')
+		print(insertado)
 		print(lista1[indice])
 		if traduccion >= definiciones:
 			print('BIEN')
