@@ -573,13 +573,6 @@ def lista():
 
 	n = n+1
 	lista.append([])
-	lista[n].append(['adjetivos color 2'])
-	lista[n].append(['acol2'])
-	lista[n].append(['sky blue', 'blue', 'yellow', 'pink', 'purple', 'beige', 'turquoise'])
-	lista[n].append(['celeste', 'azul', 'amarillo', 'rosa', 'morado', 'beige', 'turquesa'])
-
-	n = n+1
-	lista.append([])
 	lista[n].append(['adjetivos edad/tiempo 1'])
 	lista[n].append(['ae/t1'])
 	lista[n].append(['old', 'young', 'new', 'modern', 'ancient', 'old fashioned', 'updated', 'outdated'])
@@ -848,15 +841,15 @@ def lista():
 	lista.append([])
 	lista[n].append(['realizando comparaciones igualdad'])
 	lista[n].append(['rcig'])
-	lista[n].append(['as ... as', 'not so ... as', 'not as ... as', 'as much ... as', 'as many ... as', 'the same ... as'])
-	lista[n].append(['tan ... como', 'no tan ... como', 'no tan ... como', 'tanto ... como', 'tantos ... como', 'la misma ... que'])
+	lista[n].append(['as...as', 'not so...as', 'not as...as', 'as much...as', 'as many...as', 'the same...as'])
+	lista[n].append(['tan...como', 'no tan...como', 'no tan...como', 'tanto...como', 'tantos...como', 'la misma...que'])
 
 	n = n+1
 	lista.append([])
 	lista[n].append(['realizando comparaciones cantidades'])
 	lista[n].append(['rcca'])
-	lista[n].append(['twice as much as', 'three times as many ... as', 'half as much ... as'])
-	lista[n].append(['dos veces más que', 'tres veces más ... que', 'la mitad ... que'])
+	lista[n].append(['twice as much as', 'three times as many...as', 'half as much...as'])
+	lista[n].append(['dos veces más que', 'tres veces más...que', 'la mitad...que'])
 	
 	n = n+1
 	lista.append([])
@@ -1119,6 +1112,376 @@ def lista():
 
 	n = n+1
 	lista.append([])
+	lista[n].append(['palabras para preguntar 1'])
+	lista[n].append(['ppp1'])
+	lista[n].append(['what', 'which', 'where', 'when', 'why', 'who', 'whom', 'whose', 'how'])
+	lista[n].append(['qué, cuál, cuáles', 'qué, cuál, cuáles', 'dónde, adónde', 'cuándo', 'por qué', 'quién, quiénes', 'a quién, a quienes', 'de quién, de quiénes', 'cómo, qué tan'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras para preguntar 2'])
+	lista[n].append(['ppp2'])
+	lista[n].append(['how much', 'how many', 'what time', 'what kind', 'how often', 'how long', 'how long ago', 'since when'])
+	lista[n].append(['cuánto/a', 'cuántos/as', 'qué hora, a qué hora', 'qué clase, qué tipo', 'con qué frecuencia, cada cuánto', 'cuánto tiempo', 'hace cuánto tiempo', 'desde cuándo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras para preguntar 3'])
+	lista[n].append(['ppp3'])
+	lista[n].append(['what...like', 'what...for', 'what...about', 'who...for', 'who...with', 'who...about', 'where...from'])
+	lista[n].append(['cómo', 'para qué', 'sobre qué', 'para quién', 'con quién', 'acerca de quién', 'de dónde'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras para preguntar 4'])
+	lista[n].append(['ppp4'])
+	lista[n].append(['how old', 'how soon', 'how early', 'how late', 'how fast', 'how big', 'how far', 'how tall', 'how deep', 'how heavy'])
+	lista[n].append(['qué edad, qué tan viejo', 'qué tan pronto', 'qué tan temprano', 'qué tan tarde', 'qué tan rápido, con qué velocidad, a qué velocidad', 'qué tamaño, qué tan grande', 'a qué distancia, qué tan lejos', 'qué estatura, qué tan alto', 'a qué profundidad, qué tan profundo', 'qué peso, qué tan pesado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras para preguntar 5'])
+	lista[n].append(['ppp5'])
+	lista[n].append(['what else', 'where else', 'when else', 'how else', 'who else', 'why else'])
+	lista[n].append(['qué más', 'dónde más', 'en qué otro momento', 'de qué otra manera', 'quién más', 'por qué otra razón'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['there be -haber- 1'])
+	lista[n].append(['tbh1'])
+	lista[n].append(['there is', 'there are', 'there was', 'there were'])
+	lista[n].append(['hay, -singular-', 'hay, -plural-', 'hubo, había, -singular-', 'hubo, había, -plural-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['there be -haber- 2'])
+	lista[n].append(['tbh2'])
+	lista[n].append(['there has been', 'there have been', 'there had been'])
+	lista[n].append(['ha habido, -singular-', 'ha habido, -plural-', 'había habido'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['there be -haber- 3'])
+	lista[n].append(['tbh3'])
+	lista[n].append(['there will be', 'there will have been', 'there would be', 'there would have been', 'there can be'])
+	lista[n].append(['habrá', 'habrá habido', 'habría', 'habría habido', 'puede haber'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['there be -haber- 4'])
+	lista[n].append(['tbh4'])
+	lista[n].append(['there can be', 'there could be', 'there may be', 'there might be', 'there should be', 'there must be'])
+	lista[n].append(['puede haber', 'podría/pudo haber', 'puede haber', 'podría haber', 'debería haber', 'debe haber'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['there be -haber- 5'])
+	lista[n].append(['tbh5'])
+	lista[n].append(['there could have been', 'there might have been', 'there should have been', 'there must have been'])
+	lista[n].append(['podría/pudo haber habido', 'podría haber habido', 'debería haber habido', 'debe haber habido'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['there be -haber- 6'])
+	lista[n].append(['tbh6'])
+	lista[n].append(['there has to be', 'there have to be', 'there had to be', 'there has to have been', 'there have to have been', 'there had to have been'])
+	lista[n].append(['tiene que haber, -singular-', 'tiene que haber,  -plural-', 'tuvo/tenía que haber, -plural-', 'tiene que haber habido, -singular-', 'tiene que haber habido, -plural-', 'tuvo/tenía que haber habido'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['there be -haber- 7'])
+	lista[n].append(['tbh7'])
+	lista[n].append(['there is going to be', 'there are going to be', 'there was going to be', 'there were going to be'])
+	lista[n].append(['va a haber, -singular-', 'va a haber, -plural-', 'íba a haber, -singular-', 'íba a haber, -plural-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['get 1'])
+	lista[n].append(['get1'])
+	lista[n].append(['get 1', 'get 2', 'get 3', 'get 4', 'get 5', 'get 6', 'get + adjetive', 'get + past participle'])
+	lista[n].append(['conseguir, obtener, comprar, lograr, ganar, sacar', 'recibir (una carta,dinero, una recompensa, una reprimenda)', 'ir a buscar, traer', 'agarrar, contagiarse, tener (una enfermedad)', 'contestar o atender (el teléfono, la puerta)', 'llegar', 'hacerse, volverse, ponerse', 'hacerse, volverse, ponerse'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['get + adjective 1'])
+	lista[n].append(['geta1'])
+	lista[n].append(['get angry', 'get old', 'get sleepy', 'get hungry', 'get better', 'get full', 'get late', 'get nervous'])
+	lista[n].append(['enfadarse', 'envejecer', 'dar sueño', 'tener hambre', 'mejorar', 'llenarse', 'hacerse tarde', 'ponerse nervioso'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['get + adjective 2'])
+	lista[n].append(['geta2'])
+	lista[n].append(['get rich', 'get wet', 'get upset', 'get fat', 'get happy', 'get thirsty', 'get dark', 'get worse', 'get hot', 'get mad', 'get well'])
+	lista[n].append(['enriquecerse', 'mojarse', 'disgustarse', 'engordar', 'ponerse contento, ponerse feliz', 'dar sed', 'oscurecer', 'empeorar', 'ponerse caluroso', 'enojarse', 'mejorar, ponerse bien'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['get + adjective 3'])
+	lista[n].append(['geta3'])
+	lista[n].append(['get hot', 'get mad', 'get well', 'get cold', 'get bald', 'get sick'])
+	lista[n].append(['ponerse caluroso', 'enojarse', 'mejorar, ponerse bien', 'ponerse frío, enfriarse', 'quedarse calvo', 'enfermarse'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['to be able to 1'])
+	lista[n].append(['tbat1'])
+	lista[n].append(['to be able to', 'to be abe to + infinitive', 'be able to, -presente simple-', 'be able to', 'was/were able to', 'could', '"could" y "was/were able to" en oraciones negativas'])
+	lista[n].append(['ser capaz de, poder', 'saber, poder, ser capaz de, -capacidad/actitud-', 'poco frecuente', 'se usa en combinación de otros auxiliares', 'pude, indica una capacidad específica para realizar un acto que existió en el pasado en un momento determinado', 'podía, pude, se refiere a una aptitud o capacidad general que existía en el pasado pero que ya no existe más', 'no existe diferencia'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['to manage to + infinitive'])
+	lista[n].append(['tmt+i1'])
+	lista[n].append(['manage to'])
+	lista[n].append(['lograr, poder, -no es un auxiliar modal-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['used to 1'])
+	lista[n].append(['ust1'])
+	lista[n].append(['used to', 'would + adverbio de frecuencia + verbo infinitivo', 'used to'])
+	lista[n].append(['soler, hábitos del pasado, de cosas que pasaban frecuentemente en el pasado pero que ya dejaron de suceder', 'soler, hábitos del pasado', 'hablar de cosas que eran verdaderas pero dejaron de serlas'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['to be/get used to 1'])
+	lista[n].append(['tbgut1'])
+	lista[n].append(['to be/get used to', 'to be used to', 'to get used to'])
+	lista[n].append(['se refieren al presente y si va antes de un verbo este debe de estar en gerundio', 'estar acostumbrado a', 'acostumbrarse a'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['to have/get something done 1'])
+	lista[n].append(['thgsd1'])
+	lista[n].append(['to have/get something done', 'have + noun + past participle', 'get'])
+	lista[n].append(['alguien hace algo por alguien, alguien hace hacer algo, se le hace algo a alguien', 'sujeto + have + a quién + verbo en pasado', 'informal'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['to want somebody to do something 1'])
+	lista[n].append(['twsbtdst1'])
+	lista[n].append(['to want somebody to do something', 'sujeto + want + a alguien + verbo aplicado a alguien', 'want + object + to infinitive'])
+	lista[n].append(['sujeto + want (somebody/pronombre acusativo) + to do + (something)', 'you wanted me to go to the lake', 'en español es pretérito del subjuntivo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['expresar acuerdo 1'])
+	lista[n].append(['eacu1'])
+	lista[n].append(['so + verbo principal conjugado de quién también + quién tambien, -oraciones afirmativas-', 'neither/nor + verbo principal conjugado de quién tampoco + quién tampoco, -oraciones negativas-'])
+	lista[n].append(['quién también + verbo principal conjugado de quién tambien + too, -oraciones afirmativas-', 'quién tampoco + verbo principal negativo conjugado de quién tampoco + either '])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['ing 1'])
+	lista[n].append(['ing1'])
+	lista[n].append(['verbo + ing', 'preposiciones + gerundio, -siempre-', 'los verbos en gerundio pueden modificar sustantivos'])
+	lista[n].append(['hace a un verbo sustantivo quedando en forma infinitiva en español', 'preposiciones + gerundio, -siempre-', 'verbo + ing + sustantivo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario culinario 1'])
+	lista[n].append(['vcul1'])
+	lista[n].append(['add', 'bake', 'beat', 'blend', 'boil', 'bone', 'break', 'broil'])
+	lista[n].append(['agregar', 'hornear', 'batir', 'combinar, mezclar', 'hervir', 'deshuesar', 'romper', 'asar a la parrilla'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario culinario 2'])
+	lista[n].append(['vcul2'])
+	lista[n].append(['chill', 'chop', 'coat', 'cook', 'cover', 'curdle', 'cut into strips', 'decorate'])
+	lista[n].append(['refrigerar, enfriar', 'picar, cortar en trozos', 'rebozar', 'cocinar', 'cubrir', 'cuajar', 'cortar en tiras', 'decorar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario culinario 3'])
+	lista[n].append(['vcul3'])
+	lista[n].append(['defrost', 'dice', 'dilute', 'dissolve', 'dry',  'empty', 'fill', 'flip'])
+	lista[n].append(['descongelar', 'cortar en cubitos', 'diluir', 'disolver', 'secar', 'vaciar', 'llenar', 'dar vuelta'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario culinario 4'])
+	lista[n].append(['vcul4'])
+	lista[n].append(['fold', 'fry', 'glaze', 'grate', 'grease', 'grill', 'grind', 'halve'])
+	lista[n].append(['doblar', 'freir', 'glasear', 'rallar', 'engrasar', 'azar a la parrilla', 'moler', 'partir en dos'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario culinario 5'])
+	lista[n].append(['vcul5'])
+	lista[n].append(['heat', 'knead', 'liquidize', 'melt', 'mince', 'mix', 'peel', 'pour'])
+	lista[n].append(['calentar', 'amasar', 'licuar', 'derretir', 'picar carne', 'mezclar', 'pelar', 'volcar, verter'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario culinario 6'])
+	lista[n].append(['vcul6'])
+	lista[n].append(['press', 'put', 'remove', 'rinse', 'roast', 'roll out', 'scoop up', 'seal'])
+	lista[n].append(['presionar, apretar', 'colocar, poner', 'quitar, sacar', 'enjuagar', 'asar', 'aplanar, extender', 'ahuecar (con cuchara)', 'sellar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos culinarios 7'])
+	lista[n].append(['vcul7'])
+	lista[n].append(['season', 'serve', 'shake', 'sharpen', 'sieve', 'simmer', 'slice', 'smoke'])
+	lista[n].append(['aderezar', 'servir', 'agitar, sacudir', 'afilar', 'tamizar', 'hervir a fuego lento', 'rebanar', 'ahumar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos culinarios 8'])
+	lista[n].append(['vcul8'])
+	lista[n].append(['soak', 'spill', 'sprinkle', 'squeeze', 'steam', 'stew', 'stir', 'stir-fry'])
+	lista[n].append(['remojar', 'derramar', 'rociar, salpicar', 'exprimir', 'cocinar al vapor', 'guisar, estofar', 'freír', 'rehogar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['verbos culinarios 9'])
+	lista[n].append(['vcul9'])
+	lista[n].append(['strain', 'stuff', 'thicken', 'trim', 'waste', 'whisk'])
+	lista[n].append(['colar', 'rellenar, mechar', 'espesar', 'recortar', 'desperdiciar', 'batir'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario tragos y bebidas 1'])
+	lista[n].append(['vtyb1'])
+	lista[n].append(['apple juice', 'brown beer', 'can of Coke', 'champagne', 'cider', 'coffe', 'gin', 'hot chocolate'])
+	lista[n].append(['jugo de manzana', 'cerveza negra', 'lata de Coca-Cola', 'champán', 'sidra', 'café', 'ginebra', 'chocolate caliente'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario tragos y bebidas 2'])
+	lista[n].append(['vtyb2'])
+	lista[n].append(['juice', 'lemonade', 'light soda', 'liqueur', 'milkshake', 'orange juice', 'pineapple juice', 'red wine'])
+	lista[n].append(['jugo', 'limonada', 'refresco de dieta', 'licor', 'batido', 'jugo de naranja', 'jugo de piña', 'vino tinto'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario tragos y bebidas 3'])
+	lista[n].append(['ctyb3'])
+	lista[n].append(['rum', 'soda', 'soft drink', 'sparkling water', 'still water', 'tea', 'tomato juice', 'vodka', 'water'])
+	lista[n].append(['ron', 'refresco', 'refresco', 'agua mineral con gas', 'agua mineral sin gas', 'té', 'jugo de tomate', 'vodka', '0'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario tragos y bebidas 4'])
+	lista[n].append(['vtyb4'])
+	lista[n].append(['water', 'whisky', 'white wine', 'wine'])
+	lista[n].append(['agua', 'whisky', 'vino blanco', 'vino'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario peces y mariscos 1'])
+	lista[n].append(['vpym1'])
+	lista[n].append(['clam', 'cockles', 'cod', 'crab', 'eel', 'fried shrimps', 'hake', 'halibut'])
+	lista[n].append(['almeja', 'berbechos', 'bacalao', 'cangrejo de mar', 'anguila', 'gambas fritas', 'merluza', 'mero'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario peces y mariscos 2'])
+	lista[n].append(['vpym2'])
+	lista[n].append(['herring', 'king prawn', 'lobster', 'mackerel', 'marinade', 'mussel', 'octopus', 'oyster'])
+	lista[n].append(['arenque', 'langostino', 'langosta', 'caballa', 'escabeche', 'mejillón', 'pulpo', 'ostra'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario peces y mariscos 3'])
+	lista[n].append(['vpym3'])
+	lista[n].append(['plaice', 'pollack', 'prawns', 'salmon', 'sardines', 'scallop', 'shark', 'shellfish', 'shrimp', 'snail'])
+	lista[n].append(['platija', 'abadejo', 'gambas', 'salmón', 'sardinas', 'vieira', 'tiburón', 'mariscos', 'camarón', 'caracol'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario peces y mariscos 4'])
+	lista[n].append(['vpym4'])
+	lista[n].append(['shrimp', 'snail', 'sole', 'spider crab', 'squid', 'swordfish', 'trout', 'tuna'])
+	lista[n].append(['camarón', 'caracol', 'lenguado', 'centolla', 'calamar', 'pez espada', 'trucha', 'atún'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario comidas 1'])
+	lista[n].append(['vcom1'])
+	lista[n].append(['bacon', 'baked potatoes', 'beef', 'beefsteak', 'blood sausage', 'brains', 'canneloni', 'cheese'])
+	lista[n].append(['tocino', 'papas al hormo', 'carne de vaca', 'bistec', 'morcilla', 'sesos', 'canelones', 'queso'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario comidas 2'])
+	lista[n].append(['vcom2'])
+	lista[n].append(['cheeseburger', 'chicken', 'cold cuts', 'dessert', 'frech fries', 'fried chicken', 'gnocchi', 'ground meat'])
+	lista[n].append(['hamburguesa de queso', 'pollo', 'fiambres', 'postre', 'papas fritas', 'pollo frito', 'ñoquis', 'carne picada'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario comidas 3'])
+	lista[n].append(['vcom3'])
+	lista[n].append(['ham', 'hamburguesa', 'hot dog', 'kidneys', 'lamb', 'lassagne', 'liver', 'macaroni'])
+	lista[n].append(['jamón', 'hamburguer', 'perro caliente', 'riñones', 'cordero', 'lasaña', 'hígado', 'macarrones'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario comidas 4'])
+	lista[n].append(['vcom4'])
+	lista[n].append(['mashed potatoes', 'mayonnaise', 'meatballs', 'noodles', 'omelet', 'pasta', 'pizza', 'pork'])
+	lista[n].append(['puré de papas', 'mayonesa', 'albóndigas', 'tallarines', 'omelet', 'pasta', 'pizza', 'carne de puerco'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario comidas 5'])
+	lista[n].append(['vcom5'])
+	lista[n].append(['pork chops', 'potato chips', 'ravioli', 'ribs', 'roastbeef', 'salad', 'salami', 'sauce'])
+	lista[n].append(['costillas de puerco', 'papas fritas en bolsa', 'ravioles', 'costillas', 'rosbif', 'ensalada', 'salami', 'salsa'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario comidas 6'])
+	lista[n].append(['vcom6'])
+	lista[n].append(['sausage', 'scrambled eggs', 'soup', 'spaghetti', 'steak', 'stew', 'tomato sauce', 'turkey', 'veal', 'vegetables'])
+	lista[n].append(['salchicha, chorizo', 'huevos revueltos', 'sopa', 'espagueti', 'bistéc', 'guiso', 'salsa de tomate', 'pavo', 'carne de ternera', 'verduras'])
+	
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario carnes y aves 1'])
+	lista[n].append(['vcya1'])
+	lista[n].append(['bacon', 'beef', 'beef steak', 'black pudding', 'blood sausage', 'boneless', 'brains', 'breast', 'cheeseburger'])
+	lista[n].append(['tocino', 'carne de vaca', 'bistec', 'morcilla', 'morcilla', 'deshuesado', 'sesos', 'pechuga', 'hamburguesa de queso'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulariocarnes y aves 2'])
+	lista[n].append(['vcya2'])
+	lista[n].append(['breast', 'sheeseburger', 'chicken', 'chop', 'cold meats', 'cooked', 'cutlet', 'fowl'])
+	lista[n].append(['pechuga', 'hamburguesa de queso', 'pollo', 'chuleta', 'fiambres', 'cocida', 'chuleta', 'ave de corral'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario carnes y aves 3'])
+	lista[n].append(['vcya3'])
+	lista[n].append(['game', 'goat', 'gravy', 'grilled', 'ground meat', 'ham', 'hamburger', 'kidneys'])
+	lista[n].append(['animales de caza', 'cabrito', 'jugo de carne', 'a la parrilla', 'carne picada', 'jamón', 'hamburguesa', 'riñones'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append([''])
+	lista[n].append(['vcya4'])
+	lista[n].append(['lamb', 'liver', 'marrow', 'meatballs', 'medium rare', 'mutton', 'pork', 'pork chops'])
+	lista[n].append(['cordero', 'hígado', 'médular', 'albóndigas', 'medio hecho', 'carne de oveja', 'carne de cerdo', 'chuletas de cerdo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario carnes y aves 4'])
+	lista[n].append(['vcya5'])
+	lista[n].append(['pork loin', 'pork sausage', 'poultry', 'rare', 'ribs', 'roast beef', 'roasted', 'salami', 'sausage', 'sirloin steak', 'steak', 'suckling pig'])
+	lista[n].append(['lomo de cerdo', 'chorizo', 'carne de aver', 'poco cocida', 'costillas', 'carne asada', 'asada', 'salami', 'salchicha, chorizo', 'bife de lomo', 'bistéc', 'lechón'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['vocabulario carnes y aves 6'])
+	lista[n].append(['vcya6'])
+	lista[n].append(['sausage', 'sirloin steak', 'steak', 'suckling pig', 'tongue', 'tripe', 'turkeys', 'veal', 'veal steak', 'venison', 'well done'])
+	lista[n].append(['salchica, chorizo', 'bife de lomo', 'bistéc', 'lechón', 'lengua', 'tripas', '....', 'carne de ternera', 'bitéc de ternera', 'carne de venado', 'bien cocida'])
+	n = n+1
+	lista.append([])
 	lista[n].append(['palabras random selección 1'])
 	lista[n].append(['prans1'])
 	lista[n].append(['lots', 'form', 'bottom', 'rocking', 'mid', 'tier', 'way', 'settle'])
@@ -1168,603 +1531,57 @@ def lista():
 
 	n = n+1
 	lista.append([])
-	lista[n].append(['palabras random 1'])
-	lista[n].append(['pran1'])
-	lista[n].append(['be', 'a', 'normal', 'original', 'xbox', "what's", 'it', 'is'])
-	lista[n].append(['ser', 'una', 'normal', 'original', 'xbox', 'que es', 'eso', 'es'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 2'])
-	lista[n].append(['pran2'])
-	lista[n].append(['haha', 'lots', 'of', 'people', 'have', 'done', 'pcs', 'an'])
-	lista[n].append(['jaja', 'un montón', 'de', 'gente', 'tener', 'hecho', 'pcs', 'un'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 3'])
-	lista[n].append(['pran3'])
-	lista[n].append(['chassis', 'being', 'the', 'some', 'project', "we've", 'found', 'compromised'])
-	lista[n].append(['chasis', 'siendo', 'la', 'algunos', 'proyecto', 'hemos', 'encontró', 'comprometida'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 4'])
-	lista[n].append(['pran4'])
-	lista[n].append(['form', 'factor', 'adding', 'space', 'bottom', 'performance', 'with', 'most'])
-	lista[n].append(['formar', 'factor', 'añadiendo', 'espacio', 'fondo', 'actuación', 'con', 'más'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 5'])
-	lista[n].append(['pran5'])
-	lista[n].append(['them', 'rocking', 'mid', 'tier', 'gaming', 'graphics', 'card', 'best'])
-	lista[n].append(['ellos', 'balanceo', 'medio', 'nivel', 'juego de azar', 'gráficos', 'tarjeta', 'mejor'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 6'])
-	lista[n].append(['pran6'])
-	lista[n].append(['compromise', 'not', 'linus', 'tech', 'tips', 'way', 'we', 'will'])
-	lista[n].append(['compromiso', 'no', 'linus', 'tecnología', 'consejos', 'camino', 'nosotros', 'será'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 7'])
-	lista[n].append(['pran7'])
-	lista[n].append(['settle', 'support', 'real-time', 'rate', 'racing', 'fastest', 'getting', "wasn't"])
-	lista[n].append(['resolver', 'apoyo', 'tiempo real', 'tarifa', 'carreras', 'lo más rápido', 'consiguiendo', 'no era'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 8'])
-	lista[n].append(['pran8'])
-	lista[n].append(['though', "let's", 'take', 'look', 'took', 'make', 'our', 'latest'])
-	lista[n].append(['aunque', 'vamos a', 'tomar', 'Mira', 'tomó', 'hacer', 'nuestro', 'último'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 9'])
-	lista[n].append(['pran9'])
-	lista[n].append(['sleeper', 'pc', 'patrice', 'brought', 'you', 'sponsor', 'madrenas', 'coffee'])
-	lista[n].append(['durmiente', 'ordenador personal', 'patrice', 'trajo', 'tú', 'patrocinador', 'madrenas', 'café'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 10'])
-	lista[n].append(['pran10'])
-	lista[n].append(['blend', 'specialty', 'brew', 'xin', '215', 'ounce', 'grab-and-go', 'cans'])
-	lista[n].append(['mezcla', 'especialidad', 'elaborar cerveza', 'xin', '215', 'onza', 'agarra y vete', 'latas'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 11'])
-	lista[n].append(['pran11'])
-	lista[n].append(["everyone's", 'convenience', 'check', 'use', 'code', 'save', '40%', "we'll"])
-	lista[n].append(['todos son', 'conveniencia', 'comprobar', 'utilizar', 'código', 'salvar', '40%', 'bien'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 12'])
-	lista[n].append(['pran12'])
-	lista[n].append(['linked', 'thing', 'need', 'do', 'sure', 'fits', 'g-force', 'tx'])
-	lista[n].append(['vinculado', 'cosa', 'necesitar', 'hacer', 'Por supuesto', 'encaja', 'fuerza g', 'tx'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 13'])
-	lista[n].append(['pran13'])
-	lista[n].append(['2070', 'zotac', 'i', 'did', 'cad', 'theory', 'think', 'three'])
-	lista[n].append(['2070', 'zotac', 'yo', 'hizo', 'canalla', 'teoría', 'pensar', 'Tres'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 14'])
-	lista[n].append(['pran14'])
-	lista[n].append(['millimeters', 'side', 'wow', "that's", 'screw', 'freaking', 'got', 'non'])
-	lista[n].append(['milimetros', 'lado', 'Guau', 'eso es', 'tornillo', 'enloqueciendo', 'tiene', 'no'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 15'])
-	lista[n].append(['pran15'])
-	lista[n].append(['working', 'condition', 'ten', 'dollars', "don't", 'stress', 'us', 'destroying'])
-	lista[n].append(['trabajando', 'condición', 'diez', 'dolares', 'no hacer', 'estrés', 'nosotros', 'destruyendo'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 16'])
-	lista[n].append(['pran16'])
-	lista[n].append(['vintage', 'hardware', 'assembly', 'was', "you'd", 'one', 'basically', 'computer'])
-	lista[n].append(['vendimia', 'hardware', 'montaje', 'estaba', 'usted', 'uno', 'básicamente', 'computadora'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 17'])
-	lista[n].append(['pran17'])
-	lista[n].append(['majority', 'internal', 'used', 'disc', 'reader', 'mechanical', 'drive', "won't"])
-	lista[n].append(['mayoria', 'interno', 'usado', 'Dto', 'lector', 'mecánico', 'conducir', 'no lo hará'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 18'])
-	lista[n].append(['pran18'])
-	lista[n].append(['meeting', 'anymore', 'test', 'using', 'zoet', 'acts', 'epic', 'mini'])
-	lista[n].append(['reunión', 'nunca más', 'prueba', 'utilizando', 'zoet', 'hechos', 'épico', 'mini'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 19'])
-	lista[n].append(['pran19'])
-	lista[n].append(['cards', 'case', 'rt', 'x', '27', 't', 'core', 'i5'])
-	lista[n].append(['tarjetas', 'caso', 'rt', 'X', '27', 't', 'núcleo', 'i5'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 20'])
-	lista[n].append(['pran20'])
-	lista[n].append(['8400', 'six', 'cpu', 'compared', 'sleepers', "patrice's", "isn't", 'over-the-top'])
-	lista[n].append(['8400', 'seis', 'UPC', 'comparado', 'traviesas', 'de patrice', 'no es', 'sobre la parte superior'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 21'])
-	lista[n].append(['pran21'])
-	lista[n].append(["we're", 'passively', 'cooled', 'hd', 'plex', 'power', 'supply', 'wanted'])
-	lista[n].append(['fueron', 'pasivamente', 'enfriado', 'hd', 'plex', 'poder', 'suministro', 'querido'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 22'])
-	lista[n].append(['pran22'])
-	lista[n].append(['budget', 'possible', 'figured', 'chances', 'are', 'anything', 'powerful', 'would'])
-	lista[n].append(['presupuesto', 'posible', 'figurado', 'posibilidades', 'son', 'cualquier cosa', 'poderoso', 'haría'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 23'])
-	lista[n].append(['pran23'])
-	lista[n].append(['thermal', 'throttled', 'anyway', 'seems', 'works', 'together', 'importantly', 'actually'])
-	lista[n].append(['térmico', 'estrangulado', 'de todas formas', 'parece', 'trabajos', 'juntos', 'en tono rimbombante', 'actualmente'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 24'])
-	lista[n].append(['pran24'])
-	lista[n].append(['able', 'mind', 'mess', 'stage', 'testing', 'purposes', "i'm", 'pins'])
-	lista[n].append(['poder', 'mente', 'lío', 'escenario', 'pruebas', 'fines', 'soy', 'patas'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 25'])
-	lista[n].append(['pran25'])
-	lista[n].append(['no', 'hello', 'yeah', "it's", 'passed', 'number', 'get', 'monitor'])
-	lista[n].append(['no', 'Hola', 'sí', 'sus', 'pasado', 'número', 'obtener', 'monitor'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 26'])
-	lista[n].append(['pran26'])
-	lista[n].append(['keyboard', 'run', 'windows', 'crap', 'problem', "everything's", 'kind', 'expected'])
-	lista[n].append(['teclado', 'correr', 'ventanas', 'mierda', 'problema', 'todo es', 'tipo', 'esperado'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 27'])
-	lista[n].append(['pran27'])
-	lista[n].append(['real', 'when', 'hit', 'start', 'shut', 'does', 'gonna', 'rethink'])
-	lista[n].append(['real', 'cuando', 'golpear', 'comienzo', 'cerrar', 'hace', 'va a', 'repensar'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 28'])
-	lista[n].append(['pran28'])
-	lista[n].append(['whole', 'how', 'stuff', 'want', 'discuss', 'poorly', 'two', 'things'])
-	lista[n].append(['todo', 'cómo', 'cosas', 'querer', 'discutir', 'mal', 'dos', 'cosas'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 29'])
-	lista[n].append(['pran29'])
-	lista[n].append(["there's", 'okay', 'bring', 'cars', 'mme', 'bone', 'stock', 'head'])
-	lista[n].append(['hay', 'bueno', 'traer', 'coches', 'mme', 'hueso', 'valores', 'cabeza'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 30'])
-	lista[n].append(['pran30'])
-	lista[n].append(['turning', 'any', 'rule', 'says', 'they', 'gorgeous', 'guess', 'know'])
-	lista[n].append(['torneado', 'alguna', 'regla', 'dice', 'ellos', 'maravilloso', 'adivinar', 'saber'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 31'])
-	lista[n].append(['pran31'])
-	lista[n].append(["you're", 'ventilation', 'holes', 'achieve', 'bit', 'shroud', 'fact', 'remove'])
-	lista[n].append(['tu eres', 'ventilación', 'agujeros', 'lograr', 'poco', 'sudario', 'hecho', 'retirar'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 32'])
-	lista[n].append(['pran32'])
-	lista[n].append(['move', 'mean', 'go', 'perforation', "shouldn't", 'overheat', 'perfect', 'her'])
-	lista[n].append(['movimiento', 'media', 'ir', 'perforación', 'no debería', 'sobrecalentar', 'Perfecto', 'su'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 33'])
-	lista[n].append(['pran33'])
-	lista[n].append(['act', 'cuz', 'perf', 'eight', 'my', 'cue', 'exit', 'goodbye'])
-	lista[n].append(['acto', 'porque', 'perf', 'ocho', 'mi', 'señal', 'salida', 'adiós'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 34'])
-	lista[n].append(['pran34'])
-	lista[n].append(['methods', 'c', 'seeing', 'end', 'mill', 'double-sided', 'tape', "doesn't"])
-	lista[n].append(['metodos', 'do', 'viendo', 'fin', 'molino', 'doble cara', 'cinta', 'no hace'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 35'])
-	lista[n].append(['pran35'])
-	lista[n].append(['gum', 'giving', 'mounting', 'points', 'metal', 'camera', 'prototype', 'bend'])
-	lista[n].append(['goma', 'dando', 'montaje', 'puntos', 'metal', 'cámara', 'prototipo', 'curva'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 36'])
-	lista[n].append(['pran36'])
-	lista[n].append(['vice', 'break', 'solution', 'credit', 'going', 'come', 'oh', 'supposed'])
-	lista[n].append(['vicio', 'descanso', 'solución', 'crédito', 'yendo', 'ven', 'Oh', 'supuesto'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 37'])
-	lista[n].append(['pran37'])
-	lista[n].append(['why', 'guys', 'ah', '800', 'bucks', 'expecting', 'exchange', 'based'])
-	lista[n].append(['por qué', 'chicos', 'ah', '800', 'dólares', 'esperando', 'intercambiar', 'basado'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 38'])
-	lista[n].append(['pran38'])
-	lista[n].append(['weight', 'sale', 'deal', 'buy', 'thousand', 'dollar', 'work', 'alex'])
-	lista[n].append(['peso', 'venta', 'acuerdo', 'comprar', 'mil', 'dólar', 'trabajo', 'alex'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 39'])
-	lista[n].append(['pran39'])
-	lista[n].append(['fun', 'wait', 'countertop', 'unusable', 'weeks', 'months', 'signed', 'um'])
-	lista[n].append(['divertido', 'Espere', 'mostrador', 'inutilizable', 'semanas', 'meses', 'firmado', 'um'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 40'])
-	lista[n].append(['pran40'])
-	lista[n].append(['said', 'care', 'actual', 'quote', 'alright', 'hold', 'coolest', 'toys'])
-	lista[n].append(['dijo', 'cuidado', 'real', 'citar', 'bien', 'sostener', 'más cool', 'juguetes'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 41'])
-	lista[n].append(['pran41'])
-	lista[n].append(['brandon', 'also', 'gets', "one's", 'cooler', 'pick', 'angle', 'your'])
-	lista[n].append(['Brandon', 'además', 'consigue', 'de uno', 'enfriador', 'recoger', 'ángulo', 'tu'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 42'])
-	lista[n].append(['pran42'])
-	lista[n].append(['eyeball', 'immolate', 'unlock', 'uh', 'boom', 'bent', 'boy', 'bending'])
-	lista[n].append(['globo del ojo', 'inmolar', 'desbloquear', 'uh', 'auge', 'doblado', 'niño', 'doblado'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 43'])
-	lista[n].append(['pran43'])
-	lista[n].append(['sheet', 'layout', 'dye', 'lets', 'dries', 'scribe', 'directly', 'super'])
-	lista[n].append(['hoja', 'diseño', 'colorante', 'deja', 'se seca', 'escriba', 'directamente', 'súper'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 44'])
-	lista[n].append(['pran44'])
-	lista[n].append(['contrast', 'precise', 'line', 'plan', 'tells', "i've", 'numbered', 'say'])
-	lista[n].append(['contraste', 'preciso', 'línea', 'plan', 'dice', 'he', 'numerado', 'decir'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 45'])
-	lista[n].append(['pran45'])
-	lista[n].append(['complete', 'rest', 'goes', 'part', 'designed', 'couple', 'bends', 'were'])
-	lista[n].append(['completar', 'descanso', 'va', 'parte', 'diseñado', 'Pareja', 'enfermedad de buzo', 'fueron'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 46'])
-	lista[n].append(['pran46'])
-	lista[n].append(['vitu', 'critical', 'dimensions', 'correct', 'miles', 'previous', 'success', 'next'])
-	lista[n].append(['vitu', 'crítico', 'dimensiones', 'correcto', 'millas', 'anterior', 'éxito', 'siguiente'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 47'])
-	lista[n].append(['pran47'])
-	lista[n].append(['step', 'worry', 'mr.', 'point', 'confirmed', 'fans', 'removed', 'while'])
-	lista[n].append(['paso', 'preocupación', 'señor.', 'punto', 'confirmado', 'aficionados', 'remoto', 'mientras'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 48'])
-	lista[n].append(['pran48'])
-	lista[n].append(['he', 'replaced', 'paste', 'ott', 'help', 'comes', 'cooling', 'replacement'])
-	lista[n].append(['él', 'reemplazado', 'pegar', 'ott', 'ayuda', 'viene', 'enfriamiento', 'reemplazo'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 49'])
-	lista[n].append(['pran49'])
-	lista[n].append(['liner', 'prepared', 'forcibly', 'needs', 'dremel', 'glove', 'motherboard', 'gpu'])
-	lista[n].append(['transatlántico', 'preparado', 'a la fuerza', 'necesariamente', 'dremel', 'guante', 'tarjeta madre', 'gpu'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 50'])
-	lista[n].append(['pran50'])
-	lista[n].append(['return', "can't", 'tell', 'geez', 'bulk', 'cutting', 'disk', 'grinding'])
-	lista[n].append(['regreso', 'hipocresía', 'contar', 'caray', 'abultar', 'corte', 'disco', 'molienda'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 51'])
-	lista[n].append(['pran51'])
-	lista[n].append(['finishing', 'file', 'nice', 'squeamish', 'unfortunately', 'interferes', 'where', 'connector'])
-	lista[n].append(['refinamiento', 'expediente', 'agradable', 'delicado', 'Desafortunadamente', 'interfiere', 'dónde', 'conector'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 52'])
-	lista[n].append(['pran52'])
-	lista[n].append(['recommend', 'doing', 'dvi', 'list', 'blown', 'compressed', 'air', 'ensure'])
-	lista[n].append(['recomendar', 'obra', 'dvi', 'lista', 'estropeado', 'comprimido', 'aire', 'asegurar'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 53'])
-	lista[n].append(['pran53'])
-	lista[n].append(['shards', 'shorted', 'taped', 'reassembled', 'carnage', 'i/o', 'size', 'needed'])
-	lista[n].append(['fragmentos', 'en corto', 'grabado', 'reensamblado', 'carnicería', 'yo / o', 'tamaño', 'necesario'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 54'])
-	lista[n].append(['pran54'])
-	lista[n].append(['fan', 'intake', 'hole', 'added', 'time', 'forgot', 'interior', 'ready'])
-	lista[n].append(['ventilador', 'consumo', 'agujero', 'adicional', 'hora', 'olvidó', 'interior', 'Listo'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 55'])
-	lista[n].append(['pran55'])
-	lista[n].append(['riveted', 'final', 'product', 'covering', 'acetone', 'given', 'coat', 'paint'])
-	lista[n].append(['remachado', 'final', 'producto', 'cubierta', 'acetona', 'dado', 'capa', 'pintar'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 56'])
-	lista[n].append(['pran56'])
-	lista[n].append(['dried', 'created', 'smaller', 'ones', 'zip', 'ties', 'fitting', 'purpose-built'])
-	lista[n].append(['seco', 'creado', 'menor', 'unos', 'cremallera', 'corbatas', 'adecuado', 'construido especialmente'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 57'])
-	lista[n].append(['pran57'])
-	lista[n].append(['parts', 'machine', 'its', 'story', 'lo', 'behold', 'showing', 'worked'])
-	lista[n].append(['partes', 'máquina', 'sus', 'historia', 'lo', 'Mirad', 'demostración', 'trabajó'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 58'])
-	lista[n].append(['pran58'])
-	lista[n].append(['honestly', "i'd", 'least', 'kajigger', 'ring', 'damn', 'button', "didn't"])
-	lista[n].append(['honestamente', 'carné de identidad', 'menos', 'kajigger', 'anillo', 'Maldita sea', 'botón', 'no'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 59'])
-	lista[n].append(['pran59'])
-	lista[n].append(['dialed', 'full-blown', 'sleep', 'kabam', 'enjoying', 'especially', "wouldn't", 'describe'])
-	lista[n].append(['marcado', 'en toda regla', 'dormir', 'kabam', 'disfrutando', 'especialmente', 'no lo haría', 'describir'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 60'])
-	lista[n].append(['pran60'])
-	lista[n].append(['exhaust', 'system', "you've", 'built', 'seem', 'coming', 'see', 'hundred'])
-	lista[n].append(['escape', 'sistema', 'tienes', 'construido', 'parecer', 'viniendo', 'ver', 'cien'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 61'])
-	lista[n].append(['pran61'])
-	lista[n].append(['thirty-two', '160', 'fps', 'glory', 'kid', '84', 'degrees', '96'])
-	lista[n].append(['treinta y dos', '160', 'fps', 'gloria', 'niño', '84', 'grados', '96'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 62'])
-	lista[n].append(['pran62'])
-	lista[n].append(['percent', 'usage', '1413', '14', 'lows', 'radar', 'base', 'hook'])
-	lista[n].append(['por ciento', 'uso', '1413', '14', 'bajos', 'Radar', 'base', 'gancho'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 63'])
-	lista[n].append(['pran63'])
-	lista[n].append(['vs', 'x-box', 'apparently', 'runs', '60fps', 'compromises', 'making', 'rx'])
-	lista[n].append(['vs', 'x-box', 'aparentemente', 'carreras', '60 fps', 'compromisos', 'fabricación', 'rx'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 64'])
-	lista[n].append(['pran64'])
-	lista[n].append(['480', 'fine', '1x', 'higher', 'frame', 'buggy', 'version', 'field'])
-	lista[n].append(['480', 'multa', '1x', 'mayor', 'cuadro', 'calesa', 'versión', 'campo'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 65'])
-	lista[n].append(['pran65'])
-	lista[n].append(['four', 'trees', 'god', 'overpowered', 'local', 'multiplayer', 'saying', 'put'])
-	lista[n].append(['cuatro', 'arboles', 'Dios', 'dominado', 'local', 'multijugador', 'diciendo', 'poner'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 66'])
-	lista[n].append(['pran66'])
-	lista[n].append(['meant', 'hand', 'watch', 'slide', 'yep', 'saved', "they're", 'find'])
-	lista[n].append(['significaba', 'mano', 'reloj', 'diapositiva', 'Sí', 'salvado', 'ellos son', 'encontrar'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 67'])
-	lista[n].append(['pran67'])
-	lista[n].append(['ball', 'idea', 'quit', 'won', 'set', 'aspect', 'plug', 'wired'])
-	lista[n].append(['bola', 'idea', 'dejar', 'won', 'conjunto', 'aspecto', 'enchufe', 'cableado'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 68'])
-	lista[n].append(['pran68'])
-	lista[n].append(['controllers', 'front', 'wireless', 'controller', 'wants', 'ps4', 'whatever', 'wire'])
-	lista[n].append(['controladores', 'frente', 'inalámbrico', 'controlador', 'quiere', 'ps4', 'lo que sea', 'cable'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 69'])
-	lista[n].append(['pran69'])
-	lista[n].append(['awesome', 'stealth', 'terabyte', 'storage', 'm2', 'boot', 'suspect', 'larger'])
-	lista[n].append(['increíble', 'sigilo', 'terabyte', 'almacenamiento', 'm2', 'bota', 'sospechar', 'mas grande'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 70'])
-	lista[n].append(['pran70'])
-	lista[n].append(['game', 'library', 'worst', 'scenario', 'grab', 'external', 'port', 'usb'])
-	lista[n].append(['juego', 'biblioteca', 'peor', 'guión', 'agarrar', 'externo', 'Puerto', 'USB'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 71'])
-	lista[n].append(['pran71'])
-	lista[n].append(['3', 'resolution', 'bet', 'try', 'rocket', 'league', "it'll", 'great'])
-	lista[n].append(['3', 'resolución', 'apuesta', 'tratar', 'cohete', 'liga', 'va a', 'genial'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 72'])
-	lista[n].append(['pran72'])
-	lista[n].append(['sales', 'pitch', 'config', 'has', 'obvious', 'doubt', 'heck', 'console'])
-	lista[n].append(['ventas', 'tono', 'configuración', 'tiene', 'obvio', 'duda', 'infierno', 'consola'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 73'])
-	lista[n].append(['pran73'])
-	lista[n].append(['experience', '3840', '2160', 'fullscreen', 'else', 'looks', 'piece', 'parameters'])
-	lista[n].append(['experiencia', '3840', '2160', 'pantalla completa', 'más', 'miradas', 'trozo', 'parámetros'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 74'])
-	lista[n].append(['pran74'])
-	lista[n].append(['bed', 'missed', 'tonight', 'dammit', 'necessary', 'yes', 'campaign', 'understand'])
-	lista[n].append(['cama', 'perdido', 'esta noche', 'maldito', 'necesario', 'sí', 'Campaña', 'entender'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 75'])
-	lista[n].append(['pran75'])
-	lista[n].append(['weapon', 'had', 'flamethrower', 'cleo', 'pete', 'difference', 'kill', 'me'])
-	lista[n].append(['arma', 'tenía', 'echador de llama', 'cleo', 'Pete', 'diferencia', 'matar', 'yo'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 76'])
-	lista[n].append(['pran76'])
-	lista[n].append(['guy', 'killed', 'macgyver', 'throws', 'dynamite', "world's", 'microsoft', 'anomalies'])
-	lista[n].append(['chico', 'delicado', 'macgyver', 'arroja', 'dinamitar', 'mundo', 'microsoft', 'anomalías'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 77'])
-	lista[n].append(['pran77'])
-	lista[n].append(['forza', 'stack', 'deck', 'their', 'favor', 'left', "today's", 'video'])
-	lista[n].append(['Forza', 'apilar', 'cubierta', 'su', 'favor', 'izquierda', 'de hoy', 'vídeo'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 78'])
-	lista[n].append(['pran78'])
-	lista[n].append(['sponsored', 'freshbooks', 'business', 'accounting', 'software', 'custom-built', 'productive', 'organized'])
-	lista[n].append(['patrocinado', 'libros nuevos', 'negocio', 'contabilidad', 'software', 'hecho a medida', 'productivo', 'organizado'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 79'])
-	lista[n].append(['pran79'])
-	lista[n].append(['paid', 'faster', 'freelancer', 'self-employed', 'create', 'send', '30', 'seconds'])
-	lista[n].append(['pagado', 'Más rápido', 'persona de libre dedicación', 'Trabajadores por cuenta propia', 'crear', 'enviar', '30', 'segundos'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 80'])
-	lista[n].append(['pran80'])
-	lista[n].append(['online', 'payments', 'clicks', 'days', 'client', 'seen', 'invoice', 'guessing'])
-	lista[n].append(['en línea', 'pagos', 'clics', 'dias', 'cliente', 'visto', 'factura', 'adivinación'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 81'])
-	lista[n].append(['pran81'])
-	lista[n].append(['games', 'fully', 'featured', 'apps', 'android', 'ios', 'word', 'books'])
-	lista[n].append(['juegos', 'completamente', 'destacado', 'aplicaciones', 'androide', 'ios', 'palabra', 'libros'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 82'])
-	lista[n].append(['pran82'])
-	lista[n].append(['unrestricted', '30-day', 'free', 'trial', 'slash', 'enter', 'hear', 'section'])
-	lista[n].append(['irrestricto', '30 días', 'gratis', 'juicio', 'barra oblicua', 'entrar', 'oír', 'sección'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 83'])
-	lista[n].append(['pran83'])
-	lista[n].append(['thanks', 'watching', 'disliked', 'liked', 'sheer', 'awesomeness', 'checking', 'link'])
-	lista[n].append(['Gracias', 'acecho', 'no me gustó', 'gustó', 'escarpado', 'genialidad', 'comprobación', 'enlazar'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['palabras random 84'])
-	lista[n].append(['pran84'])
-	lista[n].append(['description', 'specifically', 'compact', 'kinds', 'merch', 'store', 'shirts', 'brofist'])
-	lista[n].append(['descripción', 'específicamente', 'compacto', 'clases', 'mercadería', 'almacenar', 'camisas', 'brofista'])
-
-	n = n+1
-	lista.append([])
 	lista[n].append(['palabras random selección 8'])
 	lista[n].append(['prans8'])
-	lista[n].append(['previous', 'while', 'geez', 'bulk', 'grinding', 'squeamish', 'unfortunately', 'interferes'])
-	lista[n].append(['anterior', 'mientras', 'caray', 'abultar', 'molienda', 'delicado', 'Desafortunadamente', 'interfiere'])
+	lista[n].append(['intake', 'riveted', 'covering', 'acetone', 'way', 'zip', 'behold', 'showing'])
+	lista[n].append(['consumo', 'remachado', 'cubierta', 'acetona', 'camino', 'cremallera', 'Mirad', 'demostración'])
 
 	n = n+1
 	lista.append([])
 	lista[n].append(['palabras random selección 9'])
 	lista[n].append(['prans9'])
+	lista[n].append(['damn', 'dialed', 'exhaust', 'hook', 'fine', 'frame', 'buggy', 'field'])
+	lista[n].append(['Maldita sea', 'marcado', 'escape', 'gancho', 'multa', 'cuadro', 'calesa', 'campo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras random selección 10'])
+	lista[n].append(['prans10'])
+	lista[n].append(['overpowered', 'slide', 'quit', 'set', 'plug', 'wired', 'wireless', 'whatever'])
+	lista[n].append(['dominado', 'diapositiva', 'dejar', 'conjunto', 'enchufe', 'cableado', 'inalámbrico', 'lo que sea'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras random selección 11'])
+	lista[n].append(['prans11'])
+	lista[n].append(['wire', 'awesome', 'stealth', 'storage', 'suspect', 'grab', 'port', 'bet'])
+	lista[n].append(['cable', 'increíble', 'sigilo', 'almacenamiento', 'sospechar', 'agarrar', 'Puerto', 'apuesta'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras random selección 12'])
+	lista[n].append(['prans12'])
+	lista[n].append(['league', 'sales', 'pitch', 'doubt', 'heck', 'fullscreen', 'piece', 'tonight'])
+	lista[n].append(['liga', 'ventas', 'tono', 'duda', 'infierno', 'pantalla completa', 'trozo', 'esta noche'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras random selección 13'])
+	lista[n].append(['prans13'])
+	lista[n].append(['campaign', 'stack', 'invoice', 'featured', 'sheer', 'awesomeness', 'merch', 'store'])
+	lista[n].append(['Campaña', 'apilar', 'factura', 'destacado', 'escarpado', 'genialidad', 'mercadería', 'almacenar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras random selección 14'])
+	lista[n].append(['prans14'])
+	lista[n].append(['previous', 'while', 'geez', 'bulk', 'grinding', 'squeamish', 'unfortunately', 'interferes'])
+	lista[n].append(['anterior', 'mientras', 'caray', 'abultar', 'molienda', 'delicado', 'Desafortunadamente', 'interfiere'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['palabras random selección 15'])
+	lista[n].append(['prans15'])
 	lista[n].append(['connector', 'blown', 'ensure', 'shards', 'shorted', 'taped', 'carnage'])
 	lista[n].append(['conector', 'estropeado', 'asegurar', 'fragmentos', 'en corto', 'grabado', 'carnicería'])
 
