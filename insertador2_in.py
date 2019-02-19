@@ -5,9 +5,9 @@ n = 0
 exit = ''
 while exit == '':
 
+	print('Para salir ingrese un número cuando se pide un elemento')
 	nombre = input('Ingrese nombre de la lista: ')
 	identificador = input('Ingrese identificador de la lista: ')
-	num = int(input('Ingrese número de elementos de la lista: '))
 
 	lista.append([])
 	lista[n].append([nombre])
@@ -16,12 +16,23 @@ while exit == '':
 	lista[n].append([])
 
 	salir = 'n'
-	for x in range(num):
-		uno = input(f'\nInglés.  Ingrese elemento {x+1}: ')
-		dos = input(f'Español. Ingrese elemento {x+1}: ')
+	uno = 1
+	x = 1
 
-		lista[n][2].append(uno)
-		lista[n][3].append(dos)
+	while uno != -1:
+		uno = input(f'\nInglés.  Ingrese elemento {x}: ')
+		dos = input(f'Español. Ingrese elemento {x}: ')
+
+		try:
+			int(uno)
+			uno = -1
+			int(dos)
+			uno = -1
+		except:
+			lista[n][2].append(uno)
+			lista[n][3].append(dos)
+
+			x = x+1
 
 	n = n+1
 
