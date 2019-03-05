@@ -15,24 +15,27 @@ while exit == '':
 	lista[n].append([])
 	lista[n].append([])
 
-	salir = 'n'
 	uno = 1
 	x = 1
 
 	while uno != -1:
-		uno = input(f'\nInglés.  Ingrese elemento {x}: ')
-		dos = input(f'Español. Ingrese elemento {x}: ')
 
 		try:
+			uno = input(f'\nInglés.  Ingrese elemento {x}: ')
 			int(uno)
-			uno = -1
-			int(dos)
-			uno = -1
 		except:
-			lista[n][2].append(uno)
-			lista[n][3].append(dos)
+			try:
+				dos = input(f'Español. Ingrese elemento {x}: ')
+				int(dos)
+			except:
+				lista[n][2].append(uno)
+				lista[n][3].append(dos)
 
-			x = x+1
+				x = x+1
+			else:
+				uno = -1
+		else:
+			uno = -1
 
 	n = n+1
 
