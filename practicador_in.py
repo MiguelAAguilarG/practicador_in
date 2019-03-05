@@ -42,7 +42,7 @@ def verificador_traductor(lista_del_verificador_traductor, forma, etapa_2, lista
 
 	print('--{}---'.format(variable))
 
-	insercion = input('Traducción: \n').lower()
+	insercion = input('Traducción: \n')
 	insertado = insercion
 	insercion = insercion.split(',')
 
@@ -94,7 +94,7 @@ def verificador_traductor(lista_del_verificador_traductor, forma, etapa_2, lista
 			print('MAL')
 		print('*****************')
 
-		insercion = input('palabra/frase: \n').lower()
+		insercion = input('palabra/frase: \n')
 		insercion = insercion.split(',')
 
 		for i,x in enumerate(insercion):
