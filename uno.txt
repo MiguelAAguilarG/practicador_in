@@ -1,0 +1,57 @@
+City Parts - Partes de la ciudad
+Shops & Stores - Tiendas y comercios
+
+Health Problems - Problemas de salud y enfermedades
+Medicines & Remedies - Medicinas y remedios
+The Hospital - El hospital
+The Human Body - El Cuerpo humano
+
+Parts of the House - Partes de la casa
+The Baby Room - El cuarto del bebé
+The Bathroom - El baño
+The Bedroom - El dormitorio
+The Dining Room - El comedor
+The Garden - El jardín
+The Kitchen - La cocina
+The Living Room - La sala
+The Utility Room - El cuarto de servicio
+The Workshop - Taller y herramientas
+
+Flowers - Las flores
+Geography - Geografía
+Plants & Trees - Plantas y árboles
+The Universe - El universo y el cosmos
+The Weather - El tiempo
+
+Family & Relatives - Familia y parientes
+Jobs & Professions - Trabajos y profesiones
+Feelings & Emotions - Sentimientos y emociones
+Moods - Estados de ánimo
+Men's Clothing - Ropa de hombre
+Women's Clothing - Ropa de mujer
+Personality (Positive traits)- Personalidad (rasgos positivos)
+Personality (Negative traits) - Personalidad (rasgos negativos)
+
+Countries - Países
+Crimes & Justice - Delitos y justicia
+Military & War - Militares y guerra
+Weapons - Armas
+Nationalities - Nacionalidades
+Politics & Government - Política y gobierno
+Religion - Religión
+School & Education - Escuela y educación
+
+Colors & Patterns - Colores y patrones
+Containers & Quantities - Envases y cantidades
+Materials & Fabrics - Materiales y telas
+Shapes & Textures - Formas y texturas
+
+Calendar & Time - Calendario y tiempo
+Points in Time - Puntos en el tiempo
+
+Airport & Planes - Aeropuerto y aviones
+Means of Transport - Medios de transporte
+The Car - El automóvil
+The Bicycle - La bicicleta
+Vessels - Las embarcaciones
+The Boat - El barco
