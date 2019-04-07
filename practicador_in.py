@@ -4,10 +4,9 @@ import lista
 
 lista = lista.lista() #Se carga la lista general, se usa en la función 'constructor'
 lista_de_repeticion = [] #Lista auxiliar para la función 'constructor'
-rango = 5 #Número de las ultimas sub-listas que se imprimirán al iniciar el programa
 
 def constructor(lista_del_constructor,lista_de_repeticion_del_constructor,limpia_del_constructor):
-	'''Los palabras de las listas se dan a traducir de forma aleatoria, sin repetir ninguna palabra, hasta que se haya completado la lista,
+	'''Los palabras de las listas se dan a traducir de forma_traducir aleatoria, sin repetir ninguna palabra, hasta que se haya completado la lista,
 	cuentan las traducciones erroneas
 
 	Esta función hace posible esto
@@ -28,19 +27,19 @@ def constructor(lista_del_constructor,lista_de_repeticion_del_constructor,limpia
 
 	return r, lista_del_constructor[r], lista_de_repeticion_del_constructor
 
-def verificador_traductor(lista_del_verificador_traductor, forma, etapa_2, lista_de_repeticion_del_verificador_traductor, c1, e1, c2, e2, limpia_ingresada_del_verificador_traductor = True):
+def verificador_traductor(lista_del_verificador_traductor, verificar_elementos, forma_traducir, ingresar_mismo_elemento, lista_de_repeticion_del_verificador_traductor, c1, e1, c2, e2, limpia_ingresada_del_verificador_traductor = True):
 	'''Se verifica la validez de la traduccíón según condiciones elegidas por el usuario'''
 
-	if forma == '2':
+	if forma_traducir == '2':
 		lista1 = lista_del_verificador_traductor[3]
 		lista2 = lista_del_verificador_traductor[2]
-	else:
+	if forma_traducir == '1':
 		lista1 = lista_del_verificador_traductor[2]
 		lista2 = lista_del_verificador_traductor[3]
 
 	indice, variable, lista_de_repeticion_del_constructor = constructor(lista1, lista_de_repeticion_del_verificador_traductor, limpia_ingresada_del_verificador_traductor)
 
-	print('--{}---'.format(variable))
+	print(f'--{variable}---')
 
 	insercion = input('Traducción: \n')
 	insertado = insercion
@@ -62,23 +61,25 @@ def verificador_traductor(lista_del_verificador_traductor, forma, etapa_2, lista
 
 	print(lista2[indice].strip(' '))
 
-	if dificultad == 'd':
-		if not traduccion_aux[-1].find('-') == -1:
-			definiciones = len(traduccion_aux)-1
-		else:
-			definiciones = len(traduccion_aux)
+	if not traduccion_aux[-1].find('-') == -1:
+		definiciones = len(traduccion_aux)-1
 	else:
-		definiciones = 1
+		definiciones = len(traduccion_aux)
 
-	if traduccion >= definiciones:
+	if verificar_elementos >= definiciones:
+		numero_elementos_contar = definiciones
+	else:
+		numero_elementos_contar = verificar_elementos
+
+	if traduccion >= numero_elementos_contar:
 		print('BIEN')
 		c1 = c1 + 1
 	else:
 		print('MAL')
 		e1 = e1 + 1
 
-	if not etapa_2 == 'n':
-		if forma == '2':
+	if ingresar_mismo_elemento == 's':
+		if forma_traducir == '2':
 			lista1 = lista_del_verificador_traductor[2]
 			lista2 = lista_del_verificador_traductor[3]
 		else:
@@ -113,15 +114,17 @@ def verificador_traductor(lista_del_verificador_traductor, forma, etapa_2, lista
 
 		print(lista2[indice].strip(' '))
 
-		if dificultad == 'd':
-			if not traduccion_aux[-1].find('-') == -1:
-				definiciones = len(traduccion_aux)-1
-			else:
-				definiciones = len(traduccion_aux)
+		if not traduccion_aux[-1].find('-') == -1:
+			definiciones = len(traduccion_aux)-1
 		else:
-			definiciones = 1
+			definiciones = len(traduccion_aux)
 
-		if traduccion >= definiciones:
+		if verificar_elementos >= definiciones:
+			numero_elementos_contar = definiciones
+		else:
+			numero_elementos_contar = verificar_elementos
+
+		if traduccion >= numero_elementos_contar:
 			print('BIEN')
 			c2 = c2 + 1
 		else:
@@ -130,17 +133,18 @@ def verificador_traductor(lista_del_verificador_traductor, forma, etapa_2, lista
 
 	return c1, e1, c2, e2, lista_de_repeticion_del_constructor
 
-def impresor1(rango = rango, lista = lista):
+def impresor1(limite_inf_rango, limite_sup_rango, lista = lista):
 	'''Imprime todas las listas que posee el programa'''
 	descripcion_listas = ['lista','idenficador','inglés','español']
 
+	ss1 = ''
 	for x in range(len(lista)):#listas
-		if rango >= (len(lista)-x):
-			print(f'---{x+1}---')
-			print(f'-----<{descripcion_listas[0]}>')
-			print(f'--1-. {lista[x][0][0]}')
-			print(f'-----<{descripcion_listas[1]}>')
-			print(f'--1-. {lista[x][1][0]}')
+		if limite_inf_rango-1 <= x and limite_sup_rango-1 >= x:
+			s1 = f'---{x+1}---'
+			s2 = f'\n-----<{descripcion_listas[0]}>'
+			s3 = f'\n--1-. {lista[x][0][0]}'
+			s4 = f'\n-----<{descripcion_listas[1]}>'
+			s5 = f'\n--1-. {lista[x][1][0]}'
 
 			a = []
 			for y in range(len(lista[x])):#sublistas
@@ -160,14 +164,16 @@ def impresor1(rango = rango, lista = lista):
 
 			b = descripcion_listas[2]+'>'
 			c = descripcion_listas[3]+'>'
-			print(f'{"":-<{5}}<{b:-<{a[2]+2}}<{c: <{a[3]+2}}', end = '')
+			s6 = f'\n{"":-<{5}}<{b:-<{a[2]+2}}<{c: <{a[3]+2}}'
+			s7 = ''
 			for y in range(4,len(lista[x]),2):#sublistas
 				b = descripcion_listas[2]+'>'
 				c = descripcion_listas[3]+'>'
-				print(f'<{b:-<{a[y]+2}}<{c: <{a[y+1]+2}}', end = '')		
-			print('')
+				s7 = s7 + f'<{b:-<{a[y]+2}}<{c: <{a[y+1]+2}}'	
+			s8 = '\n'
 			
 			z = 0
+			s9 = ''
 			while z < len(lista[x][2]):
 
 				if z < 9:
@@ -178,36 +184,46 @@ def impresor1(rango = rango, lista = lista):
 				yy = 2
 				while yy < len(lista[x]):
 					if yy == 2:
-						print(f'-{z+1}{"-"*rep}. {lista[x][yy][z]:_<{a[yy]+3}}{lista[x][yy+1][z]: <{a[yy+1]+3}}', end = '')
+						s9 = s9 + f'-{z+1}{"-"*rep}. {lista[x][yy][z]:_<{a[yy]+3}}{lista[x][yy+1][z]: <{a[yy+1]+3}}'
 					else:
-						print(f'{lista[x][yy][z]:_<{a[yy]+3}}{lista[x][yy+1][z]: <{a[yy+1]+3}}', end = '')
+						s9 = s9 + f'{lista[x][yy][z]:_<{a[yy]+3}}{lista[x][yy+1][z]: <{a[yy+1]+3}}'
 					yy = yy + 2
-				print('')
+				s9 = s9 + '\n'
 
 				z = z + 1
-			print('')
 
-def impresor1_2(rango = rango, lista = lista):
+			ss1 = ss1 + s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8 + s9 + '\n'
+
+	print(ss1)
+
+def impresor1_2(limite_inf_rango, limite_sup_rango, lista = lista):
 	'''Imprime todos los nombres de las listas con identificadores'''
 	descripcion_listas = ['lista','idenficador','inglés','español']
 
+	ss1 = ''
 	for x in range(len(lista)):#listas
-		if rango >= (len(lista)-x):
-			print(f'---{x+1}---')
-			for y in range(2):#sublistas
-				print(f'----<{descripcion_listas[y]}>')
-				print(f'---- {lista[x][y][0]}')
-			print('')
+		if limite_inf_rango-1 <= x and limite_sup_rango-1 >= x:
+			s1 = f'\n---{x+1}---'
 
-def impresor2(modo,indice,forma,lista = lista):
+			s2 = ''
+			s3 = ''
+			for y in range(2):#sublistas
+				s2 = s2 + f'\n----<{descripcion_listas[y]}>'
+				s2 = s2 + f'\n---- {lista[x][y][0]}'
+
+			ss1 = ss1 + s1 + s2 + '\n'
+
+	print(ss1)
+
+def impresor2(mostrar_lista,indice,forma_traducir,lista = lista):
 	'''Imprime la lista seleccionada'''
 
-	if not (modo == 'd' or modo == 'm'):
-		if forma == '2':
+	if mostrar_lista == 's':
+		if forma_traducir == '2':
 			descripcion_listas = ['lista','idenficador','español','inglés']
 			lista1 = lista[indice][3]
 			lista2 = lista[indice][2]
-		else:
+		if forma_traducir == '1':
 			descripcion_listas = ['lista','idenficador','inglés','español']
 			lista1 = lista[indice][2]
 			lista2 = lista[indice][3]
@@ -272,30 +288,51 @@ if __name__ == '__main__':
 		e2 = 0
 		i = 0
 
+		mostrar_lista = 's'
+		verificar_elementos = 1
+		forma_traducir = '1'
+		ingresar_mismo_elemento = 's'
+		limite_inf_rango = 700
+		limite_sup_rango = 1000
+
 		os.system('cls')
 		print('---Programa para practicar palabras en inglés---')
 		print('Se mostrarán varias listas de palabras en inglés con tematicas diferentes para elegir\n')
-		print('->Ingrese nivel de dificultad<-')
-		print('> FÁCIL: Cada que se tenga que traducir una palabra, se mostrara con anterioridad la lista elegida')
-		print('>> MEDIO: Cada que se tenga que traducir una palabra, YA NO se mostrara con anterioridad la lista elegida')
-		print('>>> DIFÍCIL: Igual que MEDIO y se tendrán que dar todos los significados de la palabra')
 
-		dificultad = input('\nDIFÍCIL [d]/ MEDIO [m]/ FÁCIL [Cualquier tecla]: ').lower()
-		print('\nTraducir del:')
-		forma = input('ETAPA 1: inglés --> español [Cualquier tecla] español --> inglés [2]: ')
-		etapa_2 = input('ETAPA 2: En cada intento ingresar la misma palabra/frase a traducir: si [Cualquier tecla] no [n]: ')
+		print(f'''***Parámetros por defecto***
+-Mostar la lista seleccionada en cada palabra/frase a traducir: si[s]/ no[n]: {mostrar_lista}
+--En palabras/frases con varias traducciones, para dar una respuesta por buena ¿cuántas traducciones tomar?: {verificar_elementos}
+Traducir del:
+ETAPA 1: inglés --> español [1] español --> inglés [2]: {forma_traducir}
+ETAPA 2: En cada intento ingresar la misma palabra/frase a traducir: si [s] no [n]: {ingresar_mismo_elemento}
+-límite inferior del rango de listas a imprimir: {limite_inf_rango}
+--límite superior del rango de listas a imprimir: {limite_sup_rango}''')
+
+		modificar = input('\nContinuar [enter]/ Modificar parámetros [Cualquier tecla]: ')
+
+		if modificar == '':
+			pass
+		else:
+			mostrar_lista = input('\n-Mostar la lista seleccionada en cada palabra/frase a traducir: si[s]/ no[n]: ').lower()
+			verificar_elementos = int(input('\n--En palabras/frases con varias traducciones, para dar una respuesta por buena ¿cuántas traducciones tomar?: ').lower())
+			print('\nTraducir del:')
+			forma_traducir = input('ETAPA 1: inglés --> español [1] español --> inglés [2]: ')
+			ingresar_mismo_elemento = input('ETAPA 2: En cada intento ingresar la misma palabra/frase a traducir: si [s] no [n]: ')
+			limite_inf_rango = int(input('\n-límite inferior del rango de listas a imprimir: '))
+			limite_sup_rango = int(input('--límite superior del rango de listas a imprimir: '))
+
 		os.system('cls')
 
-		impresor1()#Se imprime la lista general
-		impresor1_2()#Se imprime la lista general con solo indicadores
+		impresor1(limite_inf_rango, limite_sup_rango)#Se imprime la lista general
+		impresor1_2(limite_inf_rango, limite_sup_rango)#Se imprime la lista general con solo indicadores
 		indice_identificador, identificador = seleccionador_opciones_listas()#Se selecciona una lista
 		
 		while validacion == '':
 
 			os.system('cls')
-			impresor2(dificultad,indice_identificador,forma)#Se imprime la lista elegida
+			impresor2(mostrar_lista,indice_identificador,forma_traducir)#Se imprime la lista elegida
 			os.system('cls')
-			c1, e1, c2, e2, lista_de_repeticion = verificador_traductor(lista[indice_identificador], forma, etapa_2, lista_de_repeticion, c1, e1, c2, e2) #Se verifica lo ingresado
+			c1, e1, c2, e2, lista_de_repeticion = verificador_traductor(lista[indice_identificador], verificar_elementos, forma_traducir, ingresar_mismo_elemento, lista_de_repeticion, c1, e1, c2, e2) #Se verifica lo ingresado
 
 			print(f'intentos: {i+1}')#Te muestra los intentos que llevas en la misma lista
 			validacion = input('Continuar con la misma lista [enter]/ Seleccionar otra lista[Cualquier tecla]: ')
@@ -308,7 +345,7 @@ if __name__ == '__main__':
 		print(c1)
 		print('incorrectos/ETAPA 1')
 		print(e1)
-		if not etapa_2 == 'n':
+		if not ingresar_mismo_elemento == 'n':
 			print('\ncorrectos/ETAPA 2')
 			print(c2)
 			print('incorrectos/ETAPA 2')
