@@ -1850,7 +1850,7 @@ def lista():
 	lista[n].append(['aves 6'])
 	lista[n].append(['aves6'])
 	lista[n].append(['sea gull', 'sparrow', 'stork', 'swallow', 'swan', 'thrush', 'turkey', 'vulture', 'woodpecker'])
-	lista[n].append(['gaviota', 'gorrión', 'cigueña', 'golondrina', 'cisne', 'tordo', 'pavo', 'buitre', 'pájaro carpintero'])
+	lista[n].append(['gaviota', 'gorrión', 'cigüeña', 'golondrina', 'cisne', 'tordo', 'pavo', 'buitre', 'pájaro carpintero'])
 
 	n = n+1
 	lista.append([])
@@ -1891,7 +1891,7 @@ def lista():
 	lista.append([])
 	lista[n].append(['insectos y reptiles 6'])
 	lista[n].append(['iyr6'])
-	lista[n].append(['tick', 'toad', 'tortoise', 'turtle', 'viper', 'wasp', 'worm', 'worm'])
+	lista[n].append(['tick', 'toad', 'tortoise', 'turtle', 'viper', 'wasp', 'worm, -l-', 'worm, -g-'])
 	lista[n].append(['garrapata', 'sapo', 'tortuga de tierra', 'tortuga', 'vívora', 'avispa', 'lombriz', 'gusano'])
 
 	n = n+1
@@ -1934,7 +1934,7 @@ def lista():
 	lista[n].append(['mamíferos 6'])
 	lista[n].append(['mam6'])
 	lista[n].append(['porcupine', 'rabbit', 'raccoon', 'rat', 'rhinoceros', 'seal', 'sheep', 'skunk'])
-	lista[n].append(['puerco espín', 'conejo', 'mapache', 'rata', 'rinoceronte', 'foca', 'oveja', 'zorrino'])
+	lista[n].append(['puerco espín', 'conejo', 'mapache', 'rata', 'rinoceronte', 'foca', 'oveja', 'zorrillo'])
 
 	n = n+1
 	lista.append([])
@@ -2059,8 +2059,8 @@ def lista():
 	lista.append([])
 	lista[n].append(['partes de la ciudad 4'])
 	lista[n].append(['pdlc4'])
-	lista[n].append(['consulate', 'corner', 'crossroads', 'crosswalk', 'cul', 'curb', 'department store', 'district'])
-	lista[n].append(['consulado', 'esquina', 'cruce', 'paso de peatones', 'de-sac  - callejón sin salida', 'bordillo de la acera', 'grandes almacenes', 'barrio, distrito'])
+	lista[n].append(['consulate', 'corner', 'crossroads', 'crosswalk', 'cul-de-sac', 'curb', 'department store', 'district'])
+	lista[n].append(['consulado', 'esquina', 'cruce', 'cruce peatonal, paso de peatones', 'callejón sin salida', 'bordillo de la acera', 'grandes almacenes', 'barrio, distrito'])
 
 	n = n+1
 	lista.append([])
@@ -2094,8 +2094,8 @@ def lista():
 	lista.append([])
 	lista[n].append(['partes de la ciudad 9'])
 	lista[n].append(['pdlc9'])
-	lista[n].append(["old people's home", 'orphanage', 'outskirts', 'palace', 'park', 'parking lot', 'passage', 'passer'])
-	lista[n].append(['asilo de ancianos', 'orfanato', 'afueras de la ciudad', 'palacio', 'parque', 'aparcamiento', 'pasaje', 'by  - transeúnte'])
+	lista[n].append(["old people's home", 'orphanage', 'outskirts', 'palace', 'park', 'parking lot', 'passage', 'passer-by'])
+	lista[n].append(['asilo de ancianos', 'orfanato', 'afueras de la ciudad', 'palacio', 'parque', 'aparcamiento', 'pasaje', 'transeúnte'])
 
 	n = n+1
 	lista.append([])
@@ -2123,14 +2123,14 @@ def lista():
 	lista[n].append(['partes de la ciudad 13'])
 	lista[n].append(['pdlc13'])
 	lista[n].append(['street', 'streetcar', 'streetlamps', 'suburbs', 'subway', 'subway station', 'synagogue', 'taxi cab'])
-	lista[n].append(['calle', 'tranvía', 'faroles de calle', 'las afueras de la ciudad', 'metro, tren subterráneo', 'estación de metro', 'sinagoga', 'taxi'])
+	lista[n].append(['calle', 'tranvía', 'faroles de calle', 'suburbios, las afueras de la ciudad', 'metro, tren subterráneo', 'estación de metro', 'sinagoga', 'taxi'])
 
 	n = n+1
 	lista.append([])
 	lista[n].append(['partes de la ciudad 14'])
 	lista[n].append(['pdlc14'])
 	lista[n].append(['telephones', 'theatre', 'tourist', 'tourist office', 'townspeople', 'traffic', 'traffic light', 'traffic policeman'])
-	lista[n].append(['teléfonos', 'teatro', 'turista', 'oficina de turismo', 'habitantes de la ciudad', 'tráfico, circulación', 'semáforo', 'policía de tránsito'])
+	lista[n].append(['teléfonos', 'teatro', 'turista', 'oficina de turismo', 'habitantes de la ciudad', 'tráfico, circulación', 'semáforo', 'oficial de tránsito, policía de tránsito'])
 
 	n = n+1
 	lista.append([])
@@ -2164,8 +2164,8 @@ def lista():
 	lista.append([])
 	lista[n].append(['tiendas y comercios 4'])
 	lista[n].append(['tyc4'])
-	lista[n].append(["herbalist's shop", 'ice', "ironmonger's", "jeweller's", 'jewellery store', 'kiosk', "ladies' wear", 'laundromat'])
-	lista[n].append(['herboristería', 'cream parlour  - heladería', 'ferretería', 'joyería', 'joyería', 'quiosco', 'ropa de señora', 'lavandería automática'])
+	lista[n].append(["herbalist's shop", 'ice-cream parlour', "ironmonger's", "jeweller's", 'jewellery store', 'kiosk', "ladies' wear", 'laundromat'])
+	lista[n].append(['herboristería', 'heladería', 'ferretería', 'joyería', 'joyería', 'quiosco', 'ropa de señora', 'lavandería automática'])
 
 	n = n+1
 	lista.append([])
@@ -5062,8 +5062,414 @@ def lista():
 	lista.append([])
 	lista[n].append(['conjunciones 11'])
 	lista[n].append(['conj11'])
-	lista[n].append(['whenever', 'whereas', 'whether', 'wheter...or', 'while', 'yet'])
-	lista[n].append(['cada vez que, cuando', 'siendo que, mientras', 'si', 'si...o', 'mientras, mientras que, aunque', 'sin embargo, no obstante'])
+	lista[n].append(['whenever', 'whereas', 'whether', 'wheter...or', 'while', 'yet', 'even if', 'even so', 'even when'])
+	lista[n].append(['cada vez que, cuando', 'siendo que, mientras', 'si', 'si...o', 'mientras, mientras que, aunque', 'sin embargo, no obstante', 'incluso si', 'aún así', 'aún cuando, incluso cuando'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['superlativo'])
+	lista[n].append(['sup'])
+	lista[n].append(['si el adjetivo es posesivo, no se usa "the"', 'no se usa "the" si comparamos algo con si mismo', 'comparativo', 'superlativo'])
+	lista[n].append(['his smartest student is Lisa', 'New York is coldest in January', 'more, less', 'the most, the least'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos ed ing'])
+	lista[n].append(['aeding 1'])
+	lista[n].append(['alarmed, alarming', 'aggravated, aggravating', 'annoyed, annoying', 'astonished', 'astounded, astounding', 'bored, boring', 'captivated, captivating', 'challenged, challenging'])
+	lista[n].append(['alarmado, alarmante', 'agravado, agravante', 'molesto, molesto', 'asombrado, asombroso', 'asombrado, asombroso', 'aburrido, aburrido', 'cautivado, cautivador', 'desafiado, desafiante'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos ed ing'])
+	lista[n].append(['aeding 2'])
+	lista[n].append(['charmed, charming', 'comforted, comforting', 'confused, confusing', 'convinced, convincing', 'depressed, depressing', 'dissappointed, disappointing', 'discouraged, discouraging', 'disgusted, disgusting'])
+	lista[n].append(['encantado, encantador', 'consolado, consolador', 'confuso, confuso', 'convencido, convincente', 'deprimido, deprimente', 'decepcionado, decepcionante', 'desalentado, desalentador', 'indignado, repugnante'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjectivos ed ing 3'])
+	lista[n].append(['aeding 3'])
+	lista[n].append(['distressed, distressing', 'disturbed, disturbing', 'embarrassed, embarrasing', 'encouraged, encouraging', 'entertained, entertaining', 'excited, exciting', 'exhausted, exhausting', 'fascinated, fascinating'])
+	lista[n].append(['preocupado, preocupante', 'perturbado, perturbador', 'avergonzado, vergonzoso', 'animado, alentador', 'entretenido, entretenido', 'emocionado, emocionante', 'agotado, agotador', 'fascinado, fascinante'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['ed ing 4'])
+	lista[n].append(['aeding 4'])
+	lista[n].append(['frightened, frightening', 'frustrated, frustrating', 'fulfilled, fulfilling', 'gratified, gratifying', 'inspired, inspiring', 'insulted, insulting', 'interested, interesting', 'moved, moving'])
+	lista[n].append(['asustado, espantoso', 'frustrado, frustrante', 'satisfecho, satisfactorio', 'satisfecho, gratificante', 'inspirado, inspirador', 'insultado, insultante', 'interesado, interesante', 'emocionado, emocionante'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos ed ing 5'])
+	lista[n].append(['aeding 5'])
+	lista[n].append(['overwhelmed, overwhelming', 'perplexed, perplexing', 'pleased, pleasing', 'relaxed, relaxing', 'relieved, relieving', 'satisfied, satisfying', 'shocked, shocking', 'sickened, sickening', 'soothed, soothing'])
+	lista[n].append(['abrumado, abrumador', 'desconcertado, desconcertante', 'satisfecho, satisfactorio', 'relajado, relajante', 'consolado, consolador', 'satisfactorio, satisfactorio', 'conmocionado, chocante', 'asqueado, asqueroso', 'relajado, relajante'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos ed ing 6'])
+	lista[n].append(['aeding6'])
+	lista[n].append(['soothed, soothing', 'surprised, surprising', 'tempted, tempting', 'terrified, terrifying', 'threatened, threatening', 'thrilled, thrilling', 'tired, tiring', 'touched, touching', 'unsettled, unsettling', 'worried, worrying'])
+	lista[n].append(['relajado, relajante', 'sorprendido, sorprendente', 'tentado, tentador', 'aterrado, aterrador', 'amenazado, amenazante', 'emocionado, emocionanted', 'cansado, agotador', 'conmovido, conmovedor', 'perturbado, perturbador', 'preocupado, preocupante'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['intensificadores 1'])
+	lista[n].append(['int1'])
+	lista[n].append(['very', 'really', 'extremely', 'amazingly', 'exceptionally', 'incredibly', 'remarkably', 'particularly', 'enough'])
+	lista[n].append(['muy', 'verdaderamente', 'extremadamente', 'sorprendentemente', 'excepionalmente', 'increiblemente', 'notablemente', 'particularmente', 'suficiente, -va después del adjetivo-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['adjetivos fuertes'])
+	lista[n].append(['afue'])
+	lista[n].append(['indican extremos', 'no se usa very', 'enormous', 'terrible', 'tiny', 'excellent', 'brilliant', 'perfect', 'marvelous'])
+	lista[n].append(['algo o alguien es excepcional', 'se usa absolutely, exceptionally, particularly, really, enough', 'enorme', 'terrible', 'diminuto', 'excelente', 'brillante', 'perfecto', 'maravilloso'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['intensificadores con adjetivos comparativos y adjetivos superlativos'])
+	lista[n].append(['icacyas'])
+	lista[n].append(['palabras o frases particulares como intensificadores', 'much', 'a lot', 'a great deal', 'a good bit', 'con adjetivos superlativos', 'easily', 'by far'])
+	lista[n].append(['is much faster than, is a lot taller than', 'mucho', 'mucho', 'mucho', 'bastante', 'is by far the most..., was easily the longest...', 'fácilmente', 'sin duda'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['mitigadores con adjetivos comparativos'])
+	lista[n].append(['mcac'])
+	lista[n].append(['a bit', 'rather', 'a little bit', 'slightly'])
+	lista[n].append(['un poco', 'bastante', 'un poco', 'un poco'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['like'])
+	lista[n].append(['like'])
+	lista[n].append(['like', 'she dances like a professional', 'it´s so like ben, it´s just like', 'I look like my mother', 'sports like football'])
+	lista[n].append(['parecido a, lo mismo de', 'verbo + like + sustantivo/pronombre', 'es tan típico de', 'parecer, parecerse', 'presentar ejemplos'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['as'])
+	lista[n].append(['as'])
+	lista[n].append(['en la misma manera, en la misma condición de', 'as she always does', 'like = such as', 'as como preposición'])
+	lista[n].append(['as', 'as + sujeto + verbo', 'presentar ejemplos', 'papel o profesión de algo o alguien'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['gerundio'])
+	lista[n].append(['ger'])
+	lista[n].append(['se puede usar el gerundio', 'después de presposiciones', 'después de expresiones o verbos frasales'])
+	lista[n].append(['como objeto, sujeto o complemento', 'about, at, by', 'feel like'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['infinitivo'])
+	lista[n].append(['inf'])
+	lista[n].append(['se puede usar como', 'se usa el infinitivo después de adjetivos'])
+	lista[n].append(['como objeto, sujeto o complemento', 'glad, disappointed'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['construcción de preguntas'])
+	lista[n].append(['cpre'])
+	lista[n].append(['en las preguntas, las preposiciones se encuentran generalmente', 'preguntas de objeto', 'preguntas del sujeto'])
+	lista[n].append(['al final de la frase', 'requieren el verbo auxiliar do', 'el pronombre interrogativo o question word'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['construcción de preguntas'])
+	lista[n].append(['cpre'])
+	lista[n].append(['en las preguntas, las preposiciones se encuentran generalmente', 'preguntas del objeto', 'preguntas del sujeto', 'preguntas del sujeto, no se utiliza el verbo auxiliar y el orden de las palabras no se invierte'])
+	lista[n].append(['al final de la frase', 'requieren el verbo auxiliar do', 'el pronombre interrogativo o question word sirve como el sujeto de la frase', 'who called last night?'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['preguntas coletillas'])
+	lista[n].append(['pcol'])
+	lista[n].append(['question tags', 'auxliar de la frase principal de signo contrario+ sujeto', 'excepción'])
+	lista[n].append(['¿?, verdad, no es verdad, no, no es así, en serio', 'sino hay, se usa do', 'am I, aren´t I'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['used to 1'])
+	lista[n].append(['usedt1'])
+	lista[n].append(['use', 'used to, verbo modal', 'used to, verbo modeal 2', 'sujeto + used to + verbo en infinitivo', 'Did + sujeto + use to + verbo en infinitivo ... ?', 'would', 'would en negativo'])
+	lista[n].append(['usar, utilizar', 'algo que ocurria o sucedia en el pasado de manera habitual', 'algo que antes era verdad pero ya no lo es', 'sujeto + didn´t use to + verbo en infinitivo', '', 'eventos o acciones repetidas en el pasado, no con estados o hábitos', 'no se puede usar'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['to be used to'])
+	lista[n].append(['tbut'])
+	lista[n].append(['to be used to, se usa como adjetivo', 'si to be used to esta antes de un verbo'])
+	lista[n].append(['se usa para cosas que son familiares o normales o comunes y se puede usar en cualquier tiempo verbal', 'el verbo debe de estar en gerundio'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['to get used to'])
+	lista[n].append(['tgut'])
+	lista[n].append(['to get used to, acostumbrando a'])
+	lista[n].append(['indica el proceso de familiarizarse con algo'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['already just still yet'])
+	lista[n].append(['ajsy'])
+	lista[n].append(['already, va generalmente entre el verbo auxiliar y el verbo', 'just, va entre el verbo auxiliar y el verbo', 'still, va siempre después del sujeto', 'yet, va al final de la frase'])
+	lista[n].append(['ya', 'acabar de, justo', 'aún, todavía', 'aún/todavía, ya, -negativas, interrogativas-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['for since ago'])
+	lista[n].append(['fsa'])
+	lista[n].append(['for, indica duración o un periodo de tiempo', 'since, indica el principio de un periodo de tiempo que sigue al presente', 'ago, se refiere a un tiempo en el pasado o un tiempo antes del actual y va al final de la frase'])
+	lista[n].append(['durante', 'desde', 'hace'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['modales perfectos'])
+	lista[n].append(['mper'])
+	lista[n].append(['can´t have, cuando estamos bastante seguros de que algo no ocurrió o que no fue verdad en el pasado', 'couldn´t = can´t have'])
+	lista[n].append(['similar a must have pero en forma negativa', ''])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['futuro perfecto'])
+	lista[n].append(['fper'])
+	lista[n].append(['to be going to/ will + have + participio pasado'])
+	lista[n].append(['intercambiables'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['condicionales'])
+	lista[n].append(['cond'])
+	lista[n].append(['tipo 0, * = if/when ', 'tipo 1, * = if', 'tipo 2, * = if', 'tipo 3, * = if'])
+	lista[n].append(['* present simple/presente * present simple/presente', '* present simple/presente * future simple/futuro/modals/modales', '* past simple/pasado imperfecto(subjuntivo) * would/condicional/modals/modales', '* past perfect/pasado pluscuamperfecto(subjuntivo) * would/condicional/modals/modales have'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['voz pasiva'])
+	lista[n].append(['vpas'])
+	lista[n].append(['sujeto + to be (en el tiempo indicado) + participio pasado + by'])
+	lista[n].append([''])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['estilo directo'])
+	lista[n].append(['edir'])
+	lista[n].append(['" " sujeto said/sujeto asked'])
+	lista[n].append(['sujeto said/sujeto asked " "'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['estilo indirecto'])
+	lista[n].append(['eind'])
+	lista[n].append(['that a veces se usa en frases afirmativas y negativas para introducir lo que ha dicho la otra persona', 'degradacion presente', 'degradación pasado', 'degradación pasado perfecto', 'cuando hablamos de algo que no ha cambiado (que sigue siendo cierto) o de algo en el futuro', 'would, could, should, might, ought to, -degradación-', 'will, -degradación-', 'can, -degradación-', 'must, -degradación-', 'shall, -degradación-', 'may, -degradación-'])
+	lista[n].append(['if/whether a veces se usa en frases interrogativas', 'presente => pasado', 'pasado => pasado perfecto', 'no hay', 'no es necesario cambiar el tiempo', 'no hay', 'would', 'could', 'had to', 'should', 'might, could'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['say'])
+	lista[n].append(['say'])
+	lista[n].append(['say', 'se usa en', 'si queremos usarlo con un objeto personal'])
+	lista[n].append(['decir algo', 'estilo indirecto y el indirecto', 'se usa la preposición to'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['tell'])
+	lista[n].append(['tell'])
+	lista[n].append(['tell', 'se usa en', 'cuando usamos tell', 'se usa en 1', 'se usa en 2', 'se usa en 3', 'se usa en 4', 'se usa en 5'])
+	lista[n].append(['decir algo a alguien', 'estilo directo e indirecto', 'necesitamos usar un objeto indirecto que va después del verbo', 'ordenes e instrucciones', 'cuando damos o pedimos información', 'con cuentos o bromas, contar', 'con la verdad y las mentiras', 'con el tiempo o la fecha'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['agregar información'])
+	lista[n].append(['ainf'])
+	lista[n].append(['and', 'also', 'in addition', 'as well as', 'too', 'besides', 'furthermore', 'moreover'])
+	lista[n].append(['y', 'también, -entre el sujeto y el verbo-', 'además, -al principio de la oración-', 'además de', 'también, -al final de una oración/entre el sujeto y el verbo-', 'además de, -al principio de una oración-', 'además (formal), -al principio de una oración-', 'además, -al principio de una oración-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['contrastar información'])
+	lista[n].append(['cinf'])
+	lista[n].append(['bur', 'yet', 'however', 'although, though, even though', 'despite, despite the fact that', 'in spite of', 'nevertheless', 'nonetheless', 'while'])
+	lista[n].append(['pero', 'pero, -formal-', 'sin embargo, -al principio de una frase-', 'aunque, -al principio de una oración o entre las dos cláusulas', 'a pesar de, -debe ir antes de un sustantivo o gerundio; si va antes de una cláusula debemos usar la segunda forma-', 'a pesar de, -mismas reglas que despite-', 'no obstante, -al principio de una oración o entre dos cláusulas; siempre va antes de una coma-', 'no obstante, -se usa igual que nevertheless-', 'si bien, -frecuentemente al principio-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['ideas condicionales'])
+	lista[n].append(['icond'])
+	lista[n].append(['providing', 'provided that', 'as long as, so long as', 'unless', 'only if', 'even if', 'whether or not'])
+	lista[n].append(['si, -puede ir al principio o en medio de la oración-', 'a condición de, -puede ir al principio o en medio de la oración-', 'mientras, -puede ir al principio o en medio de la oración-', 'a menos que, siempre antes de una oración afirmativa', 'solo sí', 'aun si, incluso si', 'we will go to the beach whether or not it rains, iremos a la playa llueva o no llueva'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['dar una razón o causa'])
+	lista[n].append(['duroc'])
+	lista[n].append(['because, because of', 'since', 'since, since of', 'as, as of', 'due to, due to the fact that', 'owing to', '', 'owing to, owing to the fact that'])
+	lista[n].append(['porque, -al principio o en medio de una oración; si va antes de un sustantivo se utiliza la segunda forma-', 'ya que, -al principio o en medio de una oración; si va antes de un sustantivo se utiliza la segunda forma-', 'ya que, -al principio o en medio de una oración; si va antes de un sustantivo se utiliza la segunda forma-', 'como, -al principio o en medio de una oración; si va antes de un sustantivo se utiliza la segunda forma-', 'debido a, -debe ir antes de un sustantivo, si va antes de una cláusula se usa la segunda forma-', 'owing to', '', 'debido a, -debe ir antes de un sustantivo, si va antes de una cláusula se usa la segunda forma-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['dar un resultado o un efecto'])
+	lista[n].append(['duroue'])
+	lista[n].append(['so', 'as a result', 'therefore', 'consequently', 'as a consequence', 'accordingly'])
+	lista[n].append(['así que, -generalmente en medio de la oración; antes del resultado-', 'como resultado, -generalmente al principio; antes del resultado-', 'por lo tanto, -generalmente al principio; antes del resultado-', 'en consecuencia, -generalmente al principio; antes del resultado-', 'como consecuencia, -generalmente al principio; antes del resultado-', 'en consecuencia, -generalmente al principio; antes del resultado-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['dar ejemplos'])
+	lista[n].append(['dejem'])
+	lista[n].append(['for example', 'such as', 'for instance'])
+	lista[n].append(['por ejemplo, -puede ir al principio o en medio; al principio lleva una coma; en medio lleva dos comas-', 'tales como, -siempre en medio y con una coma antes-', 'por ejemplo, -puede ir al principio o en medio; al principio lleva una coma; en medio lleva dos comas-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['secuenciación de ideas'])
+	lista[n].append(['sdid'])
+	lista[n].append(['firstly, secondly, ... lastly', 'the following'])
+	lista[n].append(['en primer lugar, en segundo lugar, ... por último', 'el/los siguiente/s'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['resumir ideas'])
+	lista[n].append(['ride'])
+	lista[n].append(['in conclusion, to clonclude', 'in conclusion, to conclude, in summary, in short/brief'])
+	lista[n].append(['', 'en conclusión, para concluir, en resumen, en resumen, -generalmente al principio y antes de una coma-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['prefijos 1'])
+	lista[n].append(['pre1'])
+	lista[n].append(['a, an', 'anti', 'auto', 'bi', 'co', 'com', 'com, con', 'de', 'dis'])
+	lista[n].append(['sin', 'contra/opuesto', 'sí mismo', 'dos', 'con', '', 'con', 'separadp', 'no'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['prefijos 2'])
+	lista[n].append(['pre2'])
+	lista[n].append(['en', 'extra', 'il, im, in, ir', 'in', 'inter', 'macro', 'micro', 'mis'])
+	lista[n].append(['causar a', 'más', 'no, sin', 'en, dentro de', 'entre', 'grande', 'pequeño', 'mal, incorrecta'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['prefijos 3'])
+	lista[n].append(['pre3'])
+	lista[n].append(['mono', 'non', 'post', 'pre, pro', 're', 'sub', 'trans', 'tri', 'un'])
+	lista[n].append(['uno', 'no, sin', 'después', 'antes', 'otra vez', 'abajo', 'a través de', 'tres', 'no'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['sufijos sustantivo 1'])
+	lista[n].append(['susus1'])
+	lista[n].append(['acy', 'al', 'ance, ence', 'dom', 'er, or', 'ism', 'ist'])
+	lista[n].append(['estado o calidad de', 'acto o proceso', 'estado o calidad de', 'lugar o estado de ser', 'alguien que, uno que', 'dotrina, creencia', 'alguien que, uno que'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['sufijos sustantivo 2'])
+	lista[n].append(['susus2'])
+	lista[n].append(['ity, ty', 'ment', 'ness', 'ship', 'sion, tion'])
+	lista[n].append(['calidad de', 'condición de', 'estado de ser', 'posición', 'estado de ser'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['sufijos verbo'])
+	lista[n].append(['suver'])
+	lista[n].append(['ate', 'en', 'ify, fy', 'ize, ise'])
+	lista[n].append(['convertirse en, hacerse, volverse', 'convertirse en, hacerse, volverse', 'convertirse en, hacerse, volverse', 'convertirse en, hacerse, volverse'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['sufijos adjetivo'])
+	lista[n].append(['suadj'])
+	lista[n].append(['able, ible', 'ful', 'ic, ical', 'ious, ous', 'ish', 'ive', 'less', 'y'])
+	lista[n].append(['capaz de', 'notable para', 'relativas a', 'caracterizado por', 'tener la calidad de', 'tener la calidad de', 'sin', 'caracterizado por'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['so'])
+	lista[n].append(['so'])
+	lista[n].append(['so', 'so + adjetivo/adverbio', 'so + cuantificador + noun', 'so + that'])
+	lista[n].append(['tan, así, entonces', 'sentimientos o efectos extremos', 'extremos en cantidad', 'tan + que, resultados o consecuencias'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['such'])
+	lista[n].append(['such'])
+	lista[n].append(['such + adjetivo + sustantivo', 'such + that', 'such + sustantivo critico', 'such + sustantivo'])
+	lista[n].append(['mostrar extremos', 'tan + que, mostrar extremos que terminan en un resultado', 'da énfasis, he is such a jerk, you are such a clown', 'tal, un tipo de'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['enough'])
+	lista[n].append(['enough'])
+	lista[n].append(['adjetivo/adverbio + enough', 'enough + sustantivo', 'enough + adjetivo + sustantivo', 'adjetivo + enough + sustantivo', 'enough of + determinante (articulo o pronombre)'])
+	lista[n].append(['suficientemente', 'suficiente', 'suficiente', 'sustantivo + suficientemente + adjetivo', 'bastantes'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['too'])
+	lista[n].append(['too'])
+	lista[n].append(['too + adjetivo/adverbio', 'too many + nombre contable, too much + nombre incontable', 'too many of + determinante + nombre contable, too much of + determinante + nombre incontable'])
+	lista[n].append(['demasiado', 'demasiados, demasiado', 'demasiados, demasiado'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['even'])
+	lista[n].append(['even'])
+	lista[n].append(['even, -adjetivo-', 'even, -adverbio-', 'se encuentra', 'cuando se encuentra al principio de una frase se refiere al sujeto', 'cuando se encuentra al principio de una frase', 'antes de otras palabras', 'frases negativas para expresar extremos negativos', 'en comparaciones para dar énfasis'])
+	lista[n].append(['uniforme, plano, justo, igual', 'incluso, hasta', 'antes del verbo que modifica', '', 'se refiere al sujeto', 'que queremos enfatizar', 'ni, antes del verbo principal', 'antes del adjetivo o adverbio'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['else'])
+	lista[n].append(['else'])
+	lista[n].append(['después de pronombres indefinidos', 'después de pronombres interrogativos', 'posesiva', 'or else', 'elsewhere'])
+	lista[n].append(['para referirnos a personas o cosas además de las ya mencionadas', 'más', 'else´s', 'o si no, si no', 'otro sitio, -un lugar que no sea el ya mencionado-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['-ever'])
+	lista[n].append(['-ever'])
+	lista[n].append(['-ever en pronombres interrogativos', 'significado general', 'cuando se utilizan como interrogativos', 'whatever, -adjetivo o pronombre-', 'whichever, -adjetivo o pronombre-', 'wherever, -conjunción-', 'whenever, -conjunción-', 'whoever, whomever, -pronombre-', 'however, -adverbio-'])
+	lista[n].append(['más o menos equivalente a: cualquier/a que', 'no importa, da igual', 'expresan extrañeza, sorpresa, indignación o exasperación', 'cualquier que, lo que quiera', 'cualquiera', 'dondequiera, en cualquier lugar o parte', 'siempre que, cuando sea', 'quienquiera', 'como quiera'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['either y neither'])
+	lista[n].append(['eyn'])
+	lista[n].append(['podemos utilizarlos como', 'either...or...', 'neither...or...', 'both + sustantivo', 'either, neither, -como pronombre llevan of-', 'either, neither, -adverbios-', 'either, neither, -determinante-', 'si una de las dos está en plural, se usa plural', 'si una de las dos partes está en plural'])
+	lista[n].append(['pronombres, determinantes o adverbios', '...o...', 'ni...ni...', 'ambos', 'o/ni, cualquier/ninguno, también', 'sujeto + verbo auxiliar + either, neither + verbo + sujeto,', 'cualquier, ningún', '', 'se usa plural'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['each y every'])
+	lista[n].append(['each y every'])
+	lista[n].append(['each y every como determinantes de cantidad', 'each', 'each of + pronombre/sustantivo con un determinante'])
+	lista[n].append(['each puede usarse como pronombre', 'cada, -uno por uno-', 'cada uno/a de'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['every'])
+	lista[n].append(['every'])
+	lista[n].append(['destacamos el grupo y solo se puede usar con grupos de tres o más personas o cosas', 'se usa con'])
+	lista[n].append(['se utiliza para generalizar o para expresar la frecuencia con que algo suceda y siempre va seguida de un sustantivo', 'sustantivos abstractos y adverbios'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['go y come'])
+	lista[n].append(['gyc'])
+	lista[n].append(['go', 'come'])
+	lista[n].append(['ir, -se utiliza para indicar una dirección alejándose del orador o la persona a la que se habla o a un sitio diferente del actual', 'venir, -indica un movimiento hacia o en la dirección del orador o la persona a la que se habla; se utiliza para expresar movimiento desde un sitio diferente al sitio actual del orador o la persona a la que se habla-'])
+
+	n = n+1
+	lista.append([])
+	lista[n].append(['bring y take'])
+	lista[n].append(['byt'])
+	lista[n].append(['bring', 'take'])
+	lista[n].append(['traer, -indica un movimiento a la dirección del orador o la persona a la que se habla-', 'llevar, -indica un movimiento de alejamiento del sitio actual del orador o la persona a la que se habla-'])
 
 	return lista
 
