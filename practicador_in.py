@@ -61,7 +61,7 @@ def verificador_traductor(lista_del_verificador_traductor, verificar_elementos, 
 
 	print(lista2[indice].strip(' '))
 
-	if not traduccion_aux[-1].find('-') == -1:
+	if not traduccion_aux[-1].find(' - ') == -1:
 		definiciones = len(traduccion_aux)-1
 	else:
 		definiciones = len(traduccion_aux)
@@ -89,7 +89,7 @@ def verificador_traductor(lista_del_verificador_traductor, verificar_elementos, 
 		os.system('cls')
 		print(insertado)
 		print(lista1[indice])
-		if traduccion >= definiciones:
+		if traduccion >= numero_elementos_contar:
 			print('BIEN')
 		else:
 			print('MAL')
@@ -114,7 +114,7 @@ def verificador_traductor(lista_del_verificador_traductor, verificar_elementos, 
 
 		print(lista2[indice].strip(' '))
 
-		if not traduccion_aux[-1].find('-') == -1:
+		if not traduccion_aux[-1].find(' - ') == -1:
 			definiciones = len(traduccion_aux)-1
 		else:
 			definiciones = len(traduccion_aux)
@@ -273,8 +273,8 @@ def seleccionador_opciones_listas():
 
 		input('Continuar [enter]: ')
 		os.system('cls')
-		impresor1()
-		impresor1_2()
+		impresor1(limite_inf_rango, limite_sup_rango)
+		impresor1_2(limite_inf_rango, limite_sup_rango)
 
 if __name__ == '__main__':
 
@@ -292,8 +292,8 @@ if __name__ == '__main__':
 		verificar_elementos = 1
 		forma_traducir = '1'
 		ingresar_mismo_elemento = 's'
-		limite_inf_rango = 700
-		limite_sup_rango = 1000
+		limite_inf_rango = 320
+		limite_sup_rango = 340
 
 		os.system('cls')
 		print('---Programa para practicar palabras en inglés---')
