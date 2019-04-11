@@ -2248,22 +2248,22 @@ def lista():
 	lista.append([])
 	lista[n].append(['medicinas y remedios 1'])
 	lista[n].append(['myr1'])
-	lista[n].append(['alcohol', 'analgesic', 'antacid tablets', 'anti', 'anti', 'antibiotic', 'antiseptic', 'Band'])
-	lista[n].append(['alcohol', 'analgésico', 'pastillas antiácidas', 'inflammatory  - antiinflamatorio', 'itch cream  - crema contra la picazón', 'antibiótico', 'antiséptico', 'Aid  - Curita'])
+	lista[n].append(['alcohol', 'analgesic', 'antacid tablets', 'anti-inflammatory', 'anti-itch cream', 'antibiotic', 'antiseptic', 'Band-Aid'])
+	lista[n].append(['alcohol', 'analgésico', 'pastillas antiácidas', 'antiinflamatorio', 'crema contra la picazón', 'antibiótico', 'antiséptico', 'Curita'])
 
 	n = n+1
 	lista.append([])
 	lista[n].append(['medicinas y remedios 2'])
 	lista[n].append(['myr2'])
 	lista[n].append(['bandage', 'barbiturate', 'bottle of aspirin', 'calcium', 'cold tablets', 'compound', 'cotton wool', 'cough drops'])
-	lista[n].append(['venda', 'barbitúrico', 'frasco de aspirinas', 'calsio', 'comprimidos para el resfrío', 'compuesto', 'algodón', 'comprimidos para la tos'])
+	lista[n].append(['venda', 'barbitúrico', 'frasco de aspirinas', 'calcio', 'comprimidos para el resfrío', 'compuesto', 'algodón', 'comprimidos para la tos'])
 
 	n = n+1
 	lista.append([])
 	lista[n].append(['medicinas y remedios 3'])
 	lista[n].append(['myr3'])
-	lista[n].append(['disinfectant', 'dose', 'drugstore', 'eye drops', 'first', 'gauze', 'hormone', 'injection'])
-	lista[n].append(['desinfectante', 'dósis', 'farmacia', 'gotas para los ojos', 'aid box  - caja de primeros auxilios', 'gasa', 'hormona', 'inyección'])
+	lista[n].append(['disinfectant', 'dose', 'drugstore', 'eye drops', 'first-aid box', 'gauze', 'hormone', 'injection'])
+	lista[n].append(['desinfectante', 'dósis', 'farmacia', 'gotas para los ojos', 'botiquín de primeros auxilios', 'gasa', 'hormona', 'inyección'])
 
 	n = n+1
 	lista.append([])
@@ -2291,14 +2291,14 @@ def lista():
 	lista[n].append(['el hospital 1'])
 	lista[n].append(['eh1'])
 	lista[n].append(['ambulance', 'anaesthesia', 'appointments book', 'blood pressure', 'blood test', 'breathing apparatus', 'capsule', 'car accident'])
-	lista[n].append(['ambulancia', 'anestesia', 'Libro de citas', 'presión sanguínea', 'prueba de sangre', 'respirador artificial', 'cápsula', 'accidente de autos'])
+	lista[n].append(['ambulancia', 'anestesia', 'libro de citas', 'presión sanguínea', 'prueba de sangre', 'respirador artificial', 'cápsula', 'accidente de carro'])
 
 	n = n+1
 	lista.append([])
 	lista[n].append(['el hospital 2'])
 	lista[n].append(['eh2'])
-	lista[n].append(['check', 'doctor', 'dressing gown', 'emergency room', 'examination couch', 'first aid', 'gauze', 'health insurance'])
-	lista[n].append(['up  - chequeo médico', 'doctor', 'bata', 'sala de emergencias', 'diván de reconocimiento', 'primeros auxilios', 'gasa', 'seguro médico'])
+	lista[n].append(['check-up', 'doctor', 'dressing gown', 'emergency room', 'examination couch', 'first aid', 'gauze', 'health insurance'])
+	lista[n].append(['chequeo médico', 'doctor', 'bata', 'sala de emergencias', 'diván de reconocimiento', 'primeros auxilios', 'gasa', 'seguro médico'])
 
 	n = n+1
 	lista.append([])
@@ -2325,8 +2325,8 @@ def lista():
 	lista.append([])
 	lista[n].append(['el hospital 6'])
 	lista[n].append(['eh6'])
-	lista[n].append(['syringes', 'therapy', 'treatment', 'waiting room', 'wheelchair', 'x'])
-	lista[n].append(['jeringas', 'terapia', 'tratamiento', 'sala de espera', 'silla de ruedas', 'ray plate  - radiografía'])
+	lista[n].append(['syringes', 'therapy', 'treatment', 'waiting room', 'wheelchair', 'x-ray plate'])
+	lista[n].append(['jeringas', 'terapia', 'tratamiento', 'sala de espera', 'silla de ruedas', 'radiografía'])
 
 	n = n+1
 	lista.append([])
