@@ -1429,7 +1429,7 @@ def lista():
 	lista.append([])
 	lista[n].append(['vocabulario comidas 5'])
 	lista[n].append(['vcom5'])
-	lista[n].append(['pork chops', 'potato chips', 'ravioli', 'ribs', 'roast beef', 'salad', 'salami', 'sauce'])
+	lista[n].append(['pork chops', 'potato chips', 'ravioli', 'ribs', 'roastbeef', 'salad', 'salami', 'sauce'])
 	lista[n].append(['costillas de puerco', 'papas fritas de bolsa', 'ravioles', 'costillas', 'rosbif, carne de res asada', 'ensalada', 'salami', 'salsa'])
 
 	n = n+1
@@ -1450,7 +1450,7 @@ def lista():
 	lista.append([])
 	lista[n].append(['vocabulariocarnes y aves 2'])
 	lista[n].append(['vcya2'])
-	lista[n].append(['breast', 'sheeseburger', 'chicken', 'chop', 'cold meats', 'cooked', 'cutlet', 'fowl'])
+	lista[n].append(['breast', 'cheeseburger', 'chicken', 'chop', 'cold meats', 'cooked', 'cutlet', 'fowl'])
 	lista[n].append(['pechuga', 'hamburguesa de queso', 'pollo', 'chuleta', 'fiambres', 'cocida', 'chuleta', 'ave de corral'])
 
 	n = n+1
@@ -2424,7 +2424,7 @@ def lista():
 	lista[n].append(['partes de la casa 2'])
 	lista[n].append(['pdlc2'])
 	lista[n].append(['cellar', 'chimney', 'deck', 'dining room', 'door', 'door handle', 'doorbell', 'driveway'])
-	lista[n].append(['sótano, bodega', 'chimenea', 'balcón terraza', 'comedor', 'puerta', 'picaporte', 'timbre', 'entrada par el auto'])
+	lista[n].append(['sótano, bodega', 'chimenea', 'balcón terraza', 'comedor', 'puerta', 'picaporte', 'timbre', 'entrada para el auto'])
 
 	n = n+1
 	lista.append([])
@@ -2438,7 +2438,7 @@ def lista():
 	lista[n].append(['partes de la casa 4'])
 	lista[n].append(['pdlc4'])
 	lista[n].append(['hall', 'hallway', 'hedge', 'key', 'kitchen', 'laundry room', 'lawn', 'living room'])
-	lista[n].append(['vestíbulo', 'pasillo', 'seto', 'llave', 'cocina', 'lavadero', 'césped', 'sala'])
+	lista[n].append(['vestíbulo', 'pasillo', 'seto', 'llave', 'cocina', 'cuarto de lavado', 'césped', 'sala'])
 
 	n = n+1
 	lista.append([])
@@ -2451,15 +2451,8 @@ def lista():
 	lista.append([])
 	lista[n].append(['partes de la casa 6'])
 	lista[n].append(['pdlc6'])
-	lista[n].append(['room', 'skylight', 'staircase', 'steps', 'study', 'utility room', 'veranda', 'wall'])
-	lista[n].append(['habitación', 'tragaluz, claraboya', 'escalera', 'escalones', 'despacho, estudio', 'cuarto de servicio', 'galería, veranda', 'pared'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['partes de la casa 7'])
-	lista[n].append(['pdlc7'])
-	lista[n].append(['window'])
-	lista[n].append(['ventana'])
+	lista[n].append(['room', 'skylight', 'staircase', 'steps', 'study', 'utility room', 'veranda', 'wall', 'window'])
+	lista[n].append(['habitación', 'tragaluz, claraboya', 'escalera', 'escalones', 'despacho, estudio', 'cuarto de servicio', 'galería, veranda', 'pared', 'ventana'])
 
 	n = n+1
 	lista.append([])
@@ -2521,15 +2514,8 @@ def lista():
 	lista.append([])
 	lista[n].append(['el baño 6'])
 	lista[n].append(['eb6'])
-	lista[n].append(['tile', 'toilet', 'toilet paper', 'toothbrush', 'toothpaste', 'towel', 'towel rack', 'tweezers'])
-	lista[n].append(['azulejo', 'inodoro, retrete', 'papel higiénico', 'cepillo de dientes', 'pasta dentífrica', 'toalla', 'toallero', 'pinzas depiladoras'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['el baño 7'])
-	lista[n].append(['eb7'])
-	lista[n].append(['washcloth'])
-	lista[n].append(['toallita de ducha'])
+	lista[n].append(['tile', 'toilet', 'toilet paper', 'toothbrush', 'toothpaste', 'towel', 'towel rack', 'tweezers', 'washcloth'])
+	lista[n].append(['azulejo', 'inodoro, retrete', 'papel higiénico', 'cepillo de dientes', 'pasta dentífrica', 'toalla', 'toallero', 'pinzas depiladoras', 'toallita de ducha'])
 
 	n = n+1
 	lista.append([])
@@ -2543,7 +2529,7 @@ def lista():
 	lista[n].append(['el dormitorio 2'])
 	lista[n].append(['ed2'])
 	lista[n].append(['chest of drawers', 'closet', 'comforter', 'curtain', 'double bed', 'dresser', 'footboard', 'hanger'])
-	lista[n].append(['cómoda', 'placárd', 'cobertor acolchado', 'cortina', 'cama matrimonial', 'tocador', 'pie de la cama', 'percha'])
+	lista[n].append(['cómoda', 'ropero, armario', 'cobertor acolchado', 'cortina', 'cama matrimonial', 'tocador', 'pie de cama', 'gancho, percha'])
 
 	n = n+1
 	lista.append([])
@@ -2564,14 +2550,14 @@ def lista():
 	lista[n].append(['el comedor 1'])
 	lista[n].append(['ec1'])
 	lista[n].append(['beer', 'bottle', 'bottle opener', 'bread', 'candle', 'candlestick', 'chair', 'champagne'])
-	lista[n].append(['cerveza', 'botella', 'destapador', 'pan', 'vela', 'candelabro', 'silla', 'champaña'])
+	lista[n].append(['cerveza', 'botella', 'destapador', 'pan', 'vela', 'candelero', 'silla', 'champaña'])
 
 	n = n+1
 	lista.append([])
 	lista[n].append(['el comedor 2'])
 	lista[n].append(['ec2'])
 	lista[n].append(['chandelier', 'china', 'coffeepot', 'corkscrew', 'cup', 'dessert spoon', 'dish', 'fork'])
-	lista[n].append(['araña de techo', 'vajilla de porcelana', 'cafetera', 'sacacorchos, tirabuzón', 'taza', 'cuchara de postre', 'plato, comida', 'tenedor'])
+	lista[n].append(['candelabro', 'vajilla de porcelana', 'cafetera', 'sacacorchos, tirabuzón', 'taza', 'cuchara de postre', 'plato, comida', 'tenedor'])
 
 	n = n+1
 	lista.append([])
