@@ -292,8 +292,8 @@ if __name__ == '__main__':
 		verificar_elementos = 1
 		forma_traducir = '1'
 		ingresar_mismo_elemento = 's'
-		limite_inf_rango = 320
-		limite_sup_rango = 340
+		limite_inf_rango = 340
+		limite_sup_rango = 360
 
 		os.system('cls')
 		print('---Programa para practicar palabras en inglés---')
