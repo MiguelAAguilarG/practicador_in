@@ -2,22 +2,14 @@ import random
 import os
 import lista
 
-
-
 class Inicio():
 	"""docstring for ClassName"""
 	def __init__(self):
 		self.lista = lista.lista() #Se carga la lista general, se usa en la función 'constructor'
-		self.lista_de_repeticion = [] #Lista auxiliar para la función 'constructor'
-		self.c1 = 0
-		self.e1 = 0
-		self.c2 = 0
-		self.e2 = 0
-		self.i = 0
 
 		self.mostrar_lista = 's'
 		self.verificar_elementos = 1
-		self.forma_traducir = '1'
+		self.forma_traducir = 3
 		self.ingresar_mismo_elemento = 's'
 		self.limite_inf_rango = 340
 		self.limite_sup_rango = 342
@@ -31,7 +23,7 @@ class Inicio():
 -Mostar la lista seleccionada en cada palabra/frase a traducir: si[s]/ no[n]: {self.mostrar_lista}
 --En palabras/frases con varias traducciones, para dar una respuesta por buena ¿cuántas traducciones tomar?: {self.verificar_elementos}
 Traducir del:
-ETAPA 1: inglés --> español [1] español --> inglés [2]: {self.forma_traducir}
+ETAPA 1: inglés --> español <[1]>, español --> inglés <[2]>, salteado ([1],[2],[1],...,[2]) <[3]>: {self.forma_traducir}
 ETAPA 2: En cada intento ingresar la misma palabra/frase a traducir: si [s] no [n]: {self.ingresar_mismo_elemento}
 -límite inferior del rango de listas a imprimir: {self.limite_inf_rango}
 --límite superior del rango de listas a imprimir: {self.limite_sup_rango}''')
@@ -44,7 +36,7 @@ ETAPA 2: En cada intento ingresar la misma palabra/frase a traducir: si [s] no [
 			self.mostrar_lista = input('\n-Mostar la lista seleccionada en cada palabra/frase a traducir: si[s]/ no[n]: ').lower()
 			self.verificar_elementos = int(input('\n--En palabras/frases con varias traducciones, para dar una respuesta por buena ¿cuántas traducciones tomar?: ').lower())
 			print('\nTraducir del:')
-			self.forma_traducir = input('ETAPA 1: inglés --> español [1] español --> inglés [2]: ')
+			self.forma_traducir = int(input('ETAPA 1: inglés --> español <[1]>, español --> inglés <[2]>, salteado ([1],[2],[1],...,[2]) <[3]>: '))
 			self.ingresar_mismo_elemento = input('ETAPA 2: En cada intento ingresar la misma palabra/frase a traducir: si [s] no [n]: ')
 			self.limite_inf_rango = int(input('\n-límite inferior del rango de listas a imprimir: '))
 			self.limite_sup_rango = int(input('--límite superior del rango de listas a imprimir: '))
@@ -165,14 +157,14 @@ class Impresores(Inicio):
 		'''Imprime la lista seleccionada'''
 
 		if self.mostrar_lista == 's':
-			if self.forma_traducir == '2':
-				descripcion_listas = ['lista','idenficador','español','inglés']
-				lista1 = self.lista[self.indice_identificador][3]
-				lista2 = self.lista[self.indice_identificador][2]
-			if self.forma_traducir == '1':
+			if self.forma_traducir == 1 or self.forma_traducir == 3:
 				descripcion_listas = ['lista','idenficador','inglés','español']
 				lista1 = self.lista[self.indice_identificador][2]
 				lista2 = self.lista[self.indice_identificador][3]
+			if self.forma_traducir == 2:
+				descripcion_listas = ['lista','idenficador','español','inglés']
+				lista1 = self.lista[self.indice_identificador][3]
+				lista2 = self.lista[self.indice_identificador][2]
 
 			print(f'---{self.indice_identificador+1}---')
 			for y in range(len(self.lista[self.indice_identificador])-1):#sublistas
@@ -196,56 +188,73 @@ class Impresores(Inicio):
 						print(f'-{z+1}--. {self.lista[self.indice_identificador][y][z]}')
 			input('Continuar [enter]: ')
 
-class Calculos(Impresores):
+class Clase_Constructor():
 	"""docstring for Calculos"""
-	def __init__(self):
-		super().__init__()
+	def __init__(self, lista, indice_identificador_constructor):
 		self.limpia_del_constructor = True
+		self.lista_del_constructor = lista[indice_identificador_constructor][2]
+		self.numeros_buscar_lista = [x for x in range(len(self.lista_del_constructor))]
 
-	def constructor(self, lista_del_constructor,lista_de_repeticion_del_constructor,limpia_del_constructor):
+	def constructor(self):
 		'''Los palabras de las listas se dan a traducir de forma_traducir aleatoria, sin repetir ninguna palabra, hasta que se haya completado la lista,
 		cuentan las traducciones erroneas
 
 		Esta función hace posible esto
 		#Si 'limpia_del_constructor' es 'False' la lista elegida seguira mostrandose aleatoriamente, pero se repetiran las palabras de la lista sin que se alla mostrado la lista completa
 		'''
-		numeros_buscar_lista = [x for x in range(len(lista_del_constructor))]
 
-		if (len(lista_de_repeticion_del_constructor) == len(lista_del_constructor)) and (limpia_del_constructor == True):
-			del lista_de_repeticion_del_constructor[:]
+		if len(self.numeros_buscar_lista) == 0:
+			self.numeros_buscar_lista = [x for x in range(len(self.lista_del_constructor))]
 
-		for x in lista_de_repeticion_del_constructor:
-			numeros_buscar_lista.remove(x)
+		self.indice = random.choice(self.numeros_buscar_lista)
 
-		r = random.choice(numeros_buscar_lista)
+		if self.limpia_del_constructor == True:
+			self.numeros_buscar_lista.remove(self.indice)
 
-		if limpia_del_constructor == True:
-			lista_de_repeticion_del_constructor.append(r)
+class Clase_Verificador():
+	"""docstring for Calculos"""
 
-		return r, lista_del_constructor[r], lista_de_repeticion_del_constructor
+	def __init__(self, lista, indice_identificador, forma_traducir, verificar_elementos):
+		self.forma_traducir = forma_traducir
+		self.verificar_elementos = verificar_elementos
+		self.c1 = 0
+		self.e1 = 0
 
-	def verificador_traductor(self, lista_de_repeticion_del_verificador_traductor):
-		'''Se verifica la validez de la traduccíón según condiciones elegidas por el usuario'''
+		if self.forma_traducir == 1 or self.forma_traducir == 3:
+			self.lista1 = lista[indice_identificador][2]
+			self.lista2 = lista[indice_identificador][3]
+		if self.forma_traducir == 2:
+			self.lista1 = lista[indice_identificador][3]
+			self.lista2 = lista[indice_identificador][2]
 
-		if self.forma_traducir == '2':
-			self.lista1 = self.lista[self.indice_identificador][3]
-			self.lista2 = self.lista[self.indice_identificador][2]
-		if self.forma_traducir == '1':
-			self.lista1 = self.lista[self.indice_identificador][2]
-			self.lista2 = self.lista[self.indice_identificador][3]
+	def verificador_traductor(self, indice, segunda_impresion, insertado, correcto):
+		#Se verifica la validez de la traduccíón según condiciones elegidas por el usuario
+		self.indice = indice
 
-		self.indice_identificador, variable, lista_de_repeticion_del_constructor = constructor(lista1, lista_de_repeticion_del_verificador_traductor, limpia_ingresada_del_verificador_traductor)
+		if segunda_impresion == False:
+			print(f'--{self.lista1[self.indice]}---')
 
-		print(f'--{variable}---')
+			insercion = input('Traducción: \n')
+			self.insertado = insercion
+		else:
+			os.system('cls')
+			print(insertado)
+			print(self.lista1[self.indice])
+			if correcto == True:
+				print('BIEN')
+			else:
+				print('MAL')
+			print('*****************')
 
-		insercion = input('Traducción: \n')
-		insertado = insercion
+			insercion = input('palabra/frase: \n')
+			self.insertado = insercion
+
 		insercion = insercion.split(',')
 
 		for i,x in enumerate(insercion):
 			insercion[i] = insercion[i].strip(' ')
 
-		traduccion_aux = lista2[self.indice_identificador].split(',')
+		traduccion_aux = self.lista2[self.indice].split(',')
 		traduccion = 0
 
 		for i,x in enumerate(traduccion_aux):
@@ -256,60 +265,96 @@ class Calculos(Impresores):
 				if x == y:
 					traduccion = traduccion + 1;
 
-		print(lista2[self.indice_identificador].strip(' '))
+		print(self.lista2[self.indice].strip(' '))
 
 		if not traduccion_aux[-1].find(' - ') == -1:
 			definiciones = len(traduccion_aux)-1
 		else:
 			definiciones = len(traduccion_aux)
 
-		if verificar_elementos >= definiciones:
+		if self.verificar_elementos >= definiciones:
 			numero_elementos_contar = definiciones
 		else:
-			numero_elementos_contar = verificar_elementos
+			numero_elementos_contar = self.verificar_elementos
 
 		if traduccion >= numero_elementos_contar:
 			print('BIEN')
-			c1 = c1 + 1
+			self.correcto = True
+			self.c1 = self.c1 + 1
 		else:
 			print('MAL')
-			e1 = e1 + 1
-	
+			self.correcto = False
+			self.e1 = self.e1 + 1
 	
 if __name__ == '__main__':
 
 	validacion_fin = ''
 	while validacion_fin == '':
-		imprimir = Impresores()
-		imprimir.modificar_parametros()
-		imprimir.impresor_total_listas()
-		imprimir.impresor_total_identificadores()
-		imprimir.seleccionador_opciones_listas()
+		inicio = Impresores()
+		inicio.modificar_parametros()
+		os.system('cls')
+		inicio.impresor_total_listas()
+		inicio.impresor_total_identificadores()
+		inicio.seleccionador_opciones_listas()
+		lista_elementos = Clase_Constructor(inicio.lista, inicio.indice_identificador)
+		a_verificar_etapa1 = Clase_Verificador(inicio.lista, inicio.indice_identificador, inicio.forma_traducir, inicio.verificar_elementos)
+		forma_traducir = inicio.forma_traducir
+		if inicio.ingresar_mismo_elemento == 's':
+			if forma_traducir == 1 or forma_traducir == 3:
+				aux = 2
+			if forma_traducir == 2:
+				aux = 1
+			a_verificar_etapa2 = Clase_Verificador(inicio.lista, inicio.indice_identificador, aux, inicio.verificar_elementos)
 
 		validacion = ''
+		i = 1
+		contador_forma3 = 1
 		while validacion == '':
 
-			#os.system('cls')
-			imprimir.impresor_lista_seleccionada()#Se imprime la lista elegida
-			#os.system('cls')
-			'''c1, e1, c2, e2, lista_de_repeticion = verificador_traductor(lista[self.indice_identificador_identificador], verificar_elementos, forma_traducir, ingresar_mismo_elemento, lista_de_repeticion, c1, e1, c2, e2) #Se verifica lo ingresado
-
-			print(f'intentos: {i+1}')#Te muestra los intentos que llevas en la misma lista
-			validacion = input('Continuar con la misma lista [enter]/ Seleccionar otra lista[Cualquier tecla]: ')
 			os.system('cls')
+			inicio.impresor_lista_seleccionada()#Se imprime la lista elegida
+			os.system('cls')
+			lista_elementos.constructor()
+			indice = lista_elementos.indice
+
+			if not contador_forma3%2 == 0:
+				segunda_impresion = False
+				a_verificar_etapa1.verificador_traductor(indice, segunda_impresion, None, None)
+
+				if inicio.ingresar_mismo_elemento == 's':
+					os.system('cls')
+					segunda_impresion = True
+					a_verificar_etapa2.verificador_traductor(indice, segunda_impresion, a_verificar_etapa1.insertado, a_verificar_etapa1.correcto)
+			else:
+				segunda_impresion = False
+				a_verificar_etapa2.verificador_traductor(indice, segunda_impresion, None, None)
+
+				if inicio.ingresar_mismo_elemento == 's':
+					os.system('cls')
+					segunda_impresion = True
+					a_verificar_etapa1.verificador_traductor(indice, segunda_impresion, a_verificar_etapa2.insertado, a_verificar_etapa2.correcto)
+
+			print(f'intentos: {i}')#Te muestra los intentos que llevas en la misma lista
+			validacion = input('Continuar con la misma lista [enter]/ Seleccionar otra lista[Cualquier tecla]: ')
+
+			os.system('cls')
+
+			if forma_traducir == 3 and i%len(inicio.lista[inicio.indice_identificador][2]) == 0:
+				contador_forma3 = contador_forma3 + 1
+
 			i = i + 1
 
 		print('intentos')
 		print(i)
 		print('\ncorrectos/ETAPA 1')
-		print(c1)
+		print(a_verificar_etapa1.c1)
 		print('incorrectos/ETAPA 1')
-		print(e1)
-		if not ingresar_mismo_elemento == 'n':
+		print(a_verificar_etapa1.e1)
+		if inicio.ingresar_mismo_elemento == 's':
 			print('\ncorrectos/ETAPA 2')
-			print(c2)
+			print(a_verificar_etapa2.c1)
 			print('incorrectos/ETAPA 2')
-			print(e2)'''
+			print(a_verificar_etapa2.e1)
 
 		validacion_fin = input('\nContinuar [enter]/ Salir [Cualquier tecla]: ')
 
