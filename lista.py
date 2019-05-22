@@ -2144,7 +2144,7 @@ def lista():
 	lista[n].append(['tiendas y comercios 1'])
 	lista[n].append(['tyc1'])
 	lista[n].append(['bakery', "barber's", 'bookstore', "butcher's", 'cake shop', 'candy store', "children's wear", 'clothing store'])
-	lista[n].append(['panadería', 'barbería', 'librería', 'carnicería', 'pastelería', 'tienda de golosinas', 'ropa de niño', 'tienda de ropas'])
+	lista[n].append(['panadería', 'barbería', 'librería', 'carnicería', 'pastelería', 'dulcería, tienda de golosinas', 'ropa de niño', 'tienda de ropas'])
 
 	n = n+1
 	lista.append([])
@@ -2165,7 +2165,7 @@ def lista():
 	lista[n].append(['tiendas y comercios 4'])
 	lista[n].append(['tyc4'])
 	lista[n].append(["herbalist's shop", 'ice-cream parlour', "ironmonger's", "jeweller's", 'jewellery store', 'kiosk', "ladies' wear", 'laundromat'])
-	lista[n].append(['herboristería', 'heladería', 'ferretería', 'joyería', 'joyería', 'quiosco', 'ropa de señora', 'lavandería automática'])
+	lista[n].append(['herboristería', 'heladería', 'ferretería', 'joyería, -2 palabras-', 'joyería', 'quiosco', 'ropa de señora', 'lavandería automática'])
 
 	n = n+1
 	lista.append([])
@@ -2305,7 +2305,7 @@ def lista():
 	lista[n].append(['el hospital 3'])
 	lista[n].append(['eh3'])
 	lista[n].append(['injection', 'intensive care unit', 'laboratory', 'mask', 'medical record', 'medicine cabinet', 'microscope', 'nurse'])
-	lista[n].append(['inyección', 'unidad de cuidados intensivos', 'laboratorio', 'mascarilla', 'historia clínica', 'armario de remedios', 'microscopio', 'enfermera'])
+	lista[n].append(['inyección', 'unidad de cuidados intensivos', 'laboratorio', 'mascarilla', 'historia clínica, historial clínico', 'armario de remedios', 'microscopio', 'enfermera'])
 
 	n = n+1
 	lista.append([])
@@ -2318,7 +2318,7 @@ def lista():
 	lista.append([])
 	lista[n].append(['el hospital 5'])
 	lista[n].append(['eh5'])
-	lista[n].append(['prescription', 'pyjamas', 'sleeping pills', 'slippers', 'stitches', 'stretcher', 'surgeon', 'surgical instruments'])
+	lista[n].append(['prescription', 'pyjama', 'sleeping pills', 'slippers', 'stitches', 'stretcher', 'surgeon', 'surgical instruments'])
 	lista[n].append(['receta', 'piyama', 'pastillas para dormir', 'pantuflas', 'puntos de sutura', 'camilla', 'cirujano', 'instrumentos quirúrgicos'])
 
 	n = n+1
@@ -2571,7 +2571,7 @@ def lista():
 	lista[n].append(['el comedor 4'])
 	lista[n].append(['ec4'])
 	lista[n].append(['oil', 'pepper', 'pepper shaker', 'pitcher', 'plate', 'regular water', 'rolls', 'salad bowl'])
-	lista[n].append(['aceite', 'pimienta', 'pimentero', 'jarra para servir', 'plato -recipiente-', 'agua mineral sin gas', 'panecillos', 'ensaladera'])
+	lista[n].append(['aceite', 'pimienta', 'pimentero', 'jarra para servir', 'plato, -recipiente-', 'agua mineral sin gas', 'panecillos', 'ensaladera'])
 
 	n = n+1
 	lista.append([])
