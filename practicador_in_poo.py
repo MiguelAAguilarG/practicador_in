@@ -322,7 +322,6 @@ if __name__ == '__main__':
 				a_verificar_etapa1.verificador_traductor(indice, segunda_impresion, None, None)
 
 				if inicio.ingresar_mismo_elemento == 's':
-					os.system('cls')
 					segunda_impresion = True
 					a_verificar_etapa2.verificador_traductor(indice, segunda_impresion, a_verificar_etapa1.insertado, a_verificar_etapa1.correcto)
 			else:
@@ -330,7 +329,6 @@ if __name__ == '__main__':
 				a_verificar_etapa2.verificador_traductor(indice, segunda_impresion, None, None)
 
 				if inicio.ingresar_mismo_elemento == 's':
-					os.system('cls')
 					segunda_impresion = True
 					a_verificar_etapa1.verificador_traductor(indice, segunda_impresion, a_verificar_etapa2.insertado, a_verificar_etapa2.correcto)
 
@@ -345,7 +343,7 @@ if __name__ == '__main__':
 			i = i + 1
 
 		print('intentos')
-		print(i)
+		print(i-1)
 		print('\ncorrectos/ETAPA 1')
 		print(a_verificar_etapa1.c1)
 		print('incorrectos/ETAPA 1')
