@@ -2466,14 +2466,14 @@ def lista():
 	lista[n].append(['el cuarto del bebé 2'])
 	lista[n].append(['ecdb2'])
 	lista[n].append(['nipple', 'pacifier', 'playpen', 'potty', 'puzzle', 'rattle', 'stroller', 'swing'])
-	lista[n].append(['tetilla', 'chupete', 'corral de juego', 'orinal, escupidera', 'rompecabezas', 'sonajero', 'cochecito de bebé', 'columpio, hamaca'])
+	lista[n].append(['mamila, tetilla', 'chupón, chupete', 'corral de juego', 'orinal, escupidera', 'rompecabezas', 'sonaja, sonajero', 'cochecito de bebé', 'columpio, hamaca'])
 
 	n = n+1
 	lista.append([])
 	lista[n].append(['el cuarto del bebé 3'])
 	lista[n].append(['ecdb3'])
 	lista[n].append(['teddy bear', 'toy', 'toy chest', 'walker'])
-	lista[n].append(['osito de peluche', 'juguete', 'arcón de juguetes', 'andador'])
+	lista[n].append(['osito de peluche', 'juguete', 'caja de juguetes, arcón de juguetes', 'andador'])
 
 	n = n+1
 	lista.append([])

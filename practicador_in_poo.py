@@ -12,7 +12,7 @@ class Inicio():
 		self.forma_traducir = 3
 		self.ingresar_mismo_elemento = 's'
 		self.limite_inf_rango = 340
-		self.limite_sup_rango = 342
+		self.limite_sup_rango = 365
 
 	def modificar_parametros(self):
 		os.system('cls')
