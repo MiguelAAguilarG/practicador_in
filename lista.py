@@ -4836,10 +4836,17 @@ def lista():
 
 	n = n+1
 	lista.append([])
+	lista[n].append(['the'])
+	lista[n].append(['the'])
+	lista[n].append(['the 1', 'the 2', 'the 3', 'the 4'])
+	lista[n].append(['cuando sabemos de quién o de qué estamos hablando, indicar algo o alguien en particular', 'regiones geológicas, cadenas de mantañas, mares, océanos, grupos de islas, ríos, países en plural, -nombres-', 'direcciones espaciales, puntos cardinales, -referencia a-'])
+
+	n = n+1
+	lista.append([])
 	lista[n].append(['the -no se usa-'])
 	lista[n].append(['the-n'])
-	lista[n].append(['the -no se usa-', 'the -no se usa- 2', 'con instituciones y modos de transporte, cuando estamos hablando en general de ellos', 'the -no se usa 4-'])
-	lista[n].append(['cuando hablamos de algo en general', 'cuando nos referimos a la televisión, las horas de las comidas, los días, de la semana, la hora, los meses del año, las estaciones o los años', '', 'con nombres de ciudades ni nombres de lugares en general'])
+	lista[n].append(['the n 1, -no se usa-', 'the n 2, -no se usa-', 'the n 3, -no se usa-', 'the n 4, -no se usa-'])
+	lista[n].append(['cuando hablamos de algo en general', 'televisión, horas de las comidas, días de la semana, la hora, meses del año, estaciones, años, -cuando nos referimos-', 'instituciones, modos de transporte, -cuando estamos hablando en general de ellos-', 'ciudades, lugares, -nombres-'])
 
 	n = n+1
 	lista.append([])
@@ -4860,14 +4867,7 @@ def lista():
 	lista[n].append(['pronombres reflexivos'])
 	lista[n].append(['pref'])
 	lista[n].append(['pronombres reflexivos 1', 'pronombres reflexivos 2', 'by + pronombre reflexivo', 'pronombres reflexivos 3'])
-	lista[n].append(['para  enfatizar el sujeto', 'con algunos verbos puede cambiar el significado', 'solo', 'no utilizamos pronombres reflexivos para acciones que la gente suele hacer a sí misma'])
-
-	n = n+1
-	lista.append([])
-	lista[n].append(['the'])
-	lista[n].append(['the'])
-	lista[n].append(['the 1', 'the 2', 'the 3', 'the 4'])
-	lista[n].append(['cuando sabemos de quién o de qué estamos hablando', 'nombres de regiones geológicas, cadenas de montañas, mares, océanos, grupos de islas, ríos y países', 'para hacer referencias a direcciones y a los puntos cardinales', 'con los adjetivos en grado superlativo y números ordinales'])
+	lista[n].append(['para enfatizar el sujeto', 'con algunos verbos puede cambiar el significado', 'solo', 'no utilizamos pronombres reflexivos para acciones que la gente suele hacer a sí misma'])
 
 	n = n+1
 	lista.append([])

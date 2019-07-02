@@ -11,8 +11,8 @@ class Inicio():
 		self.verificar_elementos = 1
 		self.forma_traducir = 3
 		self.ingresar_mismo_elemento = 's'
-		self.limite_inf_rango = 340
-		self.limite_sup_rango = 365
+		self.limite_inf_rango = 688
+		self.limite_sup_rango = 730
 
 	def modificar_parametros(self):
 		os.system('cls')
